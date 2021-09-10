@@ -9,14 +9,24 @@
 \date{}
 
 % Packages
+\usepackage[T1]{fontenc} % für die spezielle Quotierung
 \usepackage{german}
 \usepackage{titling}
+\usepackage[
+    left = \flqq{},% the special quote on the left (opening)
+    right = \frqq{},% the special quote on the right (opening)
+            ]{dirtytalk} % quoting
 
 % Document
 \begin{document}
     \maketitle
 
+    \tableofcontents
+    \newpage
+
     \section{Definition Begriffsklärung}
+    \say{Künstliche Intelligenz} ist ein Kunstwort welches oft als Synonym für
+    maschinelles Lernen benutzt wird.
     \section{Einsatzgebiete und Anwendungsfälle}
     \subsection{Anwendungsbeispiele IPB}
     \section{Technische Grundlagen}
@@ -28,5 +38,6 @@
     \subsection{Random Rorest Model}
     \subsection{Neural Networks (Deep Learning)}
     \section{Philosophische Betrachtung}
+
 
 \end{document}
