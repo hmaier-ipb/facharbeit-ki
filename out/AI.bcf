@@ -1996,6 +1996,10 @@
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1">asimov2000der</bcf:citekey>
+    <bcf:citekey order="2">ibm2021whatisAI</bcf:citekey>
+    <bcf:citekey order="3">turing1950computing</bcf:citekey>
+    <bcf:citekey order="4">turing1950computing</bcf:citekey>
+    <bcf:citekey order="5">oppy&amp;dowe2020turingtest</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

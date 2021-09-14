@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2021.9.8)  14 SEP 2021 12:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2021.9.8)  14 SEP 2021 14:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -381,17 +381,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--54
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--70
+Underfull \hbox (badness 10000) in paragraph at lines 55--66
 
  []
 
 [2] [3] [4]
-Overfull \hbox (30.46387pt too wide) in paragraph at lines 102--102
+Overfull \hbox (30.46387pt too wide) in paragraph at lines 112--112
 []\T1/cmr/m/n/12 Isaac Asi-mov. \T1/cmr/m/it/12 Der 200-Jahre-Mann\T1/cmr/m/n/1
 2 . Mün-chen: Hey-ne, 2000. \T1/cmr/m/sc/12 isbn\T1/cmr/m/n/12 : 3453170032. 
  []
 
-[5
+! Misplaced alignment tab character &.
+\namepartgiven ...bnamedelimb Oppy\bibnamedelimb &
+                                                  \bibnamedelima David
+l.112 \end
+          {document}
+? 
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 111.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+) [5
 
 ] (./out/AI.aux)
 Package logreq Info: Writing requests to 'AI.run.xml'.
@@ -399,22 +409,22 @@ Package logreq Info: Writing requests to 'AI.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 8321 strings out of 492615
- 148087 string characters out of 6131391
- 576243 words of memory out of 5000000
- 12186 multiletter control sequences out of 15000+600000
- 15594 words of font info for 37 fonts, out of 8000000 for 9000
+ 8346 strings out of 492615
+ 149013 string characters out of 6131391
+ 575464 words of memory out of 5000000
+ 12208 multiletter control sequences out of 15000+600000
+ 15131 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,6n,45p,791b,1323s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,6n,45p,791b,1383s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/
-fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/c
-m-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb
-></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/f
-onts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm
--super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb>
-</usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf/fo
-nts/type1/public/cm-super/sfti1200.pfb>
-Output written on ./out/AI.pdf (6 pages, 149032 bytes).
+fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/c
+m-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb
+></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/f
+onts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm
+-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb>
+</usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fo
+nts/type1/public/cm-super/sftt1200.pfb>
+Output written on ./out/AI.pdf (6 pages, 171379 bytes).
 PDF statistics:
  60 PDF objects out of 1000 (max. 8388607)
  42 compressed objects within 1 object stream
