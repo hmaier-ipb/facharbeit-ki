@@ -16,5 +16,38 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{asimov2000der}{book}{}
+      \name{author}{1}{}{%
+        {{hash=60cc0a9f62283d12da66fee328636cc8}{%
+           family={Asimov},
+           familyi={A\bibinitperiod},
+           given={Isaac},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {München}%
+      }
+      \list{publisher}{1}{%
+        {Heyne}%
+      }
+      \strng{namehash}{60cc0a9f62283d12da66fee328636cc8}
+      \strng{fullhash}{60cc0a9f62283d12da66fee328636cc8}
+      \strng{bibnamehash}{60cc0a9f62283d12da66fee328636cc8}
+      \strng{authorbibnamehash}{60cc0a9f62283d12da66fee328636cc8}
+      \strng{authornamehash}{60cc0a9f62283d12da66fee328636cc8}
+      \strng{authorfullhash}{60cc0a9f62283d12da66fee328636cc8}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{3453170032}
+      \field{title}{Der 200-Jahre-Mann}
+      \field{year}{2000}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
