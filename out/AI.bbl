@@ -103,6 +103,35 @@
       \verb https://plato.stanford.edu/entries/turing-test/
       \endverb
     \endentry
+    \entry{hsu1999ibm}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f4b058d44f9e5ad050dd6317be214f0b}{%
+           family={Hsu},
+           familyi={H\bibinitperiod},
+           given={Feng-hsiung},
+           giveni={F\bibinithyphendelim h\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{f4b058d44f9e5ad050dd6317be214f0b}
+      \strng{fullhash}{f4b058d44f9e5ad050dd6317be214f0b}
+      \strng{bibnamehash}{f4b058d44f9e5ad050dd6317be214f0b}
+      \strng{authorbibnamehash}{f4b058d44f9e5ad050dd6317be214f0b}
+      \strng{authornamehash}{f4b058d44f9e5ad050dd6317be214f0b}
+      \strng{authorfullhash}{f4b058d44f9e5ad050dd6317be214f0b}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE micro}
+      \field{number}{2}
+      \field{title}{IBM's deep blue chess grandmaster chips}
+      \field{volume}{19}
+      \field{year}{1999}
+      \field{pages}{70\bibrangedash 81}
+      \range{pages}{12}
+    \endentry
     \entry{ibm2021whatisAI}{online}{}
       \name{author}{1}{}{%
         {{hash=cbf44511d041dc6d1dd73cc0c033122c}{%

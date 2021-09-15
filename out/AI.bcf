@@ -1999,10 +1999,14 @@
     <bcf:citekey order="2">buchanan2005very</bcf:citekey>
     <bcf:citekey order="3">buchanan2005very</bcf:citekey>
     <bcf:citekey order="4">sesink1993menschliche</bcf:citekey>
-    <bcf:citekey order="5">asimov2000der</bcf:citekey>
-    <bcf:citekey order="6">ibm2021whatisAI</bcf:citekey>
-    <bcf:citekey order="7">turing1950computing</bcf:citekey>
-    <bcf:citekey order="8">oppy&amp;dowe2020turingtest</bcf:citekey>
+    <bcf:citekey order="5">hsu1999ibm</bcf:citekey>
+    <bcf:citekey order="6">buchanan2005very</bcf:citekey>
+    <bcf:citekey order="7">buchanan2005very</bcf:citekey>
+    <bcf:citekey order="8">asimov2000der</bcf:citekey>
+    <bcf:citekey order="9">ibm2021whatisAI</bcf:citekey>
+    <bcf:citekey order="10">turing1950computing</bcf:citekey>
+    <bcf:citekey order="11">oppy&amp;dowe2020turingtest</bcf:citekey>
+    <bcf:citekey order="12">turing1950computing</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
