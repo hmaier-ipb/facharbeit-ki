@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2021.9.8)  5 OCT 2021 11:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2021.9.8)  5 OCT 2021 14:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -455,12 +455,12 @@ Kapitel 5.
 Kapitel 6.
 [11
 
-]
+] [12]
 Kapitel 7.
-[12
+[13
 
 ]
-Overfull \hbox (9.58125pt too wide) in paragraph at lines 173--173
+Overfull \hbox (9.58125pt too wide) in paragraph at lines 186--186
 [][]\T1/cmr/m/n/12 Asimov, Isaac. \T1/cmr/m/it/12 Der 200-Jahre-Mann\T1/cmr/m/n
 /12 . Mün-chen: Hey-ne, 2000. \T1/cmr/m/sc/12 isbn\T1/cmr/m/n/12 : 3453170032. 
 
@@ -469,14 +469,14 @@ Overfull \hbox (9.58125pt too wide) in paragraph at lines 173--173
 ! Misplaced alignment tab character &.
 \namepartgiven ...bnamedelimb Oppy\bibnamedelimb &
                                                   \bibnamedelima David
-l.173 \end
+l.186 \end
           {document}
 ? 
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 172.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 185.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [13
+) [14
 
 ] (./AI.aux)
 Package logreq Info: Writing requests to 'AI.run.xml'.
@@ -490,7 +490,7 @@ Here is how much of TeX's memory you used:
  12547 multiletter control sequences out of 15000+600000
  19241 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,8n,53p,791b,2203s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,8n,53p,791b,2201s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/
 fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/c
 m-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb
@@ -504,10 +504,10 @@ super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb><
 ts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-s
 uper/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1728.pfb></
 usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on AI.pdf (14 pages, 304897 bytes).
+Output written on AI.pdf (15 pages, 306445 bytes).
 PDF statistics:
- 115 PDF objects out of 1000 (max. 8388607)
- 82 compressed objects within 1 object stream
+ 118 PDF objects out of 1000 (max. 8388607)
+ 84 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -40,4 +40,4 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.2}Das Chinesische Zimmer}{11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Schlussbermerkung}{12}% 
+\contentsline {chapter}{\numberline {7}Schlussbermerkung}{13}% 
