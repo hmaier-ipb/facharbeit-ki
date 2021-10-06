@@ -106,6 +106,37 @@
       \verb https://plato.stanford.edu/entries/turing-test/
       \endverb
     \endentry
+    \entry{duden2021erkenntnis}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=a402bade4a3663bcad1a4c48021dd512}{%
+           family={GmbH},
+           familyi={G\bibinitperiod},
+           given={Bibliographisches\bibnamedelima Institut},
+           giveni={B\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a402bade4a3663bcad1a4c48021dd512}
+      \strng{fullhash}{a402bade4a3663bcad1a4c48021dd512}
+      \strng{bibnamehash}{a402bade4a3663bcad1a4c48021dd512}
+      \strng{authorbibnamehash}{a402bade4a3663bcad1a4c48021dd512}
+      \strng{authornamehash}{a402bade4a3663bcad1a4c48021dd512}
+      \strng{authorfullhash}{a402bade4a3663bcad1a4c48021dd512}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{6}
+      \field{month}{10}
+      \field{title}{Erkenntnis, die}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.duden.de/rechtschreibung/Erkenntnis_Einsicht_Vernunft
+      \endverb
+      \verb{url}
+      \verb https://www.duden.de/rechtschreibung/Erkenntnis_Einsicht_Vernunft
+      \endverb
+    \endentry
     \entry{hsu1999ibm}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=f4b058d44f9e5ad050dd6317be214f0b}{%

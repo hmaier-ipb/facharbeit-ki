@@ -1,8 +1,8 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Einf\IeC {\"u}hrung: Was ist eigentlich K\IeC {\"u}nstliche Intelligenz?}{3}% 
+\contentsline {chapter}{\numberline {1}Was ist K\IeC {\"u}nstliche Intelligenz?}{3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Enstehungsgeschichte}{4}% 
+\contentsline {chapter}{\numberline {2}Geschichte der KI - Der Traum vom mechanischen Helferlein}{4}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Arten der K\IeC {\"u}nstlichen Intelligenz - Starke versus Schwache KI}{6}% 
 \defcounter {refsection}{0}\relax 
