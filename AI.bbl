@@ -48,6 +48,34 @@
       \field{title}{Der 200-Jahre-Mann}
       \field{year}{2000}
     \endentry
+    \entry{duden2021erkenntnis}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=1eb361022d1d06a68ad0227aaa226ccd}{%
+           family={Bibliographisches-Institut},
+           familyi={B\bibinithyphendelim I\bibinitperiod}}}%
+      }
+      \strng{namehash}{1eb361022d1d06a68ad0227aaa226ccd}
+      \strng{fullhash}{1eb361022d1d06a68ad0227aaa226ccd}
+      \strng{bibnamehash}{1eb361022d1d06a68ad0227aaa226ccd}
+      \strng{authorbibnamehash}{1eb361022d1d06a68ad0227aaa226ccd}
+      \strng{authornamehash}{1eb361022d1d06a68ad0227aaa226ccd}
+      \strng{authorfullhash}{1eb361022d1d06a68ad0227aaa226ccd}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{6}
+      \field{month}{10}
+      \field{title}{Erkenntnis, die}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.duden.de/rechtschreibung/Erkenntnis_Einsicht_Vernunft
+      \endverb
+      \verb{url}
+      \verb https://www.duden.de/rechtschreibung/Erkenntnis_Einsicht_Vernunft
+      \endverb
+    \endentry
     \entry{buchanan2005very}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=9c8f929dd0a8b95eaa41769ea38e6516}{%
@@ -104,37 +132,6 @@
       \endverb
       \verb{url}
       \verb https://plato.stanford.edu/entries/turing-test/
-      \endverb
-    \endentry
-    \entry{duden2021erkenntnis}{online}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=a402bade4a3663bcad1a4c48021dd512}{%
-           family={GmbH},
-           familyi={G\bibinitperiod},
-           given={Bibliographisches\bibnamedelima Institut},
-           giveni={B\bibinitperiod\bibinitdelim I\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{a402bade4a3663bcad1a4c48021dd512}
-      \strng{fullhash}{a402bade4a3663bcad1a4c48021dd512}
-      \strng{bibnamehash}{a402bade4a3663bcad1a4c48021dd512}
-      \strng{authorbibnamehash}{a402bade4a3663bcad1a4c48021dd512}
-      \strng{authornamehash}{a402bade4a3663bcad1a4c48021dd512}
-      \strng{authorfullhash}{a402bade4a3663bcad1a4c48021dd512}
-      \field{sortinit}{G}
-      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{day}{6}
-      \field{month}{10}
-      \field{title}{Erkenntnis, die}
-      \field{year}{2021}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://www.duden.de/rechtschreibung/Erkenntnis_Einsicht_Vernunft
-      \endverb
-      \verb{url}
-      \verb https://www.duden.de/rechtschreibung/Erkenntnis_Einsicht_Vernunft
       \endverb
     \endentry
     \entry{hsu1999ibm}{article}{}
