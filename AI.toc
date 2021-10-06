@@ -2,42 +2,42 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Was ist K\IeC {\"u}nstliche Intelligenz?}{3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Geschichte der KI - Der Traum vom mechanischen Helferlein}{4}% 
+\contentsline {chapter}{\numberline {2}Geschichte der KI - Der Traum vom mechanischen Helferlein}{5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Arten der K\IeC {\"u}nstlichen Intelligenz - Starke versus Schwache KI}{6}% 
+\contentsline {chapter}{\numberline {3}Arten der K\IeC {\"u}nstlichen Intelligenz - Starke versus Schwache KI}{7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Schwache KI}{6}% 
+\contentsline {section}{\numberline {3.1}Schwache KI}{7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Starke KI}{7}% 
+\contentsline {section}{\numberline {3.2}Starke KI}{8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Einsatzgebiete und Anwendungsf\IeC {\"a}lle}{9}% 
+\contentsline {chapter}{\numberline {4}Einsatzgebiete und Anwendungsf\IeC {\"a}lle}{10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Anwendungsbeispiele IPB}{9}% 
+\contentsline {section}{\numberline {4.1}Anwendungsbeispiele IPB}{10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Technische Grundlagen}{10}% 
+\contentsline {chapter}{\numberline {5}Technische Grundlagen}{11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Machinelles Lernen}{10}% 
+\contentsline {section}{\numberline {5.1}Machinelles Lernen}{11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.1}Supervised Learing}{10}% 
+\contentsline {subsection}{\numberline {5.1.1}Supervised Learing}{11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.2}Unsupervised Learning}{10}% 
+\contentsline {subsection}{\numberline {5.1.2}Unsupervised Learning}{11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.3}Linear Regression}{10}% 
+\contentsline {subsection}{\numberline {5.1.3}Linear Regression}{11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.4}Logistic Regression}{10}% 
+\contentsline {subsection}{\numberline {5.1.4}Logistic Regression}{11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.5}Decision Tree}{10}% 
+\contentsline {subsection}{\numberline {5.1.5}Decision Tree}{11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.6}Random Rorest Model}{10}% 
+\contentsline {subsection}{\numberline {5.1.6}Random Rorest Model}{11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Deep Learning}{10}% 
+\contentsline {section}{\numberline {5.2}Deep Learning}{11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.1}Neural Networks (Deep Learning)}{10}% 
+\contentsline {subsection}{\numberline {5.2.1}Neural Networks (Deep Learning)}{11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Gedankenexperimente}{11}% 
+\contentsline {chapter}{\numberline {6}Gedankenexperimente}{12}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Turing Test}{11}% 
+\contentsline {section}{\numberline {6.1}Turing Test}{12}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Das Chinesische Zimmer}{11}% 
+\contentsline {section}{\numberline {6.2}Das Chinesische Zimmer}{12}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Schlussbermerkung}{13}% 
+\contentsline {chapter}{\numberline {7}Schlussbermerkung}{14}% 

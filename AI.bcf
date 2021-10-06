@@ -1996,21 +1996,22 @@
     <bcf:datasource type="file" datatype="bibtex">ai-references.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">piaget2000psychologie</bcf:citekey>
-    <bcf:citekey order="2">duden2021erkenntnis</bcf:citekey>
-    <bcf:citekey order="3">buchanan2005very</bcf:citekey>
+    <bcf:citekey order="1">buchanan2005very</bcf:citekey>
+    <bcf:citekey order="2">piaget2000psychologie</bcf:citekey>
+    <bcf:citekey order="3">duden2021erkenntnis</bcf:citekey>
     <bcf:citekey order="4">buchanan2005very</bcf:citekey>
-    <bcf:citekey order="5">sesink1993menschliche</bcf:citekey>
-    <bcf:citekey order="6">hsu1999ibm</bcf:citekey>
-    <bcf:citekey order="7">buchanan2005very</bcf:citekey>
+    <bcf:citekey order="5">buchanan2005very</bcf:citekey>
+    <bcf:citekey order="6">sesink1993menschliche</bcf:citekey>
+    <bcf:citekey order="7">hsu1999ibm</bcf:citekey>
     <bcf:citekey order="8">buchanan2005very</bcf:citekey>
-    <bcf:citekey order="9">asimov2000der</bcf:citekey>
-    <bcf:citekey order="10">ibm2021whatisAI</bcf:citekey>
-    <bcf:citekey order="11">turing1950computing</bcf:citekey>
-    <bcf:citekey order="12">oppy&amp;dowe2020turingtest</bcf:citekey>
-    <bcf:citekey order="13">turing1950computing</bcf:citekey>
-    <bcf:citekey order="14">nimtz2013chinesische</bcf:citekey>
-    <bcf:citekey order="15">searle1999chinese</bcf:citekey>
+    <bcf:citekey order="9">buchanan2005very</bcf:citekey>
+    <bcf:citekey order="10">asimov2000der</bcf:citekey>
+    <bcf:citekey order="11">ibm2021whatisAI</bcf:citekey>
+    <bcf:citekey order="12">turing1950computing</bcf:citekey>
+    <bcf:citekey order="13">oppy&amp;dowe2020turingtest</bcf:citekey>
+    <bcf:citekey order="14">turing1950computing</bcf:citekey>
+    <bcf:citekey order="15">nimtz2013chinesische</bcf:citekey>
+    <bcf:citekey order="16">searle1999chinese</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
