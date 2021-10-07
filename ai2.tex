@@ -1,0 +1,55 @@
+%! Author = hmaier
+%! Date = 09.09.21
+
+% Preamble
+\documentclass[12pt,german,ngerman]{report}
+\title{Künstliche Intelligenz - Ein Blick in die Zukunft?}
+\author{Hendrik Maier}
+\date{}
+
+
+% Packages
+\usepackage[T1]{fontenc} % für die spezielle Quotierung, die mit
+\usepackage{german}
+\usepackage{titling}
+\usepackage{titlesec}
+
+
+% quotation-marks
+\usepackage[
+    left = \flqq{},% the special quote on the left (opening)
+    right = \frqq{},% the special quote on the right (opening)
+            ]{dirtytalk} % quoting
+\usepackage{csquotes}
+
+% bibliography
+\usepackage[backend=biber,autocite=footnote,style=authortitle-ibid,babel=other]{biblatex}
+\addbibresource{ai-references.bib}
+
+% zeilenabstand
+\usepackage[onehalfspacing]{setspace}
+
+% Document
+\begin{document}
+
+    \begin{titlepage}
+        \centering
+        {\scshape\LARGE Leibniz Institut für Pflanzenbiochemie\par}
+        \vspace{1cm}
+        {\scshape\Large Fachbericht September 2021\par}
+        \vspace{1.5cm}
+        {\huge\bfseries Künstliche Intelligenz - Ein Blick in die Zukunft?\par}
+        \vspace{2cm}
+        {\Large Abteilung: Geräte \& IT-Service\par}
+        \vspace{1.5cm}
+        {\Large\itshape Hendrik Maier\par}
+        \vfill
+
+% Bottom of the page
+        % {\large \today\par}
+    \end{titlepage}
+
+    \tableofcontents
+    \newpage
+    \printbibliography[title={Quellenverzeichnis}]
+\end{document}

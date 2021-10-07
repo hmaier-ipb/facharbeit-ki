@@ -10,11 +10,19 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}Starke KI}{7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Einsatzgebiete und Anwendungsf\IeC {\"a}lle}{9}% 
+\contentsline {chapter}{\numberline {4}Technische Grundlagen}{9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Anwendungsbeispiele IPB}{9}% 
+\contentsline {section}{\numberline {4.1}Wie funktioniert k\IeC {\"u}nstliche Intelligenz?}{9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Technische Grundlagen}{10}% 
+\contentsline {chapter}{\numberline {5}Einsatzgebiete und Anwendungsf\IeC {\"a}lle}{10}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Effiziente Budget-Aussch\IeC {\"o}pfung im Einkauf}{10}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}}{10}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.3}}{10}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.4}}{10}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}Gedankenexperimente}{11}% 
 \defcounter {refsection}{0}\relax 

@@ -21,12 +21,11 @@
   \datalist[entry]{nty/global//global/global}
     \entry{asimov2000der}{book}{}
       \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=60cc0a9f62283d12da66fee328636cc8}{%
+        {{hash=60cc0a9f62283d12da66fee328636cc8}{%
            family={Asimov},
            familyi={A\bibinitperiod},
            given={Isaac},
-           giveni={I\bibinitperiod},
-           givenun=0}}%
+           giveni={I\bibinitperiod}}}%
       }
       \list{location}{1}{%
         {München}%
@@ -50,7 +49,7 @@
     \endentry
     \entry{duden2021erkenntnis}{online}{}
       \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=1eb361022d1d06a68ad0227aaa226ccd}{%
+        {{hash=1eb361022d1d06a68ad0227aaa226ccd}{%
            family={Bibliographisches-Institut},
            familyi={B\bibinithyphendelim I\bibinitperiod}}}%
       }
@@ -78,12 +77,11 @@
     \endentry
     \entry{buchanan2005very}{article}{}
       \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=9c8f929dd0a8b95eaa41769ea38e6516}{%
+        {{hash=9c8f929dd0a8b95eaa41769ea38e6516}{%
            family={Buchanan},
            familyi={B\bibinitperiod},
            given={Bruce\bibnamedelima G},
-           giveni={B\bibinitperiod\bibinitdelim G\bibinitperiod},
-           givenun=0}}%
+           giveni={B\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
       }
       \strng{namehash}{9c8f929dd0a8b95eaa41769ea38e6516}
       \strng{fullhash}{9c8f929dd0a8b95eaa41769ea38e6516}
@@ -105,12 +103,11 @@
     \endentry
     \entry{oppy&dowe2020turingtest}{online}{}
       \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=4dce019ebe583807505894079f1b6794}{%
+        {{hash=4dce019ebe583807505894079f1b6794}{%
            family={Dowe},
            familyi={D\bibinitperiod},
            given={Graham\bibnamedelimb Oppy\bibnamedelimb &\bibnamedelima David},
-           giveni={G\bibinitperiod\bibinitdelim O\bibinitperiod\bibinitdelim &\bibinitperiod\bibinitdelim D\bibinitperiod},
-           givenun=0}}%
+           giveni={G\bibinitperiod\bibinitdelim O\bibinitperiod\bibinitdelim &\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
       }
       \strng{namehash}{4dce019ebe583807505894079f1b6794}
       \strng{fullhash}{4dce019ebe583807505894079f1b6794}
@@ -136,12 +133,11 @@
     \endentry
     \entry{hsu1999ibm}{article}{}
       \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=f4b058d44f9e5ad050dd6317be214f0b}{%
+        {{hash=f4b058d44f9e5ad050dd6317be214f0b}{%
            family={Hsu},
            familyi={H\bibinitperiod},
            given={Feng-hsiung},
-           giveni={F\bibinithyphendelim h\bibinitperiod},
-           givenun=0}}%
+           giveni={F\bibinithyphendelim h\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {IEEE}%
@@ -166,7 +162,7 @@
     \endentry
     \entry{ibm2021whatisAI}{online}{}
       \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=cbf44511d041dc6d1dd73cc0c033122c}{%
+        {{hash=cbf44511d041dc6d1dd73cc0c033122c}{%
            family={IBM},
            familyi={I\bibinitperiod}}}%
       }
@@ -194,12 +190,11 @@
     \endentry
     \entry{nimtz2013chinesische}{incollection}{}
       \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=aa36c16d8025bfbf303879b598fef187}{%
+        {{hash=aa36c16d8025bfbf303879b598fef187}{%
            family={Nimtz},
            familyi={N\bibinitperiod},
            given={Christian},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
+           giveni={C\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {mentis}%
@@ -222,12 +217,11 @@
     \endentry
     \entry{piaget2000psychologie}{book}{}
       \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=76cd658e2f3ecbeedfaceb2d2a1de596}{%
+        {{hash=76cd658e2f3ecbeedfaceb2d2a1de596}{%
            family={Piaget},
            familyi={P\bibinitperiod},
            given={Jean},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
+           giveni={J\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {Klett-Cotta}%
@@ -247,12 +241,11 @@
     \endentry
     \entry{searle1999chinese}{article}{}
       \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=d6d7a401da9d01dfc8a3b6ebd29270d9}{%
+        {{hash=d6d7a401da9d01dfc8a3b6ebd29270d9}{%
            family={Searle},
            familyi={S\bibinitperiod},
            given={John},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
+           giveni={J\bibinitperiod}}}%
       }
       \strng{namehash}{d6d7a401da9d01dfc8a3b6ebd29270d9}
       \strng{fullhash}{d6d7a401da9d01dfc8a3b6ebd29270d9}
@@ -269,12 +262,11 @@
     \endentry
     \entry{sesink1993menschliche}{article}{}
       \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=04368d74e31a00868d9969b3da6a095f}{%
+        {{hash=04368d74e31a00868d9969b3da6a095f}{%
            family={Sesink},
            familyi={S\bibinitperiod},
            given={Werner},
-           giveni={W\bibinitperiod},
-           givenun=0}}%
+           giveni={W\bibinitperiod}}}%
       }
       \strng{namehash}{04368d74e31a00868d9969b3da6a095f}
       \strng{fullhash}{04368d74e31a00868d9969b3da6a095f}
@@ -292,12 +284,11 @@
     \endentry
     \entry{turing1950computing}{book}{}
       \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=fdc523429c3c89c34880f733033f2099}{%
+        {{hash=fdc523429c3c89c34880f733033f2099}{%
            family={Turing},
            familyi={T\bibinitperiod},
            given={A.\bibnamedelimi M.},
-           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
       }
       \strng{namehash}{fdc523429c3c89c34880f733033f2099}
       \strng{fullhash}{fdc523429c3c89c34880f733033f2099}

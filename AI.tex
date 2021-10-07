@@ -2,7 +2,7 @@
 %! Date = 09.09.21
 
 % Preamble
-\documentclass[12pt,german,ngerman]{report}
+\documentclass[a4paper,12pt,german,ngerman]{report}
 \title{Künstliche Intelligenz - Ein Blick in die Zukunft?}
 \author{Hendrik Maier}
 \date{}
@@ -13,7 +13,6 @@
 \usepackage{german}
 \usepackage{titling}
 \usepackage{titlesec}
-
 
 % quotation-marks
 \usepackage[
@@ -27,8 +26,7 @@
 \addbibresource{ai-references.bib}
 
 % zeilenabstand
-\usepackage[onehalfspacing]{setspace}
-
+\usepackage[onehalfspacing]{setspace} %set spacing between the lines
 % Document
 \begin{document}
 
@@ -57,28 +55,38 @@
     erlangt. Verschiedene Medien berichten immer wieder von der KI als einer Art magischen Technologie, die unsere
     Art wie wir Leben komplett revolutionieren wird. KI soll schon in vielen Technologien intergriert sein, die wir heute
     benutzen und soll es in wenigen Jahren noch mehr sein. Da stellen sich dem alltäglichen Menschen schon
-    verschiedene Fragen wie: was ist KI, wie funktioniert sie und warum ist sie so faszinierend?
+    verschiedene Fragen wie: was ist KI, wie funktioniert sie und warum ist sie so faszinierend?\\
 
     Bevor ich auf diese wichtigen Fragen eingehe, möchte ich vorerst den Begriff der \say{Künstlichen Intelligenz}
     erläutern, um Klarheit um diesen oft genutzten und doch unklaren Begriff zu schaffen. \say{Künstliche Intelligenz} ist ein Kunstbegriff der erstmals
-    1956\autocite[57]{buchanan2005very} benutzt wurde.
+    1956 benutzt wurde.\autocite[57]{buchanan2005very}
     Der Begriff \emph{Intelligenz} kommt vom lateinischen \say{intelligere} was soviel wie
-    Einsehen, Begreifen und Erkennen bedeutet.\autocite{piaget2000psychologie} Ist ein Wesen intelligent werden ihm eigenständiges Denken und Kreativität
-    anerkannt.
-    \say{Künstlich} verweist in diesem Zusammenhang auf die unnatürliche Herkunft dieser Intelligenz. Das \say{künstliche} ist also etwas, was
-    sich vom naturgegebenen Urzustand unterscheidet.\footnote{Folglich wurde es von Menschen oder anderen intelligenten Wesen erschaffen.}
-    Ein weiteres Attribute der Erkenntnis ist sein geistige Herkunft.\autocite{duden2021erkenntnis}
-    Da man einen Geist benötigt um Erkenntnis zu erlangen könnte man den Begriff der KI wie folgt definieren:
+    Einsehen, Begreifen und Erkennen bedeutet.\autocite{piaget2000psychologie}
+    \say{Künstlich} verweist in diesem Zusammenhang auf die unnatürliche Herkunft dieser Intelligenz.
+    Da Erkenntnis\autocite{duden2021erkenntnis} und somit Intelligenz, immer etwas Geistiges ist, könnnte
+    man KI wie folgt definieren:
     \begin{displayquote}
         \say{Künstliche Intelligenz} beschreibt einen nicht-menschlichen/unnatürlichen Geist,
         der die Fähigkeit besitzt, durchs eigenständige Denken Erkenntnis zu erlangen.
     \end{displayquote}
-    Dies ist eine absolute und perfekte Definition von \say{künstlicher Intelligenz} die bis zum heutigen Zeitpunkt noch nicht erschaffen
-    worden ist.\footnote{Mehr dazu in Kapitel Starke versus Schwache KI.} Ob dieses Ziel jemals erreicht werden wird ist ebenfalls noch nicht klar.
-    \footnote{Dazu gibt es verschiedene Meinungen die im Kapitel \textbf{Gedankenexperimente} erläutert werden.}
-    Falls diese Definition einer \say{künstlichen Intelligenz} jemals erschaffen werden würde, wäre dies vergleichbar
-    mit der Erfindung des Feuers. Ein vom Menschen erschaffenes Wesen könnte wirklich \emph{alle}Aufgaben übernehmen die
-    bisher dem Menschen vorbehalten waren.
+    Dies ist, wenn man sich an der Bedeutung der Wortes orientiert, eine Idealbeschreibung künstlicher Intelligenz.
+    Da dies noch lange nicht erreicht ist, könnte man eine realere Definition schaffen mit der der aktuelle
+    Stand der Technologie besser abgebildet wird:
+    \begin{displayquote}
+        \say{Künstliche Intelligenz} sind Computerprogramme die mit der Analyse von Statistiken Vorraussagen treffen können.
+    \end{displayquote}
+    Obwohl bei Definitionen sich augenscheinlich starkt unterscheiden, kann man die zweite Definition als Fundament für
+    die erste Definition sehen. Um einen denkfähigen Geist zu erschaffen bedarf es Erfahrungen, die das menschliche Gehirn lehren
+    Situationen vorrauszusehen.\footnote{Evolutionär gesehen ist der menschliche Geist und die damit verbundenen Vorhersagen über die Realität
+    das mächtigste Werkzeug im Kampf ums Überleben.}
+    Computer haben keine Sinne die sie mit der äußeren Welt verbinden und müssen daher erst mit Statistiken gefüttert werden um Vorraussagen zu geben.
+    Einem Computer die gleiche Fähigkeit wie man selbst zu geben, macht wahrscheinlich ein Großteil der Faszination
+    beim Entwickeln einer KI aus. Um dies zu bewerkstelligen ist Forschung in den unterschiedlichsten Feldern nötig.
+    Das Produkt dieser Forschung, welches in der ersten Definition beschrieben wird, wird wahrscheinlich Folgen auf
+    die menschliche Zivilisation haben, wie die Erfindung des Feuers.\\
+
+    Mit diesem Fachbericht werde ich versuchen einen kleinen Überblick zu diesem scheinbar riesigen Thema zu geben.
+    Ziel ist es die Idee und die Technologie von künstlicher Intelligenz so zu vermitteln, dass es für einen Laien greifbarer wird.
 
 
     \chapter{Geschichte der KI - Der Traum vom mechanischen Helferlein}
@@ -132,8 +140,8 @@
 
     \section{Starke KI}
     Um fremde unspezifizierte Problemstellungen zu Lösen, benötigt es einer \emph{starken Künstlichen Intelligenz}.
-    Diese erweiterte Form der KI ist zum derzeitgen Zeitpunkt (Ende 2021) noch nicht realisiert worden und lässt sich am
-    einfachsten mithilfe des \say{Turing Tests} definieren.\footnote{Der Turing wird in Kapitel "Gedankenexperiemente, ausführlich beschriieben}
+    Diese erweiterte Form der KI ist zum derzeitgen Zeitpunkt \footnote{Ende 2021} noch nicht realisiert worden und lässt sich am
+    einfachsten mithilfe des \say{Turing Tests} definieren.\footnote{Der Turing wird in Kapitel "Gedankenexperiemente, ausführlich beschrieben}
     Dieser Test wurde Mitte des 20. Jahrhunderts von Turing, einem britischen Mathematiker, erdacht und bespreibt folgendes Spiel:
     \begin{displayquote}
         Ein Mensch und ein Fragesteller werden in zwei seperierte
@@ -152,11 +160,20 @@
     die auf Grund gelernter Regeln Probleme lösen kann ist \emph{schwach}. Eine Maschine die jedoch ebenfalls selbst denken
     kann ist \emph{stark}.
 
-    \chapter{Einsatzgebiete und Anwendungsfälle}
-    \section{Anwendungsbeispiele IPB}
-
     \chapter{Technische Grundlagen}
+    \section{Wie funktioniert künstliche Intelligenz?}
 
+
+    \chapter{Einsatzgebiete und Anwendungsfälle}
+    Aufgrund des großen Potenzial welches in vorherigen Kapitel beschrieben worden ist, scheinen
+    die Grenzen künstlicher Intelligenz schier unendlich. Um dieses riesige Feld einzugrenzen,
+    welches sich durch die gesamte menschliche Kultur zieht, werde ich im folgenden mehrere
+    Situationen, von schwacher sowie starker KI, beschreiben die sich im IPB anwenden lassen könnten.
+
+    \section{Effiziente Budget-Ausschöpfung im Einkauf}
+    \section{}
+    \section{}
+    \section{}
 
     \chapter{Gedankenexperimente}
 
@@ -194,9 +211,10 @@
     greifbar zu machen.
     Ein Computer der keinerlei Verbindung in die Realität eines Menschen hat, kann zwar Regel lernen, die ihm die
     Welt der Menschen näher bringt, jedoch kann er niemals voll und ganz \emph{verstehen} oder auch \emph{begreifen},
-    wie ein Mensch denkt. Mit diesem Gedankenexperiement
+    wie ein Mensch denkt. Damit setzt Searle eine eher negative Prognose auf den Forschritt, den die KI-Forschung
+    machen wird.
 
     \chapter{Schlussbermerkung}
 
-    \printbibliography
+    \printbibliography[title={Quellenverzeichnis}]
 \end{document}

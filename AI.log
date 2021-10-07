@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2021.9.8)  6 OCT 2021 13:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2021.9.8)  7 OCT 2021 12:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -361,18 +361,18 @@ LaTeX Warning: Unused global option(s):
 (./AI.aux)
 \openout1 = `AI.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
@@ -381,8 +381,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'AI.bbl' found.
  (./AI.bbl)
-Package biblatex Info: Reference section=0 on input line 33.
-Package biblatex Info: Reference segment=0 on input line 33.
+Package biblatex Info: Reference section=0 on input line 31.
+Package biblatex Info: Reference segment=0 on input line 31.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
@@ -401,22 +401,32 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ]
 Kapitel 1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--59
+
+ []
+
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 64.
+(Font)              <7> on input line 62.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 64.
+(Font)              <5> on input line 62.
+
+Overfull \hbox (52.02368pt too wide) in paragraph at lines 69--71
+[]\T1/cmr/m/n/12 ^^SKünstliche In-tel-li-genz^^T be-schreibt einen nicht-mensch
+lichen/unnatürlichen
+ []
+
 [2
 
 ]
-Overfull \hbox (52.02368pt too wide) in paragraph at lines 73--75
-[]\T1/cmr/m/n/12 ^^SKünstliche In-tel-li-genz^^T be-schreibt einen nicht-mensch
-lichen/unnatürlichen
+Underfull \hbox (badness 10000) in paragraph at lines 78--87
+
  []
 
 [3]
 Kapitel 2.
 
-Overfull \hbox (6.91003pt too wide) in paragraph at lines 85--110
+Overfull \hbox (6.91003pt too wide) in paragraph at lines 93--118
 \T1/cmr/m/n/12 Wie bei vie-len neu-zeit-li-chen Er-fin-dun-gen wur-de auch die 
 For-schung an ^^SKünst-
  []
@@ -426,12 +436,12 @@ For-schung an ^^SKünst-
 ] [5]
 Kapitel 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--119
+Underfull \hbox (badness 10000) in paragraph at lines 121--127
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--132
+Underfull \hbox (badness 10000) in paragraph at lines 129--140
 
  []
 
@@ -441,11 +451,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 121--132
 ! german: The command "G is undefined.
 \grmn@dq@error ...and \dq \string #1 is undefined}
                                                   
-l.136 ...nexperiemente, ausfÃ¼hrlich beschriieben}
+l.144 ...enexperiemente, ausfÃ¼hrlich beschrieben}
                                                   
 ? 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 145--150
+Underfull \hbox (badness 10000) in paragraph at lines 153--158
 
  []
 
@@ -455,6 +465,11 @@ Kapitel 4.
 
 ]
 Kapitel 5.
+
+Overfull \hbox (0.65344pt too wide) in paragraph at lines 173--173
+|[]\T1/cmr/bx/n/17.28 Effiziente Budget-Ausschöpfung im Ein-kauf| 
+ []
+
 [10
 
 ]
@@ -466,13 +481,13 @@ Kapitel 7.
 [13
 
 ]
-Overfull \hbox (9.58125pt too wide) in paragraph at lines 202--202
+Overfull \hbox (9.58125pt too wide) in paragraph at lines 219--219
 [][]\T1/cmr/m/n/12 Asimov, Isaac. \T1/cmr/m/it/12 Der 200-Jahre-Mann\T1/cmr/m/n
 /12 . Mün-chen: Hey-ne, 2000. \T1/cmr/m/sc/12 isbn\T1/cmr/m/n/12 : 3453170032. 
 
  []
 
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 201.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 219.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
@@ -480,8 +495,8 @@ File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 ! Misplaced alignment tab character &.
 \namepartgiven ...bnamedelimb Oppy\bibnamedelimb &
                                                   \bibnamedelima David
-l.202 \end
-          {document}
+l.219 ...tbibliography[title={Quellenverzeichnis}]
+                                                  
 ? 
 [14
 
@@ -491,30 +506,29 @@ Package logreq Info: Writing requests to 'AI.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 8702 strings out of 492615
- 154292 string characters out of 6131391
- 583004 words of memory out of 5000000
- 12547 multiletter control sequences out of 15000+600000
- 18474 words of font info for 40 fonts, out of 8000000 for 9000
+ 8699 strings out of 492615
+ 154255 string characters out of 6131391
+ 583020 words of memory out of 5000000
+ 12545 multiletter control sequences out of 15000+600000
+ 17698 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,8n,53p,791b,2201s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,8n,53p,791b,2201s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/
-fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/c
-m-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb
-></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/f
-onts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm
--super/sfcc1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc2074.pfb>
-</usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fo
-nts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-
-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb><
-/usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fon
-ts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-s
-uper/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1728.pfb></
-usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on AI.pdf (15 pages, 310852 bytes).
+fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/c
+m-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb
+></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/f
+onts/type1/public/cm-super/sfcc1728.pfb></usr/share/texmf/fonts/type1/public/cm
+-super/sfcc2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb>
+</usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fo
+nts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-
+super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb><
+/usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fon
+ts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-s
+uper/sfti1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on AI.pdf (15 pages, 302700 bytes).
 PDF statistics:
- 118 PDF objects out of 1000 (max. 8388607)
- 84 compressed objects within 1 object stream
+ 114 PDF objects out of 1000 (max. 8388607)
+ 81 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
