@@ -1,33 +1,35 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Was ist K\IeC {\"u}nstliche Intelligenz?}{2}% 
+\contentsline {chapter}{\numberline {1}Was ist Künstliche Intelligenz?}{2}{chapter.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Geschichte der KI - Der Traum vom mechanischen Helferlein}{4}% 
+\contentsline {chapter}{\numberline {2}Geschichte der KI - Der Traum vom mechanischen Helferlein}{4}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Arten der K\IeC {\"u}nstlichen Intelligenz - Starke versus Schwache KI}{6}% 
+\contentsline {chapter}{\numberline {3}Arten der Künstlichen Intelligenz - Starke versus Schwache KI}{6}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Schwache KI}{6}% 
+\contentsline {section}{\numberline {3.1}Schwache KI}{6}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Starke KI}{7}% 
+\contentsline {section}{\numberline {3.2}Starke KI}{7}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Technische Grundlagen}{9}% 
+\contentsline {chapter}{\numberline {4}Technische Grundlagen}{9}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Wie funktioniert k\IeC {\"u}nstliche Intelligenz?}{9}% 
+\contentsline {section}{\numberline {4.1}Wie funktioniert eine künstliche Intelligenz?}{9}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Einsatzgebiete und Anwendungsf\IeC {\"a}lle}{10}% 
+\contentsline {section}{\numberline {4.2}Datasets}{9}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Effiziente Budget-Aussch\IeC {\"o}pfung im Einkauf}{10}% 
+\contentsline {chapter}{\numberline {5}Einsatzgebiete und Anwendungsfälle}{10}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}}{10}% 
+\contentsline {section}{\numberline {5.1}Effiziente Budget-Ausschöpfung im Einkauf}{10}{section.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}}{10}% 
+\contentsline {section}{\numberline {5.2}}{10}{section.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}}{10}% 
+\contentsline {section}{\numberline {5.3}}{10}{section.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Gedankenexperimente}{11}% 
+\contentsline {section}{\numberline {5.4}}{10}{section.5.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Turing Test}{11}% 
+\contentsline {chapter}{\numberline {6}Gedankenexperimente}{11}{chapter.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Das Chinesische Zimmer}{11}% 
+\contentsline {section}{\numberline {6.1}Turing Test}{11}{section.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Schlussbermerkung}{13}% 
+\contentsline {section}{\numberline {6.2}Das Chinesische Zimmer}{11}{section.6.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Schlussbermerkung}{13}{chapter.7}%

@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.0 $
+% $ biblatex bbl format version 3.1 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -21,7 +21,7 @@
   \datalist[entry]{nty/global//global/global}
     \entry{asimov2000der}{book}{}
       \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=60cc0a9f62283d12da66fee328636cc8}{%
+        {{un=0,uniquepart=base,hash=60cc0a9f62283d12da66fee328636cc8}{%
            family={Asimov},
            familyi={A\bibinitperiod},
            given={Isaac},
@@ -41,7 +41,7 @@
       \strng{authornamehash}{60cc0a9f62283d12da66fee328636cc8}
       \strng{authorfullhash}{60cc0a9f62283d12da66fee328636cc8}
       \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{3453170032}
@@ -50,7 +50,7 @@
     \endentry
     \entry{buchanan2005very}{article}{}
       \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=9c8f929dd0a8b95eaa41769ea38e6516}{%
+        {{un=0,uniquepart=base,hash=9c8f929dd0a8b95eaa41769ea38e6516}{%
            family={Buchanan},
            familyi={B\bibinitperiod},
            given={Bruce\bibnamedelima G},
@@ -64,7 +64,7 @@
       \strng{authornamehash}{9c8f929dd0a8b95eaa41769ea38e6516}
       \strng{authorfullhash}{9c8f929dd0a8b95eaa41769ea38e6516}
       \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Ai Magazine}
@@ -77,7 +77,7 @@
     \endentry
     \entry{oppy&dowe2020turingtest}{online}{}
       \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=4dce019ebe583807505894079f1b6794}{%
+        {{un=0,uniquepart=base,hash=4dce019ebe583807505894079f1b6794}{%
            family={Dowe},
            familyi={D\bibinitperiod},
            given={Graham\bibnamedelimb Oppy\bibnamedelimb &\bibnamedelima David},
@@ -91,7 +91,7 @@
       \strng{authornamehash}{4dce019ebe583807505894079f1b6794}
       \strng{authorfullhash}{4dce019ebe583807505894079f1b6794}
       \field{sortinit}{D}
-      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{14}
@@ -108,7 +108,7 @@
     \endentry
     \entry{duden2021erkenntnis}{online}{}
       \field{sortinit}{E}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
       \field{labeltitlesource}{title}
       \field{day}{6}
       \field{month}{10}
@@ -124,7 +124,7 @@
     \endentry
     \entry{hsu1999ibm}{article}{}
       \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=f4b058d44f9e5ad050dd6317be214f0b}{%
+        {{un=0,uniquepart=base,hash=f4b058d44f9e5ad050dd6317be214f0b}{%
            family={Hsu},
            familyi={H\bibinitperiod},
            given={Feng-hsiung},
@@ -141,7 +141,7 @@
       \strng{authornamehash}{f4b058d44f9e5ad050dd6317be214f0b}
       \strng{authorfullhash}{f4b058d44f9e5ad050dd6317be214f0b}
       \field{sortinit}{H}
-      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE micro}
@@ -154,7 +154,7 @@
     \endentry
     \entry{ibm2021whatisAI}{online}{}
       \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=cbf44511d041dc6d1dd73cc0c033122c}{%
+        {{un=0,uniquepart=base,hash=cbf44511d041dc6d1dd73cc0c033122c}{%
            family={IBM},
            familyi={I\bibinitperiod}}}%
       }
@@ -165,7 +165,7 @@
       \strng{authornamehash}{cbf44511d041dc6d1dd73cc0c033122c}
       \strng{authorfullhash}{cbf44511d041dc6d1dd73cc0c033122c}
       \field{sortinit}{I}
-      \field{sortinithash}{320bc8fe8101b9376f9f21cd507de0e8}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{14}
@@ -182,7 +182,7 @@
     \endentry
     \entry{nimtz2013chinesische}{incollection}{}
       \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=aa36c16d8025bfbf303879b598fef187}{%
+        {{un=0,uniquepart=base,hash=aa36c16d8025bfbf303879b598fef187}{%
            family={Nimtz},
            familyi={N\bibinitperiod},
            given={Christian},
@@ -199,7 +199,7 @@
       \strng{authornamehash}{aa36c16d8025bfbf303879b598fef187}
       \strng{authorfullhash}{aa36c16d8025bfbf303879b598fef187}
       \field{sortinit}{N}
-      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Klassische Argumentationen der Philosophie}
@@ -210,7 +210,7 @@
     \endentry
     \entry{piaget2000psychologie}{book}{}
       \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=76cd658e2f3ecbeedfaceb2d2a1de596}{%
+        {{un=0,uniquepart=base,hash=76cd658e2f3ecbeedfaceb2d2a1de596}{%
            family={Piaget},
            familyi={P\bibinitperiod},
            given={Jean},
@@ -227,7 +227,7 @@
       \strng{authornamehash}{76cd658e2f3ecbeedfaceb2d2a1de596}
       \strng{authorfullhash}{76cd658e2f3ecbeedfaceb2d2a1de596}
       \field{sortinit}{P}
-      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Psychologie der Intelligenz}
@@ -235,7 +235,7 @@
     \endentry
     \entry{searle1999chinese}{article}{}
       \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=d6d7a401da9d01dfc8a3b6ebd29270d9}{%
+        {{un=0,uniquepart=base,hash=d6d7a401da9d01dfc8a3b6ebd29270d9}{%
            family={Searle},
            familyi={S\bibinitperiod},
            given={John},
@@ -249,7 +249,7 @@
       \strng{authornamehash}{d6d7a401da9d01dfc8a3b6ebd29270d9}
       \strng{authorfullhash}{d6d7a401da9d01dfc8a3b6ebd29270d9}
       \field{sortinit}{S}
-      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{The Chinese Room}
@@ -257,7 +257,7 @@
     \endentry
     \entry{sesink1993menschliche}{article}{}
       \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=04368d74e31a00868d9969b3da6a095f}{%
+        {{un=0,uniquepart=base,hash=04368d74e31a00868d9969b3da6a095f}{%
            family={Sesink},
            familyi={S\bibinitperiod},
            given={Werner},
@@ -271,16 +271,16 @@
       \strng{authornamehash}{04368d74e31a00868d9969b3da6a095f}
       \strng{authorfullhash}{04368d74e31a00868d9969b3da6a095f}
       \field{sortinit}{S}
-      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Der kleine Unterschied. Stuttgart}
-      \field{title}{Menschliche und k{ü}nstliche Intelligenz}
+      \field{title}{Menschliche und künstliche Intelligenz}
       \field{year}{1993}
     \endentry
     \entry{turing1950computing}{book}{}
       \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=fdc523429c3c89c34880f733033f2099}{%
+        {{un=0,uniquepart=base,hash=fdc523429c3c89c34880f733033f2099}{%
            family={Turing},
            familyi={T\bibinitperiod},
            given={A.\bibnamedelimi M.},
@@ -294,7 +294,7 @@
       \strng{authornamehash}{fdc523429c3c89c34880f733033f2099}
       \strng{authorfullhash}{fdc523429c3c89c34880f733033f2099}
       \field{sortinit}{T}
-      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Computing Machinery and Intelligence}

@@ -1,15 +1,15 @@
-[0] Config.pm:304> INFO - This is Biber 2.12
-[0] Config.pm:307> INFO - Logfile is 'AI.blg'
-[18] biber:315> INFO - === Do Okt  7, 2021, 13:55:50
-[34] Biber.pm:371> INFO - Reading 'AI.bcf'
-[81] Biber.pm:889> INFO - Found 11 citekeys in bib section 0
-[91] Biber.pm:4093> INFO - Processing section 0
-[99] Biber.pm:4254> INFO - Looking for bibtex format file 'ai-references.bib' for section 0
-[100] bibtex.pm:1512> INFO - LaTeX decoding ...
-[112] bibtex.pm:1329> INFO - Found BibTeX data source 'ai-references.bib'
-[164] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[165] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[165] Biber.pm:3921> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[165] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
-[174] bbl.pm:636> INFO - Writing 'AI.bbl' with encoding 'UTF-8'
-[178] bbl.pm:739> INFO - Output to AI.bbl
+[0] Config.pm:311> INFO - This is Biber 2.16
+[0] Config.pm:314> INFO - Logfile is 'AI.blg'
+[77] biber:340> INFO - === Di Okt 12, 2021, 14:18:14
+[89] Biber.pm:415> INFO - Reading 'AI.bcf'
+[145] Biber.pm:952> INFO - Found 11 citekeys in bib section 0
+[157] Biber.pm:4340> INFO - Processing section 0
+[166] Biber.pm:4531> INFO - Looking for bibtex format file 'ai-references.bib' for section 0
+[167] bibtex.pm:1689> INFO - LaTeX decoding ...
+[178] bibtex.pm:1494> INFO - Found BibTeX data source 'ai-references.bib'
+[292] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[292] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[292] Biber.pm:4168> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[292] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[355] bbl.pm:654> INFO - Writing 'AI.bbl' with encoding 'UTF-8'
+[361] bbl.pm:757> INFO - Output to AI.bbl
