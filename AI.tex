@@ -13,6 +13,7 @@
 \usepackage{german}
 \usepackage{titling}
 \usepackage{titlesec}
+\usepackage{hyperref} % for cross-referencing
 
 % quotation-marks
 \usepackage[
@@ -27,6 +28,13 @@
 
 % zeilenabstand
 \usepackage[onehalfspacing]{setspace} %set spacing between the lines
+
+\titleformat{\chapter}[display]
+{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
+
+% this alters "before" spacing (the second length argument) to 0
+\titlespacing*{\chapter}{0pt}{0pt}{30pt}
+
 % Document
 \begin{document}
 
@@ -59,7 +67,7 @@
 
     Bevor ich auf diese wichtigen Fragen eingehe, möchte ich vorerst den Begriff der \say{Künstlichen Intelligenz}
     erläutern, um Klarheit um diesen oft genutzten und doch unklaren Begriff zu schaffen. \say{Künstliche Intelligenz} ist ein Kunstbegriff der erstmals
-    1956 benutzt wurde.\autocite[57]{buchanan2005very}
+    1956 auf der \emph{Darthmouth Conference}\autocite[57]{buchanan2005very} benutzt wurde.
     Der Begriff \emph{Intelligenz} kommt vom lateinischen \say{intelligere} was soviel wie
     Einsehen, Begreifen und Erkennen bedeutet.\autocite{piaget2000psychologie}
     \say{Künstlich} verweist in diesem Zusammenhang auf die unnatürliche Herkunft dieser Intelligenz.
@@ -73,7 +81,7 @@
     Da dies noch lange nicht erreicht ist, könnte man eine realere Definition schaffen mit der der aktuelle
     Stand der Technologie besser abgebildet wird:
     \begin{displayquote}
-        \say{Künstliche Intelligenz} sind Computerprogramme die mit der Analyse von Statistiken Vorraussagen treffen können.
+        Eine \say{Künstliche Intelligenz} ist Computerprogramm das mit der Analyse von Statistiken Vorraussagen treffen kann.
     \end{displayquote}
     Obwohl bei Definitionen sich augenscheinlich starkt unterscheiden, kann man die zweite Definition als Fundament für
     die erste Definition sehen. Um einen denkfähigen Geist zu erschaffen bedarf es Erfahrungen, die das menschliche Gehirn lehren
@@ -162,6 +170,9 @@
 
     \chapter{Technische Grundlagen}
     \section{Wie funktioniert künstliche Intelligenz?}
+
+    
+
 
 
     \chapter{Einsatzgebiete und Anwendungsfälle}
