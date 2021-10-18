@@ -2356,9 +2356,11 @@
     <bcf:citekey order="11">ibm2021whatisAI</bcf:citekey>
     <bcf:citekey order="12">turing1950computing</bcf:citekey>
     <bcf:citekey order="13">oppy&amp;dowe2020turingtest</bcf:citekey>
-    <bcf:citekey order="14">turing1950computing</bcf:citekey>
-    <bcf:citekey order="15">nimtz2013chinesische</bcf:citekey>
-    <bcf:citekey order="16">searle1999chinese</bcf:citekey>
+    <bcf:citekey order="14">kibuisness2021supervised</bcf:citekey>
+    <bcf:citekey order="15">ibm2021deeplearning</bcf:citekey>
+    <bcf:citekey order="16">turing1950computing</bcf:citekey>
+    <bcf:citekey order="17">nimtz2013chinesische</bcf:citekey>
+    <bcf:citekey order="18">searle1999chinese</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

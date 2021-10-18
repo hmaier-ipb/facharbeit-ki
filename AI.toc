@@ -16,20 +16,26 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.2}Datasets}{9}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Einsatzgebiete und Anwendungsfälle}{10}{chapter.5}%
+\contentsline {section}{\numberline {4.3}Maschinelles Lernen}{10}{section.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Effiziente Budget-Ausschöpfung im Einkauf}{10}{section.5.1}%
+\contentsline {section}{\numberline {4.4} Beaufsichtigtes Lernen (Supervised Learning) }{10}{section.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}}{10}{section.5.2}%
+\contentsline {section}{\numberline {4.5}Unbeaufsichtigtes Lernen (Unsupervised Learning) }{11}{section.4.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}}{10}{section.5.3}%
+\contentsline {chapter}{\numberline {5}Einsatzgebiete und Anwendungsfälle}{13}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}}{10}{section.5.4}%
+\contentsline {section}{\numberline {5.1}Effiziente Budget-Ausschöpfung im Einkauf}{13}{section.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Gedankenexperimente}{11}{chapter.6}%
+\contentsline {section}{\numberline {5.2}}{13}{section.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Turing Test}{11}{section.6.1}%
+\contentsline {section}{\numberline {5.3}}{13}{section.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Das Chinesische Zimmer}{11}{section.6.2}%
+\contentsline {section}{\numberline {5.4}}{13}{section.5.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Schlussbermerkung}{13}{chapter.7}%
+\contentsline {chapter}{\numberline {6}Gedankenexperimente}{14}{chapter.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}Turing Test}{14}{section.6.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}Das Chinesische Zimmer}{14}{section.6.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Schlussbermerkung}{16}{chapter.7}%

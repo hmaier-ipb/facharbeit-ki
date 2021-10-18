@@ -170,26 +170,64 @@
 
     \chapter{Technische Grundlagen}
     \section{Wie funktioniert eine künstliche Intelligenz?}
-    Wie schon im ersten Kapitel grob beschrieben worden ist, ist eine künstliche Intelligenz nicht anders als ein
-    Computerprogramm welches aufgrund von analysierten Statistiken Vorraussagen trifft. Dieses Vorraussagen kann
-    nur am Ende eines Prozesses stattfinden, den man als \say{maschinelles Lernen} bezeichnet. Maschinelles Lernen
-    oder auch ML ist die Technik die hinter künstlicher Intelligenz steht. Was bei einem Auto der Motor ist,
-    ist bei künstlicher Intelligenz das maschinelle Lernen. Ziel des maschinellen Lernens ist immer das generieren
-    eines Modell, auch \say{Machine-Learning-Model} genannt. Mit diesem Modell kann man dann am Ende Vorraussagen treffen.
+        Wie schon im ersten Kapitel grob beschrieben worden ist, ist eine künstliche Intelligenz nicht anders als ein
+        Computerprogramm welches aufgrund von analysierten Statistiken Vorraussagen trifft. Dieses Vorraussagen kann
+        nur am Ende eines Prozesses stattfinden, den man als \say{maschinelles Lernen} bezeichnet. Maschinelles Lernen
+        oder auch ML ist die Technik die hinter künstlicher Intelligenz steht. Was bei einem Auto der Motor ist,
+        ist bei künstlicher Intelligenz das maschinelle Lernen. Ziel des maschinellen Lernens ist immer das generieren
+        eines Modell, auch \say{Machine-Learning-Model} genannt. Mit diesem Modell kann man dann am Ende Vorraussagen treffen.
 
     \section{Datasets}
-    Zum maschinellen Lernen braucht man im ersten Schritt Trainingsdaten. Diese Trainingsdaten müssen numerische
-    Repräsentation von bestimmten Objekten sein. Bilder, Audiodateien oder auch Text können verwendet werden,
-    solange es möglich ist, diese in Zahlen umzuwandeln. Diese Trainingsdaten oder im Fachjargon auch \say{Datasets}
-    genannt, sind das Fundament jeder künstlicher Intelligenz, da diese aus ihnen Vergleichswerte ziehen kann. Die Anzahl
-    der zu vergleichenden Objekte ist dabei von entscheidender Bedeutung. Als Faustregel gilt: je mehr desto besser.\footnote{Vergleich Dataset: 1000 Datenpunkte = wenig/schwach, 100.000 Datenpunkte = groß/stark}
+        Zum maschinellen Lernen braucht man im ersten Schritt Trainingsdaten. Diese Trainingsdaten müssen numerische
+        Repräsentation von bestimmten Objekten sein. Bilder, Audiodateien oder auch Text können verwendet werden,
+        solange es möglich ist, diese in Zahlen umzuwandeln. Diese Trainingsdaten oder im Fachjargon auch \say{Datasets}
+        genannt, sind das Fundament jeder künstlicher Intelligenz, da diese aus ihnen Vergleichswerte ziehen kann. Die Anzahl
+        der zu vergleichenden Objekte ist dabei von entscheidender Bedeutung. Als Faustregel gilt: je mehr desto besser.\footnote{Vergleich Dataset: 1000 Datenpunkte = wenig/schwach, 100.000 Datenpunkte = groß/stark}
 
-    \section{Maschinelles Lernen)
-        Um als einem Dataset ein Modell zu gewinnen gibt es zwei Methoden. Die erste Methode ist beaufsichtigtes Lernen (supervised learning) und
-        die zweite Methode ist unbeaufsichtigtes Lernen (unsupervised learning). Die Beaufsichtigung des Lernens spielt dabei auf
-        das Eingreifens des Menschen in den Lernprozess ein.
+    \section{Maschinelles Lernen}
+        Um aus einem Dataset ein Modell zu gewinnen gibt es zwei Methoden. Die erste Methode ist beaufsichtigtes Lernen (supervised learning) und
+        die zweite Methode ist unbeaufsichtigtes Lernen (unsupervised learning).
 
+    \section{ Beaufsichtigtes Lernen (Supervised Learning) }
+        Beim beaufsichtigten Lernen müssen alle Daten gekennzeichnet sein. Der Mensc
+        Er selber definiert die Parameter die zum maschinellen Lernen notwenig sind.
+        Diese Parameter setzen sich aus einem Ziel, Trainingsdaten und Testdaten zusammen.
+        Das Ziel richtet sich nach dem Problem das gelöst werden soll. Dies kann entweder ein
+        Klassifikations- oder ein Regressionsproblem sein.\autocite{kibuisness2021supervised}
+        Falls man eine Unterscheidung sucht, zum Beispiel in zwei oder mehrere Kategorien, spricht
+        man von einem Klassifikationsproblem. Sucht man allerdings Zusammenhänge zwischen verschiedenen
+        augenscheinlich fremden Variablen, spricht man von einem Regressionsproblem. Je nach Problem gibt
+        es verschiedene Algorithmen die auf ein Dataset angewendet werden können. Das durch die Alogrithmen
+        berechnete Modell, kann als Graph visulisiert werden. In diesem werden alle Datenpunkte abgebildet und von
+        einer Linie durchzogen, die entweder als unterscheidende Grenze oder als Vorhersage agiert.\footnote{Hier Grafik einfügen!}
+        Um diese Datenpunkte zu unterscheiden, müssen die einzelnen Datenpunkte klar gekennzeichnet sein.
+        Bei manchen Datensets dessen Datenpunkte sich zu schwach oder zu stark unterscheiden, kann es sein das man mit dem Phänomen des
+        \say{Over- oder Underfitting} konfrontiert wird. Dann ist das Modell unbrauchbar, da keine nützlichen Vorhersagen getroffen werden können.
+        Um dies zu prüfen und gegebenenfalls dagegenzuwirken, teilt man das Datenset in Trainingsdaten und Testdaten.
+        Als Trainingsdate bezeichnet man einen Großteil der Daten die zum anlernen des Modells verwendet werden. Die Testdaten
+        machen dabei einen Bruchteil aus und werden im Nachhinein auf das Modell angewandt um die Varianz zu testen.
+        Das bedeutet herrauszufinden wie repräsentativ die Daten für eine anwendung auf fremde Daten sind.
+        Ist die Varianz zu hoch, besteht Overfitting. Die Trainings- und Testdaten unterscheiden sich nicht genug um
+        mit fremden Daten Arbeiten zu können. Sind die Daten zu unterschiedliche und kann kein Muster festgestellt werden
+        besteht Underfitting, die Varianz ist zu niedrige und es können ebenfalls keine fremden Daten verarbeitet werden.
+        Nach all diesen Schritten wird ebenfalls klar welche Art der künstlichen Intelligenz damit erreicht werden kann:
+        eine schwache. Um eine starke KI zu erreichen, bräuchte es unendlich viel Konfiguration des in Menschens in verschiedenen
+        Bereichen des Lebens um ein allheitliches Bild zu gewinnen. Schon allein bei der Erkennung eines
+        Apfels müssten beispielweise, tausende Bilder von Äpfeln mit einem Quadrat um den Apfel gekennzeichnet sein. Nur so
+        kann der Algorithmus die zum Apfel dazugehörigen Pixel einordnen.
 
+    \section{Unbeaufsichtigtes Lernen (Unsupervised Learning) }
+        Ein Gegenentwurf, bzw. eine Weiterentwicklung des maschinellen Lernens ist das \say{Unbeausichtigte Lernen}.
+        Hauptunterschied zum beaufsichtigten Lernen ist das beim unbeaufsichtigten Lernen jegliche Kennzeichnung der Datenpunkte fehlt.
+        Der Mensch spielt also höchste eine Rolle bei der Programmierung des künstlichen Intelligenz, jedoch nicht beim
+        im Lernprozess, da dieser komplett autark ab abläuft. Wie auch beim supervised Learning gibt es hier auch verschiedene
+        Algorithmen um Problemstellungen zu bearbeiten. Einer der fortschrittlichsten Algorithmen ist das \say{Deep Learning}.
+        Diese Art des maschinellen Lernens basiert auf dem Modell von neuronalen Netzwerken, die das menschliche
+        Gehirn nachempfinden.\autocite[how deep learning works]{ibm2021deeplearning}
+        Wie schon beschrieben, ist es nicht nötig die eingegebenen Daten zu kennzeichnen. Dem Algorithmus werden also
+        meist Rohe Daten geliefert aus dem dann ein Modell entstehen soll. Beim Deep Learning repliziert der Algorithmus
+        die eingegebenen Daten und vergleicht dann Eingabe und Ausgabe. Durchs vergleichen der unterschiedlichen Daten
+        entsteht ein Modell, das von alleine neue unbekannte Daten klassifizieren kann.
 
 
 
@@ -207,6 +245,7 @@
     \chapter{Gedankenexperimente}
 
     \section{Turing Test}
+
     \autocite{turing1950computing}
 
     \section{Das Chinesische Zimmer}
