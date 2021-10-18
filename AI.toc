@@ -18,7 +18,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.3}Maschinelles Lernen}{10}{section.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4} Beaufsichtigtes Lernen (Supervised Learning) }{10}{section.4.4}%
+\contentsline {section}{\numberline {4.4}Beaufsichtigtes Lernen (Supervised Learning) }{10}{section.4.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.5}Unbeaufsichtigtes Lernen (Unsupervised Learning) }{11}{section.4.5}%
 \defcounter {refsection}{0}\relax 
