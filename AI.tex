@@ -23,7 +23,11 @@
 \usepackage{csquotes}
 
 % bibliography
-\usepackage[backend=biber,autocite=footnote,style=authortitle-ibid,babel=other]{biblatex}
+\usepackage[
+    backend=biber,
+   % cite=footnote,
+    style=numeric,
+]{biblatex}
 \addbibresource{ai-references.bib}
 
 % zeilenabstand
@@ -67,11 +71,11 @@
 
     Bevor ich auf diese wichtigen Fragen eingehe, möchte ich vorerst den Begriff der \say{Künstlichen Intelligenz}
     erläutern, um Klarheit um diesen oft genutzten und doch unklaren Begriff zu schaffen. \say{Künstliche Intelligenz} ist ein Kunstbegriff der erstmals
-    1956 auf der \emph{Darthmouth Conference}\autocite[57]{buchanan2005very} benutzt wurde.
+    1956 auf der \emph{Darthmouth Conference}\cite[57]{buchanan2005very} benutzt wurde.
     Der Begriff \emph{Intelligenz} kommt vom lateinischen \say{intelligere} was soviel wie
-    Einsehen, Begreifen und Erkennen bedeutet.\autocite{piaget2000psychologie}
+    Einsehen, Begreifen und Erkennen bedeutet.\cite{piaget2000psychologie}
     \say{Künstlich} verweist in diesem Zusammenhang auf die unnatürliche Herkunft dieser Intelligenz.
-    Da Erkenntnis\autocite{duden2021erkenntnis} und somit Intelligenz, immer etwas Geistiges ist, könnnte
+    Da Erkenntnis\cite{duden2021erkenntnis} und somit Intelligenz, immer etwas Geistiges ist, könnnte
     man KI wie folgt definieren:
     \begin{displayquote}
         \say{Künstliche Intelligenz} beschreibt einen nicht-menschlichen/unnatürlichen Geist,
@@ -102,24 +106,24 @@
     erstmalig von verschiedenen Denkern und Schriftstellern angestoßen.
     Nicht erst Science-Fiction Autoren wie Isaac Asimov oder Jule Vernes haben die Idee von intelligenten Maschinen
     entwickelt, sondern schon der Grieche Homer schrieb von mechanischen Dienern die den Göttern beim Abendsessen
-    Wein nachschenkten.\autocite[53]{buchanan2005very} Auch wenn diese Verwendung von KI aus unserem heutigen Standpunkt
+    Wein nachschenkten.\cite[53]{buchanan2005very} Auch wenn diese Verwendung von KI aus unserem heutigen Standpunkt
     eher banal erscheint, ist ein solcher Apparat zu damaligen Zeiten undenkbar.
     Ein wenig weiter dachte der Philosoph Gottfried Wilhelm Leibniz, der über mechanische Richter nachdachte
-    die aufgrund von logischen Regeln Rechtsfälle aushandeln.\autocite[53]{buchanan2005very}
+    die aufgrund von logischen Regeln Rechtsfälle aushandeln.\cite[53]{buchanan2005very}
     Dieses Beispiel stößt schon ziemlich nah an die Vorstellung von künstlicher Intelligenz die wir heutzutage haben.
     Was beide Beispiele jedoch gemeinsam haben ist dass keiner von beiden ihren Apparaten eigenes Denken
     gibt. Sie werden lediglich als logisch operierende Maschinen angesehen, die ohne den Menschen nicht wissen würden
     was sie tun sollten.
     Um die Möglichkeit in Erwägung zu ziehen ob Maschinen denken könnten,
-    brauchte es Mitte des 20. Jahrhunderts erst den Mathematiker Alan Turing.\autocite{sesink1993menschliche}
+    brauchte es Mitte des 20. Jahrhunderts erst den Mathematiker Alan Turing.\cite{sesink1993menschliche}
     Turing entwickelte das \say{Nachahmungs-Spiel}, welches als der \say{Turing Test} bekannt geworden ist.
     Mithilfe dem sich vergrößernden Speicherplatz und der höheren Geschwindigkeit von Speichern und Prozessor,
     wurde es in den 1950er und 60er Jahren möglich, erste Programm zu schreiben die den \say{Turing Test} bestreiten sollten.
     Das Schreiben und Testen verschiedener Computerprogramme gipfelte erstmals 1997 in dem Schach-Spiel des Progamms \emph{Deep Blue}
-    gegen den Schach-Weltmeister Gary Kasparov.\autocite{hsu1999ibm}
+    gegen den Schach-Weltmeister Gary Kasparov.\cite{hsu1999ibm}
     Wichtig zu Erkennen, wenn man die Entwicklungsgeschichte der Künstlichen Intelligenz betrachtet, ist dass es Fortschritt verschiedener
-    wissenschaftlicher Perspektiven\autocite{buchanan2005very} bedurfte, um zur modernen Idee der \say{Künstlichen Intelligenz} zu gelangen.
-    Dazu gehören Disziplinen wie Biologie, Logik und Philosophie, Maschinenbau und Psychologie.\autocite[56]{buchanan2005very}
+    wissenschaftlicher Perspektiven\cite{buchanan2005very} bedurfte, um zur modernen Idee der \say{Künstlichen Intelligenz} zu gelangen.
+    Dazu gehören Disziplinen wie Biologie, Logik und Philosophie, Maschinenbau und Psychologie.\cite[56]{buchanan2005very}
     Alle diese Felder der Wissenschaft werden unter anderem auch wenn der Motivation angetrieben, herrauszufinden was genau
     das menschliche Bewusstsein oder auch die menschliche Intelligenz ist. Der Mensch muss also erst herrausfinden was
     sein eigener Geist bzw. sein Bewusstsein ist, bevor er diesen in eine Maschine implementieren kann die die Fähigkeit
@@ -131,13 +135,13 @@
     Die Idee eines mechanischen Helfer, der logische zu bearbeitende Aufgaben übernimmt, ist gar nicht so neu wie man
     zuerst vermuten würde. Wie auch andere bahnbrechende Erfindungen, werden die ersten Schritte auch bei dieser Idee
     mit einem Blatt Papier und etwas Tinte gegangen. Isaac Asimov hatte in seinem Science-Fiction Roman \say{Der 200-Jährige Mann}
-    die Idee eines Roboters der sowohl als mechanischer Diener als auch als selbstdenkender Künstler agieren kann.\autocite{asimov2000der}
+    die Idee eines Roboters der sowohl als mechanischer Diener als auch als selbstdenkender Künstler agieren kann.\cite{asimov2000der}
     Mit dieser Idee, die nicht nur eine logisch agierende Maschine vorsieht, sondern auch ein denkendes Individuum, macht Asimov
     eine Teilung in zwei Kategorien die bis heute gilt. Die Rede ist von schwacher (logisch agierender) und starker (denkender) Künstlicher Intelligenz.\\
 
     \section{Schwache KI}
     Als \emph{schwache Künstliche Intelligenz} bezeichnet man ein Großteil der heute eingesetzten Programme, die mit
-    maschinellen Lernen trainiert worden sind.\autocite{ibm2021whatisAI} Diese Art der KI erfüllt vordefinierte Aufgaben,
+    maschinellen Lernen trainiert worden sind.\cite{ibm2021whatisAI} Diese Art der KI erfüllt vordefinierte Aufgaben,
     wie beispielweise die Erkennung von Sprache oder Objekten. Dafür wird ein Vielzahl von vorbearbeiteten Beispielen der KI
     zum Lernen gegeben. Diese Beispiele sind vom Menschen auf eine Art und Weise bearbeitet so dass sie auf ein spezielles Ziel hindeuten.
     Der Mensch gibt der Maschine also ein Ziel so dass sie sich mit den vorgegebenen Daten beschäftigen kann.
@@ -158,11 +162,11 @@
         Räume aufgeteilt. Ein Fragesteller, der keinen Sichtkontakt zu jeweils zu einem noch zum anderen der beiden Räume hat
         muss durchs Fragen herausfinden, wer von beiden der Mensch und wer der Computer ist.
         Ziel des Computers ist den Fragenden irrezuleiten, so dass er glaubt dass der Computer der Mensch ist.
-        Ziel der befragten Person ist es dem Fragenden bei der Identfikaton der Maschine zu helfen.\autocite{turing1950computing}
+        Ziel der befragten Person ist es dem Fragenden bei der Identfikaton der Maschine zu helfen.\cite{turing1950computing}
     \end{displayquote}
     Falls es dem Computer gelingt, den Fragenden irrezuleiten und ihn (den Computer) als Person zu identifieren, hat der Computer
     den \say{Turing Test} bestanden und gilt somit als denkfähigen Wesen was als \emph{starke Künstliche Intelligenz}
-    bezeichnet wird.\autocite{oppy&dowe2020turingtest}. Ein solches denkfähiges Wesen besitzt die Fähigkeit verschiedene Problemstellungen
+    bezeichnet wird.\cite{oppy&dowe2020turingtest}. Ein solches denkfähiges Wesen besitzt die Fähigkeit verschiedene Problemstellungen
     auf kreative Art und Weise zu lösen, da es nicht wie ein klassischer Computer fest auf ein Thema trainiert ist sondern
     sich flexibel selber(!) Gedanken machen kann.\\
 
@@ -178,6 +182,10 @@
         oder auch ML ist die Technik die hinter künstlicher Intelligenz steht. Was bei einem Auto der Motor ist,
         ist bei künstlicher Intelligenz das maschinelle Lernen. Ziel des maschinellen Lernens ist immer das generieren
         eines Modell, auch \say{Machine-Learning-Model} genannt. Mit diesem Modell kann man dann am Ende Vorraussagen treffen.
+        Um ein Modell dieser Art komplett zu sehen und zu begreifen, ist ziemlich viel Mathematik nötig. Da mir nicht
+        genügend Zeit zur Verfügung steht um dies voll und ganz auszuarbeiten, werden ich ein praktischeren Pfad nehmen
+        und vorprogrammierte Bibliotheken nutzen um die Vorhergehensweise deduktive \footnote{Deduktion: vom Allgemeinen zum Einzelnen \cite{deduktion2021unileipzig}}
+        zu erläutern.
 
     \section{Datasets}
         Zum maschinellen Lernen braucht man im ersten Schritt Trainingsdaten. Diese Trainingsdaten müssen numerische
@@ -195,7 +203,7 @@
         Er selber definiert die Parameter die zum maschinellen Lernen notwenig sind.
         Diese Parameter setzen sich aus einem Ziel, Trainingsdaten und Testdaten zusammen.
         Das Ziel richtet sich nach dem Problem das gelöst werden soll. Dies kann entweder ein
-        Klassifikations- oder ein Regressionsproblem sein.\autocite{kibuisness2021supervised}
+        Klassifikations- oder ein Regressionsproblem sein.\cite{kibuisness2021supervised}
         Falls man eine Unterscheidung sucht, zum Beispiel in zwei oder mehrere Kategorien, spricht
         man von einem Klassifikationsproblem. Sucht man allerdings Zusammenhänge zwischen verschiedenen
         augenscheinlich fremden Variablen, spricht man von einem Regressionsproblem. Je nach Problem gibt
@@ -225,7 +233,7 @@
         im Lernprozess, da dieser komplett autark ab abläuft. Wie auch beim supervised Learning gibt es hier auch verschiedene
         Algorithmen um Problemstellungen zu bearbeiten. Einer der fortschrittlichsten Algorithmen ist das \say{Deep Learning}.
         Diese Art des maschinellen Lernens basiert auf dem Modell von neuronalen Netzwerken, die das menschliche
-        Gehirn nachempfinden.\autocite[how deep learning works]{ibm2021deeplearning}
+        Gehirn nachempfinden.\cite[how deep learning works]{ibm2021deeplearning}
         Wie schon beschrieben, ist es nicht nötig die eingegebenen Daten zu kennzeichnen. Dem Algorithmus werden also
         meist Rohe Daten geliefert aus dem dann ein Modell entstehen soll. Beim Deep Learning repliziert der Algorithmus
         die eingegebenen Daten und vergleicht dann Eingabe und Ausgabe. Durchs vergleichen der unterschiedlichen Daten
@@ -233,16 +241,16 @@
 
 
 
-    \chapter{Einsatzgebiete und Anwendungsfälle}
-    Aufgrund des großen Potenzial welches in vorherigen Kapitel beschrieben worden ist, scheinen
-    die Grenzen künstlicher Intelligenz schier unendlich. Um dieses riesige Feld einzugrenzen,
-    welches sich durch die gesamte menschliche Kultur zieht, werde ich im folgenden mehrere
-    Situationen, von schwacher sowie starker KI, beschreiben die sich im IPB anwenden lassen könnten.
+   % \chapter{einsatzgebiete und Anwendungsfälle}
+   % aufgrund des großen Potenzial welches in vorherigen Kapitel beschrieben worden ist, scheinen
+   % die grenzen künstlicher Intelligenz schier unendlich. Um dieses riesige Feld einzugrenzen,
+   % welches sich durch die gesamte menschliche Kultur zieht, werde ich im folgenden mehrere
+   % situationen, von schwacher sowie starker KI, beschreiben die sich im IPB anwenden lassen könnten.
 
-    \section{Effiziente Budget-Ausschöpfung im Einkauf}
-    \section{}
-    \section{}
-    \section{}
+   % \section{effiziente Budget-Ausschöpfung im Einkauf}
+   % \section{}
+   % \section{}
+   % \section{}
 
     \chapter{Gedankenexperimente}
 
@@ -250,8 +258,25 @@
     Mitte des 20. Jahrhunderts stellte der britische Mathematiker Alan Turing als erster die Frage ob Maschinen denken könnten.
     Diese Frage gilt seit dem nun als Kernfrage in der KI-Forschung. Um diese Frage zu beantworten schlägt Turing das
     \say{Imitation Game} oder auch \say{Nachahmungs-Spiel}, als Test für die Denkfähigkeit von Maschinen vor.
-
-    \autocite{turing1950computing}
+    Als Maschine schlägt er explizit einen digitalen oder elektronischen Computer vor und schließt
+    biologische Möglichkeiten, wie einen aus einer Zelle gezüchteten Menschen komplett aus.\cite[435]{turing1950computing}
+    Eine vollständige Abkapselung einer digitalen Maschine, als eigenständiges Gerät ist jedoch nicht möglich, das sie auf dem
+    Fundament von menschlichen Prinzipien konstruiert worden ist. Maschinen müssen immer als menschgemacht gedacht werden.
+    Ob sie auf diesem Hintergrund denkfähig sein können, wird durch das folgende Spiel herrausgefordert:
+    \begin{displayquote}
+        Für das Nachahmungs-Spiel werden insgesamt drei Spieler*innen benötigt. Ein Mann (A), eine Frau (B) und ein*e
+        Fragesteller*in (C). Die Aufgabe des/der Fragesteller*in ist herrauszufinden wer von beiden die Frau ist.
+        Dabei sitzt er/sie in einem anderen Raum als die beiden. Der/Die Fragesteller*in kennt beide Parteien
+        nur unter X und Y, womit er am Ende des Spiel jeweils A und B identifiziert. Ziel von A ist es den/die Fragesteller*in
+        fehlzuleiten. B verfolgt das Ziel, den/die Fragesteller*in zur richtigen Antwort zu leiten.
+        \cite[433]{turing1950computing}
+    \end{displayquote}
+    In diesem Gedankenexperiement wird der Mann (A) nun durch eine Maschine ersetzt, die seine Aufgabe übernimmt und
+    sich als Frau (B) ausgeben soll. Der Austausch von Informationen erfolgt dabei über maschinenschrift, damit
+    der/die Fragesteller*in keine Schlussfolgerungen über Stimme oder Schrift ziehen kann.\cite[433]{turing1950computing}
+    Bei diesem Test geht es nicht darum akutelle Maschinen zu betrachten und ein entgültigen Schluss zu ziehen. Es geht
+    eher darum sich eine Maschine vorzustellen die diesen Test bestehen kann. Damit eine Maschine diesen Test besteht
+    muss sie das Spiel mit einer 70\%iger Genauigkeit gewinnen.\cite[1]{oppy&dowe2020turingtest}
 
     \section{Das Chinesische Zimmer}
     Das Chinesische Zimmer ist ein Gedankenexperiment vom Philosophen John Searle welches
@@ -276,7 +301,7 @@
         Mit der Zeit werden die Leute außerhalb des Raumes immer besser mir Englische Anweisungen zu schreiben und
         ich werde immer besser diese auch zu verstehen, so dass meine Antworten ununterscheidbar von denen eines
         gebürtigen Chinesen werden. Doch verstehe ich, was ich an Chinesisch von mir gebe?
-        \autocite[1]{searle1999chinese}
+        \cite[1]{searle1999chinese}
     \end{displayquote}
     Searle versucht mit diesem Gedankenexperiment den Unterschied zwischen
     Syntaktik\footnote{Syntaktik (Syntax): Wie stellt man Zeichenketten zusammen, so dass sie Sinn ergeben?}
@@ -285,10 +310,16 @@
     Ein Computer der keinerlei Verbindung in die Realität eines Menschen hat, kann zwar Regel lernen, die ihm die
     Welt der Menschen näher bringt, jedoch kann er niemals voll und ganz \emph{verstehen} oder auch \emph{begreifen},
     wie ein Mensch denkt. Damit setzt Searle eine eher negative Prognose auf den Forschritt, den die KI-Forschung
-    machen wird.
+    machen wird oder besser gesagt, nicht machen wird.
 
-    \chapter{Schlussbermerkung}
+    \chapter{Schlussbermerkung - Der Unterschied zwischen menschlicher und künstlicher Intelligenz}
+    Wenn es
+    Abgesehen von all diesen verschiedenen Anwendungsmöglichkeit, gibt uns künstliche Intelligenz die Chance
+    uns, als intelligente Wesen, besser zu verstehen.
 
-    \printbibliography[title={Quellenverzeichnis}]
+    \printbibliography[
+        title={Quellenverzeichnis},
+        %heading=subbibintoc
+    ]
 
 \end{document}

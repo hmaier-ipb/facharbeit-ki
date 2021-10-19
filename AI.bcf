@@ -171,11 +171,11 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquelist</bcf:key>
-      <bcf:value>true</bcf:value>
+      <bcf:value>false</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquename</bcf:key>
-      <bcf:value>full</bcf:value>
+      <bcf:value>false</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniqueprimaryauthor</bcf:key>
@@ -381,11 +381,11 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquelist</bcf:key>
-      <bcf:value>true</bcf:value>
+      <bcf:value>false</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquename</bcf:key>
-      <bcf:value>full</bcf:value>
+      <bcf:value>false</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniqueprimaryauthor</bcf:key>
@@ -625,8 +625,7 @@
     <bcf:option datatype="boolean">doi</bcf:option>
     <bcf:option datatype="boolean">eprint</bcf:option>
     <bcf:option datatype="boolean">related</bcf:option>
-    <bcf:option datatype="boolean">dashed</bcf:option>
-    <bcf:option datatype="boolean">ibidpage</bcf:option>
+    <bcf:option datatype="boolean">subentry</bcf:option>
     <bcf:option datatype="boolean">bibtexcaseprotection</bcf:option>
     <bcf:option datatype="integer">mincrossrefs</bcf:option>
     <bcf:option datatype="integer">minxrefs</bcf:option>
@@ -708,6 +707,7 @@
     <bcf:option datatype="boolean">doi</bcf:option>
     <bcf:option datatype="boolean">eprint</bcf:option>
     <bcf:option datatype="boolean">related</bcf:option>
+    <bcf:option datatype="boolean">subentry</bcf:option>
     <bcf:option datatype="boolean">bibtexcaseprotection</bcf:option>
     <bcf:option datatype="xml">labelalphatemplate</bcf:option>
     <bcf:option datatype="xml">translit</bcf:option>
@@ -794,6 +794,7 @@
     <bcf:option datatype="boolean" backendout="1">doi</bcf:option>
     <bcf:option datatype="boolean" backendout="1">eprint</bcf:option>
     <bcf:option datatype="boolean" backendout="1">related</bcf:option>
+    <bcf:option datatype="boolean" backendout="1">subentry</bcf:option>
     <bcf:option datatype="boolean" backendout="1">bibtexcaseprotection</bcf:option>
     <bcf:option datatype="integer" backendin="maxcitenames,maxbibnames,maxsortnames">maxnames</bcf:option>
     <bcf:option datatype="integer" backendin="mincitenames,minbibnames,minsortnames">minnames</bcf:option>
@@ -2356,11 +2357,15 @@
     <bcf:citekey order="11">ibm2021whatisAI</bcf:citekey>
     <bcf:citekey order="12">turing1950computing</bcf:citekey>
     <bcf:citekey order="13">oppy&amp;dowe2020turingtest</bcf:citekey>
-    <bcf:citekey order="14">kibuisness2021supervised</bcf:citekey>
-    <bcf:citekey order="15">ibm2021deeplearning</bcf:citekey>
-    <bcf:citekey order="16">turing1950computing</bcf:citekey>
-    <bcf:citekey order="17">nimtz2013chinesische</bcf:citekey>
-    <bcf:citekey order="18">searle1999chinese</bcf:citekey>
+    <bcf:citekey order="14">deduktion2021unileipzig</bcf:citekey>
+    <bcf:citekey order="15">kibuisness2021supervised</bcf:citekey>
+    <bcf:citekey order="16">ibm2021deeplearning</bcf:citekey>
+    <bcf:citekey order="17">turing1950computing</bcf:citekey>
+    <bcf:citekey order="18">turing1950computing</bcf:citekey>
+    <bcf:citekey order="19">turing1950computing</bcf:citekey>
+    <bcf:citekey order="20">oppy&amp;dowe2020turingtest</bcf:citekey>
+    <bcf:citekey order="21">nimtz2013chinesische</bcf:citekey>
+    <bcf:citekey order="22">searle1999chinese</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

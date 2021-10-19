@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.10.12)  18 OCT 2021 14:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.10.12)  19 OCT 2021 12:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -288,7 +288,7 @@ Package biblatex Info: ... file 'blx-dm.def' found.
 File: blx-dm.def 2020/12/31 v3.16 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'authortitle-ibid.dbx' not found.
+Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@afterword=\count316
@@ -398,17 +398,11 @@ File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
 \biburllcskip=\muskip20
 \c@smartand=\count392
 )
-Package biblatex Info: Trying to load bibliography style 'authortitle-ibid'...
-Package biblatex Info: ... file 'authortitle-ibid.bbx' found.
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
 
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/authortitle-ibid.bbx
-File: authortitle-ibid.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
-
-Package biblatex Info: Trying to load bibliography style 'authortitle'...
-Package biblatex Info: ... file 'authortitle.bbx' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/authortitle.bbx
-File: authortitle.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
@@ -416,31 +410,31 @@ Package biblatex Info: ... file 'standard.bbx' found.
 File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count393
 \c@bbx:relatedtotal=\count394
-)))
-Package biblatex Info: Trying to load citation style 'authortitle-ibid'...
-Package biblatex Info: ... file 'authortitle-ibid.cbx' found.
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
 
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/authortitle-ibid.cbx
-File: authortitle-ibid.cbx 2020/12/31 v3.16 biblatex citation style (PK/MW)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2020/12/31 v3.16 biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
 Package biblatex Info: Redefining '\footcitetext'.
 Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
 Package biblatex Info: Redefining '\textcite'.
 Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
 )
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
-)
-
-Package biblatex Warning: 'babel' option is deprecated.
-(biblatex)                Please use 'autolang' instead.
-
-) (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+))
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
 Package csquotes Info: Checking for multilingual support...
@@ -454,23 +448,23 @@ File: l3backend-pdftex.def 2020-01-29 L3 backend support: PDF output (pdfTeX)
 (./AI.aux)
 \openout1 = `AI.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-Package hyperref Info: Link coloring OFF on input line 39.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+Package hyperref Info: Link coloring OFF on input line 43.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -482,9 +476,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count396
 )
-LaTeX Info: Redefining \ref on input line 39.
-LaTeX Info: Redefining \pageref on input line 39.
-LaTeX Info: Redefining \nameref on input line 39.
+LaTeX Info: Redefining \ref on input line 43.
+LaTeX Info: Redefining \pageref on input line 43.
+LaTeX Info: Redefining \nameref on input line 43.
 
 (./AI.out) (./AI.out)
 \@outlinefile=\write4
@@ -521,8 +515,8 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'AI.bbl' found.
  (./AI.bbl)
-Package biblatex Info: Reference section=0 on input line 39.
-Package biblatex Info: Reference segment=0 on input line 39.
+Package biblatex Info: Reference section=0 on input line 43.
+Package biblatex Info: Reference segment=0 on input line 43.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./AI.toc
@@ -540,22 +534,18 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.59     \newpage
+l.63     \newpage
                   [1
 
 ]
 Kapitel 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--67
+Underfull \hbox (badness 10000) in paragraph at lines 66--71
 
  []
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 70.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 70.
 
-Overfull \hbox (52.02368pt too wide) in paragraph at lines 77--79
+Overfull \hbox (52.02368pt too wide) in paragraph at lines 81--83
 []\T1/cmr/m/n/12 ^^SKünstliche In-tel-li-genz^^T be-schreibt einen nicht-mensch
 lichen/unnatürlichen
  []
@@ -563,19 +553,24 @@ lichen/unnatürlichen
 [2
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 86--95
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 93.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 93.
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--99
 
  []
 
 [3]
 Kapitel 2.
 
-Overfull \hbox (6.9761pt too wide) in paragraph at lines 100--100
+Overfull \hbox (6.9761pt too wide) in paragraph at lines 104--104
 |\T1/cmr/bx/n/24.88 Geschichte der KI - Der Traum vom
  []
 
 
-Overfull \hbox (6.91003pt too wide) in paragraph at lines 101--128
+Overfull \hbox (6.91003pt too wide) in paragraph at lines 105--132
 \T1/cmr/m/n/12 Wie bei vie-len neu-zeit-li-chen Er-fin-dun-gen wur-de auch die 
 For-schung an ^^SKünst-
  []
@@ -585,12 +580,12 @@ For-schung an ^^SKünst-
 ] [5]
 Kapitel 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--137
+Underfull \hbox (badness 10000) in paragraph at lines 135--141
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--150
+Underfull \hbox (badness 10000) in paragraph at lines 143--154
 
  []
 
@@ -600,158 +595,89 @@ Underfull \hbox (badness 10000) in paragraph at lines 139--150
 ! german: The command "G is undefined.
 \grmn@dq@error ...and \dq \string #1 is undefined}
                                                   
-l.154 ...enexperiemente, ausfÃ¼hrlich beschrieben}
+l.158 ...enexperiemente, ausfÃ¼hrlich beschrieben}
                                                   
 ? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--168
+Underfull \hbox (badness 10000) in paragraph at lines 167--172
 
  []
 
 [7] [8]
 Kapitel 4.
 
-Overfull \hbox (6.33125pt too wide) in paragraph at lines 174--174
+Overfull \hbox (6.33125pt too wide) in paragraph at lines 178--178
 |[]\T1/cmr/bx/n/17.28 Wie funk-tio-niert ei-ne künst-li-che In-tel-li-genz?| 
  []
 
 [9
 
 ]
-Overfull \hbox (18.20866pt too wide) in paragraph at lines 193--193
+Overfull \hbox (18.20866pt too wide) in paragraph at lines 201--201
 |[]\T1/cmr/bx/n/17.28 Beaufsichtigtes Ler-nen (Su-per-vi-sed Lear-ning)
  []
 
 [10]
-Overfull \hbox (25.42017pt too wide) in paragraph at lines 221--221
+Overfull \hbox (25.42017pt too wide) in paragraph at lines 229--229
 |[]\T1/cmr/bx/n/17.28 Unbeaufsichtigtes Ler-nen (Un-su-per-vi-sed Lear-
  []
 
-
-LaTeX Warning: Citation 'ibm2021deeplearning' on page 11 undefined on input lin
-e 228.
-
 [11] [12]
 Kapitel 5.
-
-Overfull \hbox (10.27013pt too wide) in paragraph at lines 236--236
-|\T1/cmr/bx/n/24.88 Einsatzgebiete und An-wen-dungs-fäl-
- []
-
-
-Overfull \hbox (0.65344pt too wide) in paragraph at lines 242--242
-|[]\T1/cmr/bx/n/17.28 Effiziente Budget-Ausschöpfung im Ein-kauf| 
- []
-
 [13
 
-]
+] [14] [15]
 Kapitel 6.
-[14
 
-] [15]
-Kapitel 7.
+Overfull \hbox (32.34976pt too wide) in paragraph at lines 315--315
+|\T1/cmr/bx/n/24.88 Schlussbermerkung - Der Un-ter-schied
+ []
+
 [16
 
 ]
-Overfull \hbox (9.58125pt too wide) in paragraph at lines 292--292
-[][]\T1/cmr/m/n/12 Asimov, Isaac. \T1/cmr/m/it/12 Der 200-Jahre-Mann\T1/cmr/m/n
-/12 . Mün-chen: Hey-ne, 2000. \T1/cmr/m/sc/12 isbn\T1/cmr/m/n/12 : 3453170032. 
-
+Overfull \hbox (36.33743pt too wide) in paragraph at lines 323--323
+[]\T1/cmr/m/n/12 Isaac Asi-mov. \T1/cmr/m/it/12 Der 200-Jahre-Mann\T1/cmr/m/n/1
+2 . Mün-chen: Hey-ne, 2000. \T1/cmr/m/sc/12 isbn\T1/cmr/m/n/12 : 3453170032. 
  []
 
-! Misplaced alignment tab character &.
-\namepartgiven ...bnamedelimb Oppy\bibnamedelimb &
-                                                  \bibnamedelima David
-l.292 ...tbibliography[title={Quellenverzeichnis}]
-                                                  
-? 
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
-92.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
+20.
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-Overfull \hbox (14.47247pt too wide) in paragraph at lines 292--292
-[][]\T1/cmr/m/it/12 Erkenntnis, die\T1/cmr/m/n/12 . []Oct. []6, 2021. \T1/cmr/m
-/sc/12 url\T1/cmr/m/n/12 : []$\T1/cmtt/m/n/12 https : / / www . duden . de / re
-chtschreibung /
+! Misplaced alignment tab character &.
+\namepartgiven ...bnamedelimb Oppy\bibnamedelimb &
+                                                  \bibnamedelima David
+l.323     ]
+           
+? 
+
+Overfull \hbox (44.49564pt too wide) in paragraph at lines 323--323
+[]\T1/cmr/m/it/12 Erkenntnis, die\T1/cmr/m/n/12 . []Oct. []6, 2021. \T1/cmr/m/s
+c/12 url\T1/cmr/m/n/12 : []$\T1/cmtt/m/n/12 https : / / www . duden . de / rech
+tschreibung /
  []
 
 [17
 
-] (./AI.aux)
-
-LaTeX Warning: There were undefined references.
-
+] [18] (./AI.aux)
 Package rerunfilecheck Info: File `AI.out' has not changed.
-(rerunfilecheck)             Checksum: 06C6578957A5747A2DC382C651D6080F;1422.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                AI
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Checksum: D0942532E111A00352DC4D5FEA26C35F;1188.
 Package logreq Info: Writing requests to 'AI.run.xml'.
 \openout1 = `AI.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 13207 strings out of 481199
- 235081 string characters out of 5913478
- 965397 words of memory out of 5000000
- 29935 multiletter control sequences out of 15000+600000
- 418264 words of font info for 53 fonts, out of 8000000 for 9000
+ 13158 strings out of 481199
+ 234609 string characters out of 5913478
+ 965566 words of memory out of 5000000
+ 29909 multiletter control sequences out of 15000+600000
+ 416802 words of font info for 51 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 71i,8n,74p,735b,2235s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.24} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.23} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.22} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.21} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.20} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.19} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.18} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.17} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.16} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.15} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.14} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.13} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.12} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.11} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.10} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.9} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.8} has been referenced but does not exist
-, replaced by a fixed one
+ 71i,8n,74p,735b,1564s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.8} has been referenced but does not exi
+st, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.7} has been referenced but does not exist
 , replaced by a fixed one
@@ -776,25 +702,23 @@ pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 
  </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600p
 k> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1200.60
-0pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.
-600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx172
-8.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1
-000.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecr
-m1000.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/e
-crm0700.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec
-/ecrm0800.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/
-ec/ecti1200.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappe
-n/ec/ecrm1200.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknap
-pen/ec/ecbx1200.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jkn
-appen/ec/ecti1728.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/j
-knappen/ec/ecrm1728.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour
-/jknappen/ec/ecbx2488.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfo
-ur/jknappen/ec/eccc1728.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/lj
-four/jknappen/ec/eccc2074.600pk>
-Output written on AI.pdf (18 pages, 202269 bytes).
+0pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.
+600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm100
+0.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0
+700.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecr
+m0800.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/e
+cti1200.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec
+/ecrm1200.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/
+ec/ecbx1200.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappe
+n/ec/ecti1728.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknap
+pen/ec/ecrm1728.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jkn
+appen/ec/ecbx2488.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/j
+knappen/ec/eccc1728.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour
+/jknappen/ec/eccc2074.600pk>
+Output written on AI.pdf (19 pages, 181295 bytes).
 PDF statistics:
- 869 PDF objects out of 1000 (max. 8388607)
- 333 compressed objects within 4 object streams
- 76 named destinations out of 1000 (max. 500000)
- 161 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 747 PDF objects out of 1000 (max. 8388607)
+ 278 compressed objects within 3 object streams
+ 58 named destinations out of 1000 (max. 500000)
+ 121 words of extra memory for PDF output out of 10000 (max. 10000000)
 
