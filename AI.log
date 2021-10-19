@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.10.12)  19 OCT 2021 12:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.10.12)  19 OCT 2021 14:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -636,24 +636,24 @@ Overfull \hbox (32.34976pt too wide) in paragraph at lines 315--315
 [16
 
 ]
-Overfull \hbox (36.33743pt too wide) in paragraph at lines 323--323
+Overfull \hbox (36.33743pt too wide) in paragraph at lines 322--322
 []\T1/cmr/m/n/12 Isaac Asi-mov. \T1/cmr/m/it/12 Der 200-Jahre-Mann\T1/cmr/m/n/1
 2 . Mün-chen: Hey-ne, 2000. \T1/cmr/m/sc/12 isbn\T1/cmr/m/n/12 : 3453170032. 
  []
 
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
-20.
+19.
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 ! Misplaced alignment tab character &.
 \namepartgiven ...bnamedelimb Oppy\bibnamedelimb &
                                                   \bibnamedelima David
-l.323     ]
+l.322     ]
            
 ? 
 
-Overfull \hbox (44.49564pt too wide) in paragraph at lines 323--323
+Overfull \hbox (44.49564pt too wide) in paragraph at lines 322--322
 []\T1/cmr/m/it/12 Erkenntnis, die\T1/cmr/m/n/12 . []Oct. []6, 2021. \T1/cmr/m/s
 c/12 url\T1/cmr/m/n/12 : []$\T1/cmtt/m/n/12 https : / / www . duden . de / rech
 tschreibung /
@@ -715,7 +715,7 @@ pen/ec/ecrm1728.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jkn
 appen/ec/ecbx2488.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/j
 knappen/ec/eccc1728.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour
 /jknappen/ec/eccc2074.600pk>
-Output written on AI.pdf (19 pages, 181295 bytes).
+Output written on AI.pdf (19 pages, 181033 bytes).
 PDF statistics:
  747 PDF objects out of 1000 (max. 8388607)
  278 compressed objects within 3 object streams
