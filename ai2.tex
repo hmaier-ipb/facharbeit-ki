@@ -23,7 +23,12 @@
 \usepackage{csquotes}
 
 % bibliography
-\usepackage[backend=biber,autocite=footnote,style=authortitle-ibid,babel=other]{biblatex}
+%\usepackage[backend=biber,autocite=footnote,style=authortitle-ibid,babel=other]{biblatex}
+\usepackage[
+    backend=biber,
+   % cite=footnote,
+    style=numeric,
+]{biblatex}
 \addbibresource{ai-references.bib}
 
 % zeilenabstand
@@ -51,5 +56,44 @@
 
     \tableofcontents
     \newpage
+
+% Begin of the Text
+\chapter{Was ist eigentlich \say{künstliche Intelligenz} - Definition und Einleitung}
+
+\chapter{Der Traum vom mechanischen Helferlein - Geschichte}
+
+\chapter{Schwache versus Starke - Arten von KI}
+
+
+\chapter{Technische Grundlagen}
+    \section{Wie erschafft man eine künstliche Intelligenz?}
+        \subsection{Wie arbeitet eine künstliche Intelligenz bzw. wie kann man Erkenntnis gewinnen?}
+
+    \section{Top-Down Methode (Deduktiv)}
+        \subsection{Supervised Learning}
+        \subsection{Pre-Labeled (Test-und Training-) Data}
+        \subsection{Specific Application Area}
+        \subsection{Pro \& Contra}
+        
+    \section{Bottom-Up (Induktiv)}
+        \subsection{Unsupervised Learning}
+        \subsection{Unlabeled Training Data (no Test, no Accuary)}
+        \subsection{Wide Range of Output}
+        \subsection{Pro \& Contra}
+
+    \section{Deep Learning - Neurale Netzwerke}
+        \section{Implementierung eines menschlichen Gehirn mithilfe von unsupervised learning}
+
+\chapter{Gedankenexperimente}
+    \section{The Imitation Game - Das Nachahmungsspiel}
+    \section{Das Chinesische Zimmer}
+
+\chapter{Schlussfolgerung}
+    \section{Unterschied Mensch und Maschine}
+        \subsection{Menschen lernen sich selbst besser kennen}
+        \subsection{Was Maschinen vom Menschen unterscheidet}
+    \section{Schwierigkeiten bei der Entwicklung}
+        \subsection{Ethik schwer zu implementieren}
+
     \printbibliography[title={Quellenverzeichnis}]
 \end{document}
