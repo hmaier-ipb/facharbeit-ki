@@ -13,12 +13,14 @@
 \usepackage{german}
 \usepackage{titling}
 \usepackage{titlesec}
+% zeilenabstand
+\usepackage[onehalfspacing]{setspace}
 
 
 % quotation-marks
 \usepackage[
     left = \flqq{},% the special quote on the left (opening)
-    right = \frqq{},% the special quote on the right (opening)
+    right = \frqq{},% the special quote on the right (closing)
             ]{dirtytalk} % quoting
 \usepackage{csquotes}
 
@@ -31,8 +33,13 @@
 ]{biblatex}
 \addbibresource{ai-references.bib}
 
-% zeilenabstand
-\usepackage[onehalfspacing]{setspace}
+% less blank space infornt of chapters
+\titleformat{\chapter}[display]
+{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
+
+% this alters "before" spacing (the second length argument) to 0
+\titlespacing*{\chapter}{0pt}{0pt}{30pt}
+
 
 % Document
 \begin{document}
@@ -58,9 +65,48 @@
     \newpage
 
 % Begin of the Text
-\chapter{Was ist eigentlich \say{künstliche Intelligenz} - Definition und Einleitung}
+\chapter{Was ist eigentlich künstliche Intelligenz - Definition und Einleitung}
+    
 
 \chapter{Der Traum vom mechanischen Helferlein - Geschichte}
+
+Wie auch bei vielen anderen neuzeitlichen Erfindungen, spielt Kultur in Form von Literatur eine entscheidende Rollen
+in der KI-Forschung. Erst durch die Vorstellungskraft von Autoren wie Isaac Asimov\footnote{bekannt durch: Die Foundation-Trilogie, derZweihunderjährige Mann}
+oder Jule Verne\footnote{bekannt durch: Zwanzig Tausend Meilen unter dem Meer, Die Reise zum Mittelpunkt der Erde}, wurde Generationen
+von Forschenden inspiriert die Grenzen des Möglichen auszutesten. Die Idee der KI ist dabei schon so alt wie unsere
+Zivilisation. Schon der griechische Dichter Homer schrieb von mechanischen Dienern die den Göttern bei ihrem Mahl
+Wein nachschenkten.\cite[53]{buchanan2005very} Auch wenn diese Verwendung eines Robotors aus unserer heutigen
+industriellen Zeit eher banal erscheint, war ein solcher Apparat zu damaligen Zeiten visionär.
+Nicht weniger visionär, war die Vorstellung des Philosophen und Naturforschers Gottfried Wilhelm Leibniz der mechanische
+Richter imaginierte, die aufgrund von logischen Regeln Rechtsfälle zwischen Parteien aushandeln.\cite[53]{buchanan2005very}
+Vergleicht man diese Vorstellungen mit der heutigen Zeit, sieht man das sich die Wünsche der Menschen durch die Zeit hindurch
+nicht groß verändert haben. Leibniz und Homer beschreiben beide dienende und logisch operiende Maschinen.
+Doch gestehen beide ihren erdachten Apparaten eine wesentliche Fähigkeit nicht ein: die Denkfähigkeit. \\
+
+Um dies zu wagen braucht es Mitte des 20. Jahrhunderts erst den britischen Mathematiker Alan Turing, 
+der mit seinem Gedankenexperiement, dem \say{Nachnahmungs-Spiel}, die Frage nach intelligenten und denkenden Maschinen stellte.
+Dieses auch als \say{Turing-Test} bekannte, Gedankenexperiement stellt seit dem einen Richtwert für den Forschritt der KI-Forschung.\footnote{Mehr dazu im Kapitel 5, Gedankenexperimente}
+Diese entstand zur gleichen Zeit als Ergebnis der Verbesserung der Halbleiter-Technologie, die als Basis für 
+moderne binäre Computersysteme gilt. Die dadurch vergrößerte Rechenkapazität und -leistung eröffnete bisher nicht realisierbare Forschungsmöglichkeiten. Seit dem finden KI-Forschende immer mehr Anwendungsmöglichkeiten um die Grenzen der KI immer weiter auszuweiten.\\
+
+1997 erzeugt das Schreiben und Test von KI-Programmen, erstmals einen großes Medienecho, als der von IBM programmierte Schachcomputer
+\say{Deep Blue} den damals amtierenden Schach-Weltmeister Gary Kasparov, schlug.\cite{chessbase2017kasparovdeepblue} Die Komplexität von Schach war mit purer brutaler
+Rechnenleistung bisher noch nicht geknackt wurden. Dazu bedarf es erst einem \say{Verständnis} von Schach dass bis zu diesem
+Zeitpunkt nur Menschen zugänglich war. Das Programm probierte also nicht mehr nur alle Züge aus, sondern prognostizierte die 
+Sinnvollsten. Damit wurde eine Zeitenwende eingeleitet und der breiten Öffentlichkeit die Macht von KI demonstriert.
+Das dadurch erschaffene Interesse beflügelte die KI-Forschung und weitete diese in mehr Anwendungsbereiche aus.
+In 2021 hatten ein Großteil der Menschen in ihrem Alltag schonmal Kontakt zu KI-Technologie. 
+Ob bei der Suche im Internet oder bei Nutzung einer Sprachsteuerung, steht im Hintergrund immer diese Technologie.
+Die Vorstellung von einem mechanischen Helferlein weicht allmälich dem Bild der allwissenden künstlichen Intelligenz.
+Prognosen über den weiteren Forschritt der KI-Forschung werden meistens eher optimistisch bewertet.\footnote{Im fünften Kapitel wird auch eine pessimistische Sichtweise behandelt.} 
+Eine der bekanntesten Hypothesen wurde 1993 vom US-Amerikanischen Mathematiker und Informatiker Vernor Vinge aufgestellt und 2003
+erneut bestätigt. Vinge bespreibt ein spätestens 2030 auftretendes Ereignis, welches er die \say{technologische Singularität}\cite[1]{vinge1993technological} nennt. Er nennt mehrere Szenarien welche direkt oder indirekt, ein Entstehen einer denkfähigen 
+superintelligente Entität beschreiben, die auf Computertechnologie basiert.\\
+
+Betrachtet man Vinges Prognose für die nahe Zukunft\footnote{oder allein schon den heutigen Stand der Technologie mit Siri, Google und Co.} und Homers Beschreibung von Wein ausschenkenden Dienern,
+wird ein Entwicklungsprozess sichtbar, dem jeglicher Vergleich fehlt. 
+
+
 
 \chapter{Schwache versus Starke - Arten von KI}
     \section{Schwache KI}
@@ -71,6 +117,7 @@
 
 \chapter{Technische Grundlagen}
     \section{Wie erschafft man eine künstliche Intelligenz?}
+    
         \subsection{Wie arbeitet eine künstliche Intelligenz bzw. wie kann man Erkenntnis gewinnen?}
 
     \section{Top-Down Methode (Deduktiv)}
@@ -96,8 +143,6 @@
     \section{Unterschied Mensch und Maschine}
         \subsection{Menschen lernen sich selbst besser kennen wenn sie KI erfoschen}
         \subsection{Was Maschinen vom Menschen unterscheidet}
-    \section{Schwierigkeiten bei der Entwicklung}
-        \subsection{Ethik schwer zu implementieren}
 
     \printbibliography[title={Quellenverzeichnis}]
 \end{document}

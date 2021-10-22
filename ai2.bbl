@@ -1,0 +1,89 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{chessbase2017kasparovdeepblue}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labeltitlesource}{title}
+      \field{day}{11}
+      \field{month}{5}
+      \field{title}{20 Jahre Kasparov gegen Deep Blue}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://de.chessbase.com/post/20-jahre-kasparov-gegen-deep-blue
+      \endverb
+      \verb{url}
+      \verb https://de.chessbase.com/post/20-jahre-kasparov-gegen-deep-blue
+      \endverb
+    \endentry
+    \entry{buchanan2005very}{article}{}
+      \name{author}{1}{}{%
+        {{hash=9c8f929dd0a8b95eaa41769ea38e6516}{%
+           family={Buchanan},
+           familyi={B\bibinitperiod},
+           given={Bruce\bibnamedelima G},
+           giveni={B\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c8f929dd0a8b95eaa41769ea38e6516}
+      \strng{fullhash}{9c8f929dd0a8b95eaa41769ea38e6516}
+      \strng{bibnamehash}{9c8f929dd0a8b95eaa41769ea38e6516}
+      \strng{authorbibnamehash}{9c8f929dd0a8b95eaa41769ea38e6516}
+      \strng{authornamehash}{9c8f929dd0a8b95eaa41769ea38e6516}
+      \strng{authorfullhash}{9c8f929dd0a8b95eaa41769ea38e6516}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ai Magazine}
+      \field{number}{4}
+      \field{title}{A (very) brief history of artificial intelligence}
+      \field{volume}{26}
+      \field{year}{2005}
+      \field{pages}{53\bibrangedash 60}
+      \range{pages}{8}
+    \endentry
+    \entry{vinge1993technological}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=544f68dff9b755ad16459a7a6b22949f}{%
+           family={Vinge},
+           familyi={V\bibinitperiod},
+           given={Vernor},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{544f68dff9b755ad16459a7a6b22949f}
+      \strng{fullhash}{544f68dff9b755ad16459a7a6b22949f}
+      \strng{bibnamehash}{544f68dff9b755ad16459a7a6b22949f}
+      \strng{authorbibnamehash}{544f68dff9b755ad16459a7a6b22949f}
+      \strng{authornamehash}{544f68dff9b755ad16459a7a6b22949f}
+      \strng{authorfullhash}{544f68dff9b755ad16459a7a6b22949f}
+      \field{sortinit}{V}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{VISION-21 Symposium sponsored by NASA Lewis Research Center and the Ohio Aerospace Institute}
+      \field{title}{Technological singularity}
+      \field{year}{1993}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
