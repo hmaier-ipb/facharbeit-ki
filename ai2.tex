@@ -13,6 +13,8 @@
 \usepackage{german}
 \usepackage{titling}
 \usepackage{titlesec}
+\usepackage{graphicx}
+\graphicspath{ {./pictures/} }
 % zeilenabstand
 \usepackage[onehalfspacing]{setspace}
 
@@ -48,13 +50,18 @@
         \centering
         {\scshape\LARGE Leibniz Institut für Pflanzenbiochemie\par}
         \vspace{1cm}
-        {\scshape\Large Fachbericht September 2021\par}
-        \vspace{1.5cm}
+        \begin{figure}[h]
+            \includegraphics[width=1.5cm]{ipb_logo.png}
+            \centering
+        \end{figure}
         {\huge\bfseries Künstliche Intelligenz - Ein Blick in die Zukunft?\par}
-        \vspace{2cm}
-        {\Large Abteilung: Geräte \& IT-Service\par}
-        \vspace{1.5cm}
-        {\Large\itshape Hendrik Maier\par}
+        \vspace{1cm}
+        \begin{figure}[h]
+            \includegraphics[width=10cm]{michelangelo_ki.jpg}
+            \centering
+        \end{figure}
+        \vspace{1cm}
+        {\Large Auszubildender Fachinformatiker Systemintegration \textbf{Hendrik Maier}\par}
         \vfill
 
 % Bottom of the page
@@ -81,8 +88,8 @@ Nicht weniger visionär, war die Vorstellung des Philosophen und Naturforschers 
 Richter imaginierte, die aufgrund von logischen Regeln Rechtsfälle zwischen Parteien aushandeln.\cite[53]{buchanan2005very}
 Vergleicht man diese Vorstellungen mit der heutigen Zeit, sieht man das sich die Wünsche der Menschen durch die Zeit hindurch
 nicht groß verändert haben. Leibniz und Homer beschreiben beide dienende und logisch operiende Maschinen.
-Doch gestehen beide ihren erdachten Apparaten ein wesentliches Attribut nicht ein: die Denkfähigkeit. \\
-
+Doch gestehen beide ihren erdachten Apparaten ein wesentliches Attribut nicht ein: die Denkfähigkeit. 
+\section{Denkfähige Maschinen}
 Um dies zu wagen braucht es Mitte des 20. Jahrhunderts erst den britischen Mathematiker Alan Turing, 
 der mit seinem Gedankenexperiement, dem \say{Nachnahmungs-Spiel}, die Frage nach intelligenten und denkenden Maschinen stellte.
 Dieses auch als \say{Turing-Test} bekannte, Gedankenexperiement stellt seit dem einen Richtwert für den Forschritt der KI-Forschung.\footnote{Mehr dazu im Kapitel 5, Gedankenexperimente}
@@ -99,7 +106,7 @@ Das dadurch erschaffene Interesse beflügelte die KI-Forschung und weitete diese
 In 2021 hatten ein Großteil der Menschen in ihrem Alltag schonmal Kontakt zu KI-Technologie. 
 Ob bei der Suche im Internet oder bei Nutzung einer Sprachsteuerung, steht im Hintergrund immer diese Technologie.
 Die Vorstellung von einem mechanischen Helferlein weicht allmälich dem Bild der allwissenden künstlichen Intelligenz.
-Prognosen über den weiteren Forschritt der KI-Forschung werden meistens eher optimistisch bewertet.\footnote{Im fünften Kapitel wird auch eine pessimistische Sichtweise behandelt.} 
+\section{Zukunftsprognosen}
 Eine der bekanntesten Hypothesen wurde 1993 vom US-Amerikanischen Mathematiker und Informatiker Vernor Vinge aufgestellt und 2003
 erneut bestätigt. Vinge bespreibt ein spätestens 2030 auftretendes Ereignis, 
 welches er die \say{technologische Singularität}\cite[1]{vinge1993technological} nennt. 
@@ -153,14 +160,18 @@ wird ein Entwicklungsprozess sichtbar, dem jeglicher Vergleich fehlt.
         Die zweite Methode die beim ML angewandt wird, betrachtet Daten ohne davor irgendeine Form von Regeln zu beachten.  
         Die Daten werden unvoreingenommen und ohne jede Grundlage betrachtet.
         Aufgrund von logischen Zusammenhängen werden dann Regeln abgeleitet womit sich die Daten erklären lassen können.
-        Dieser Methoden wird, bildgebend, als Bottom-Up oder auch als induktiv\cite{dundi2021unileipzig} bezeichnet.
+        Diese Methoden wird, bildgebend, als Bottom-Up oder auch als induktiv\cite{dundi2021unileipzig} bezeichnet.
         \subsection{Unsupervised Learning}
+        Die Anwendung der Bottom-Up-Methode im informatischen Kontext wird als \say{Unsupervised Learning}, oder auf deutsch als unbeausichtigtes Lernen, bezeichnet.
+        Dabei greift der Mensch nicht in der Lernprozess ein und gibt keine Regeln vor.
         \subsection{Unlabeled Training Data (no Test, no Accuary)}
         \subsection{Wide Range of Output}
         \subsection{Pro \& Contra}
 
-    \section{Deep Learning - Neurale Netzwerke}
-        \section{Implementierung eines menschlichen Gehirn mithilfe von unsupervised learning}
+    \section{Deep Learning - Neuronale Netzwerke}
+        \subsection{Kann induktiv oder deduktiv arbeiten!}
+        \subsection{Wie funktionieren neuronale Netzwerke?}
+        \subsection{implementierung eines menschlichen gehirn mithilfe von unsupervised learning}
 
 \chapter{Gedankenexperimente}
     Um neue Forschungsgebiete zu erschließen, ohne dabei handfest Ansätze zu haben,
@@ -207,15 +218,15 @@ wird ein Entwicklungsprozess sichtbar, dem jeglicher Vergleich fehlt.
         Stellt euch vor ich wäre in einem geschlossenen Raum mit einem großen Haufen chinesischer Texte.
         Ich kann weder Chinesisch sprechen noch lesen oder schreiben.
         Ebenfalls könnte ich chinesische von keiner anderen, wie beispielweise russischer, japanischer Schrift unterscheiden.
-        Chinesische Schriftzeichen haben keine erkennbare Bedeutung und sind nur Formen für mich.
+        Chinesische Schriftzeichen haben keine erkennbare Bedeutung und sind nur Formen für mich.\\
 
         Nun stellt euch vor ich würde einen zweiten Stapel erhalten. Dieser Stapel enthält weitere
         Chinesische Schriftzeichen sowie englische formale Regeln, die ich ohne Probleme verstehe.
         Diese formalen Regeln geben mir die Möglichkeit die chinesischen Schriftzeichen
-        anhand ihrer Form zu identifizieren.
+        anhand ihrer Form zu identifizieren.\\
 
         Nun kriege ich einen dritten Stapel mit weiteren chinesischen Schriftzeichen und englisch Anweisungen die mir sagen wie ich
-        diese neuen chinesischen Zeichen mit den Vorherigen vergleiche um bestimmte chinesische Zeichen zurückzugeben.
+        diese neuen chinesischen Zeichen mit den Vorherigen vergleiche um bestimmte chinesische Zeichen zurückzugeben.\\
 
         Mit der Zeit werden die Leute außerhalb des Raumes immer besser mir Englische Anweisungen zu schreiben und
         ich werde immer besser diese auch zu verstehen, so dass meine Antworten ununterscheidbar von denen eines
