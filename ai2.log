@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.10.12)  22 OCT 2021 12:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.10.12)  28 OCT 2021 15:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -51,6 +51,30 @@ Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \titlewidthlast=\dimen143
 \titlewidthfirst=\dimen144
 )
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen145
+\Gin@req@width=\dimen146
+)
 (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
@@ -62,10 +86,6 @@ g\active@dq \dq@prtct{e}asier
 (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks16
-)
 (/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
@@ -353,23 +373,57 @@ LaTeX Warning: Unused global option(s):
 (./ai2.aux)
 \openout1 = `ai2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count386
+\scratchdimen=\dimen147
+\scratchbox=\box49
+\nofMPsegments=\count387
+\nofMParguments=\count388
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count389
+\MPscratchDim=\dimen148
+\MPnumerator=\count390
+\makeMPintoPDFobject=\count391
+\everyMPtoPDFconversion=\toks19
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
- (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
 )
 Package biblatex Info: Input encoding 'utf8' detected.
@@ -397,97 +451,117 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'ai2.bbl' found.
  (./ai2.bbl)
-Package biblatex Info: Reference section=0 on input line 45.
-Package biblatex Info: Reference segment=0 on input line 45.
+Package biblatex Info: Reference section=0 on input line 47.
+Package biblatex Info: Reference segment=0 on input line 47.
+<./pictures//ipb_logo.png, id=1, 1154.06157pt x 1473.25406pt>
+File: ./pictures//ipb_logo.png Graphic file (type png)
+<use ./pictures//ipb_logo.png>
+Package pdftex.def Info: ./pictures//ipb_logo.png  used on input line 54.
+(pdftex.def)             Requested size: 42.67912pt x 54.46907pt.
+<./pictures//michelangelo_ki.jpg, id=2, 4932.4275pt x 3288.285pt>
+File: ./pictures//michelangelo_ki.jpg Graphic file (type jpg)
+<use ./pictures//michelangelo_ki.jpg>
+Package pdftex.def Info: ./pictures//michelangelo_ki.jpg  used on input line 60
+.
+(pdftex.def)             Requested size: 284.52756pt x 189.66197pt.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./ai2.toc
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./pictures//ipb_logo.png> 
+<./pictures//michelangelo_ki.jpg>] (./ai2.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 9.
+(Font)              <12> on input line 7.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 9.
+(Font)              <8> on input line 7.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 9.
-[1
-
-])
+(Font)              <6> on input line 7.
+)
 \tf@toc=\write4
 \openout4 = `ai2.toc'.
 
- [2]
+ [1
+
+]
 Kapitel 1.
-[3
+[2
 
 ]
 Kapitel 2.
 
-Overfull \hbox (2.00592pt too wide) in paragraph at lines 71--71
+Overfull \hbox (2.00592pt too wide) in paragraph at lines 78--78
 |\T1/cmr/bx/n/24.88 Der Traum vom me-cha-ni-schen Hel-
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 74.
+(Font)              <7> on input line 81.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 74.
+(Font)              <5> on input line 81.
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--85
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--91
+Underfull \hbox (badness 10000) in paragraph at lines 93--99
 
  []
 
-[4
+[3
 
 ]
-Overfull \hbox (0.76004pt too wide) in paragraph at lines 92--105
+Overfull \hbox (0.76004pt too wide) in paragraph at lines 100--109
 \T1/cmr/m/n/12 Blue^^T den da-mals am-tie-ren-den Schach-Weltmeister Ga-ry Kas-
 parov, schlug.[1]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--105
+Underfull \hbox (badness 10000) in paragraph at lines 110--115
 
  []
 
-[5] [6]
+[4] [5]
 Kapitel 3.
 
-Overfull \hbox (4.91708pt too wide) in paragraph at lines 111--111
+Overfull \hbox (4.91708pt too wide) in paragraph at lines 122--122
 |\T1/cmr/bx/n/24.88 Schwache ver-sus Star-ke - Ar-ten von
  []
 
-[7
+[6
 
 ]
 Kapitel 4.
+[7
 
-Overfull \hbox (6.93846pt too wide) in paragraph at lines 136--136
-|[]\T1/cmr/bx/n/17.28 Implementierung ei-nes mensch-li-chen Ge-hirn
+] [8]
+Kapitel 5.
+[9
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 226--230
+
  []
 
-[8
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 231--235
 
-]
-Overfull \vbox (145.22481pt too high) has occurred while \output is active []
+ []
 
 
-[9]
-Kapitel 5.
-[10
+Underfull \hbox (badness 10000) in paragraph at lines 236--238
 
-]
+ []
+
+[11] [12]
 Kapitel 6.
-[11
+[13
 
 ]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
-47.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
+66.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-) [12
+)
+! Misplaced alignment tab character &.
+\namepartgiven ...bnamedelimb Oppy\bibnamedelimb &
+                                                  \bibnamedelima David
+l.266 ...tbibliography[title={Quellenverzeichnis}]
+                                                  
+? 
+[14
 
 ] (./ai2.aux)
 Package logreq Info: Writing requests to 'ai2.run.xml'.
@@ -495,33 +569,31 @@ Package logreq Info: Writing requests to 'ai2.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 9612 strings out of 481199
- 178020 string characters out of 5913478
- 886194 words of memory out of 5000000
- 26494 multiletter control sequences out of 15000+600000
- 418345 words of font info for 53 fonts, out of 8000000 for 9000
+ 10452 strings out of 481199
+ 190710 string characters out of 5913478
+ 899990 words of memory out of 5000000
+ 27294 multiletter control sequences out of 15000+600000
+ 416984 words of font info for 51 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 68i,8n,74p,736b,1498s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 72i,8n,78p,736b,1564s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.60
 0pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1200.
 600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti120
 0.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1
-440.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecb
-x1728.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/e
-crm1000.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec
-/ecrm0700.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/
-ec/ecrm0800.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappe
-n/ec/ecrm1200.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknap
-pen/ec/ecbx1200.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jkn
-appen/ec/ecti1728.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/j
-knappen/ec/ecrm1728.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour
-/jknappen/ec/ecbx2488.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfo
-ur/jknappen/ec/eccc1728.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/lj
-four/jknappen/ec/eccc2074.600pk>
-Output written on ai2.pdf (13 pages, 164396 bytes).
+440.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecr
+m1000.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/e
+crm0700.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec
+/ecrm0800.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/
+ec/ecrm1200.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappe
+n/ec/ecbx1200.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknap
+pen/ec/ecbx1728.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jkn
+appen/ec/ecrm1728.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/j
+knappen/ec/ecbx2488.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour
+/jknappen/ec/eccc2074.600pk>
+Output written on ai2.pdf (15 pages, 2446934 bytes).
 PDF statistics:
- 561 PDF objects out of 1000 (max. 8388607)
- 91 compressed objects within 1 object stream
+ 541 PDF objects out of 1000 (max. 8388607)
+ 87 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

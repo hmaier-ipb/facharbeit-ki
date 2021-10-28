@@ -128,50 +128,58 @@ wird ein Entwicklungsprozess sichtbar, dem jeglicher Vergleich fehlt.
         \subsection{künstliche Ethik}
 
 \chapter{Technische Grundlagen}
-    \section{Wie erschafft man eine künstliche Intelligenz?}
-        Wie schon zuvor beschrieben ist eine KI nichts anderes als ein Computerprogramm,
-        welches durch die Analyse von Statistiken, Prognosen abgeben kann.
-        Der Prozess in dem aus den Statistiken Prognosen werden nennt man maschinelles Lernen (kurz ML).
-        In diesem Prozess spielen das Feld der Erkenntnistheorie, Mathematik und Informatik 
-        eine maßgebende Rolle. Jede Disziplin besitzt dabei eine eigene Rolle. 
-        Um eine Analyse durchzuführen benötigt es eine methodischen Ansatz.
-        Die Erkenntnistheorie stellt hierfür die Methoden zur Verfügung. Diese werden auch von 
-        Menschen bewusst oder unbewusst beim Lernen und Verstehen verwendet. Die Mathematik
-        gibt die Möglichkeit diese Methoden in eine allgemeine anwendbare Sprache zu übersetzen.
-        Die eigentliche Anwendung geschieht durch die Informatik in Form von Programmierung.
-        Durch die Verknüpfung dieser verschiedenen Disziplinen ist es KI möglich,
-        Prognosen zu machen, intelligent zu wirken oder auch Erkenntnis zu gewinnen.
-        Im folgenden werden die Methode sowie das Vorgehen beim Erstellen einer KI erläutert.
-        \footnote{Es wird sich also nur auf den erkenntnistheoretischen und informatischen Teil bezogen. 
-        Der Mathematische Teil wird aufgrund seiner Komplexität ausgelassen.}
-
-    \section{Top-Down Methode (Deduktiv)}
-        Eine Methode die beim Erschaffen einer KI angewandt werden kann, benötigt vorgefertigte
-        Regeln um Erkenntnis aus unbekannten Daten zu erlangen. Es werden mithilfe von schon vorherig
-        analysierten Daten Schlussfolgerungen auf aktuelle Daten gezogen. 
-        Um so arbeiten zu können, müssen vor dem Erkenntnisprozess schon feste Regeln zur Orientierung definiert sein.
-        Diese Art des ML wird als Top-Down oder auch als deduktiv\cite{dundi2021unileipzig} bezeichnet.
-        \subsection{Supervised Learning}
-        \subsection{Pre-Labeled (Test-und Training-) Data}
-        \subsection{Specific Application Area}
-        \subsection{Pro \& Contra}
+     Wie schon zuvor beschrieben ist eine KI nichts anderes als ein Computerprogramm,
+     welches durch die Analyse von Statistiken oder Datenpunkten, Prognosen abgeben oder Muster erkennen kann.
+     Diesen Prozess der Analyse nennt man maschinelles Lernen (ML).
+     In diesem Prozess spielen das Feld der Erkenntnistheorie, Mathematik und Informatik 
+     maßgebende Rollen. Jede Disziplin erfüllt dabei eine eigene Aufgabe.
+     Um eine Analyse durchzuführen benötigt es eine methodischen Ansatz.
+     Die Erkenntnistheorie stellt hierfür die Methoden zur Verfügung.\footnote{Diese werden auch von 
+     Menschen bewusst oder unbewusst beim Lernen und Verstehen verwendet.}
+     Die Mathematik gibt die Möglichkeit diese Methoden in eine allgemeine anwendbare Sprache zu übersetzen.
+     Die praktische Anwendung geschieht durch die Informatik in Form von Programmierung.
+     Durch die Zusammenarbeit von diesen verschiedenen Disziplinen ist ML möglich.
         
-    \section{Bottom-Up (Induktiv)}
+    \section{Wie betreibt man maschinelles Lernen?}
+        Im Vorfeld des Lernes, ist es wichtig den Sinn der KI zu bestimmen.
+        Den je nach Anwendungsfeld oder Ziel der KI, kommt eine andere Methode und somit
+        ein anderer Algorithmus zum Einsatz. Jede Methode biete verschiedene Algorithmen
+        an, die jeweils eigene Vorgehen verlangen. Unter den Algorithmen kann man
+        dann den passenden auswählen, der die Zielvorgabe erfüllt.
+
+    \subsection{Top-Down Methode (Deduktiv)}
+        Die erste Methode die beim ML angewandt wird, bezeichnet man als Top-Down Methode,
+        welche deduktiver Natur ist. Dies bedeutet das man mithilfe von allgemein anerkannten Regeln
+        auf spezielle Fälle schließt.\cite{dundi2021unileipzig} 
+        Beispielweise weiß ich dass die Sonne warm ist. Da draußen die Sonne scheint, schließe ich daraus
+        das es draußen warm sein muss.\footnote{Das bedeutet aber nicht das Deduktion der sicherste Weg des 
+        Schlussfolgern ist. Draußen kann die Sonne scheinen und es kann kalt sein weil Winter ist.}
+        Im Kontext des ML bedeutet das dass immer vorgefertigte Regeln vorhanden sein müssen.
+        Diese Regeln müssen vom Menschen definiert werden. Daher spricht man bei dieser Methode
+        auf vom beaufsichtigten Lernen bzw. Supervised Learning.
+        \subsubsection{Supervised Learning}
+            Beim Supervised Learning 
+           
+%        \subsection{Pre-Labeled (Test-und Training-) Data}
+%        \subsection{Specific Application Area}
+%        \subsection{Pro \& Contra}
+        
+    \subsection{Bottom-Up (Induktiv)}
         Die zweite Methode die beim ML angewandt wird, betrachtet Daten ohne davor irgendeine Form von Regeln zu beachten.  
         Die Daten werden unvoreingenommen und ohne jede Grundlage betrachtet.
         Aufgrund von logischen Zusammenhängen werden dann Regeln abgeleitet womit sich die Daten erklären lassen können.
         Diese Methoden wird, bildgebend, als Bottom-Up oder auch als induktiv\cite{dundi2021unileipzig} bezeichnet.
-        \subsection{Unsupervised Learning}
-        Die Anwendung der Bottom-Up-Methode im informatischen Kontext wird als \say{Unsupervised Learning}, oder auf deutsch als unbeausichtigtes Lernen, bezeichnet.
-        Dabei greift der Mensch nicht in der Lernprozess ein und gibt keine Regeln vor.
-        \subsection{Unlabeled Training Data (no Test, no Accuary)}
-        \subsection{Wide Range of Output}
-        \subsection{Pro \& Contra}
-
-    \section{Deep Learning - Neuronale Netzwerke}
-        \subsection{Kann induktiv oder deduktiv arbeiten!}
-        \subsection{Wie funktionieren neuronale Netzwerke?}
-        \subsection{implementierung eines menschlichen gehirn mithilfe von unsupervised learning}
+        \subsubsection{Unsupervised Learning}
+            Die Anwendung der Bottom-Up-Methode wird im informatischen Kontext als \say{Unsupervised Learning (UL)}, oder auf deutsch als unbeausichtigtes Lernen, bezeichnet.
+             
+%        \subsection{Unlabeled Training Data (no Test, no Accuary)}
+%        \subsection{Wide Range of Output}
+%        \subsection{Pro \& Contra}
+            
+%    \section{deep learning - neuronale netzwerke}
+%        \subsection{kann induktiv oder deduktiv arbeiten!}
+%        \subsection{wie funktionieren neuronale netzwerke?}
+%        \subsection{implementierung eines menschlichen gehirn mithilfe von unsupervised learning}
 
 \chapter{Gedankenexperimente}
     Um neue Forschungsgebiete zu erschließen, ohne dabei handfest Ansätze zu haben,

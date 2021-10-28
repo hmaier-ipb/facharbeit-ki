@@ -61,6 +61,123 @@
       \field{pages}{53\bibrangedash 60}
       \range{pages}{8}
     \endentry
+    \entry{dundi2021unileipzig}{online}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labeltitlesource}{title}
+      \field{day}{19}
+      \field{month}{10}
+      \field{title}{Deduktion und Induktion}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://home.uni-leipzig.de/methodenportal/deduktion_induktion/
+      \endverb
+      \verb{url}
+      \verb https://home.uni-leipzig.de/methodenportal/deduktion_induktion/
+      \endverb
+    \endentry
+    \entry{oppy&dowe2020turingtest}{online}{}
+      \name{author}{1}{}{%
+        {{hash=4dce019ebe583807505894079f1b6794}{%
+           family={Dowe},
+           familyi={D\bibinitperiod},
+           given={Graham\bibnamedelimb Oppy\bibnamedelimb &\bibnamedelima David},
+           giveni={G\bibinitperiod\bibinitdelim O\bibinitperiod\bibinitdelim &\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{4dce019ebe583807505894079f1b6794}
+      \strng{fullhash}{4dce019ebe583807505894079f1b6794}
+      \strng{bibnamehash}{4dce019ebe583807505894079f1b6794}
+      \strng{authorbibnamehash}{4dce019ebe583807505894079f1b6794}
+      \strng{authornamehash}{4dce019ebe583807505894079f1b6794}
+      \strng{authorfullhash}{4dce019ebe583807505894079f1b6794}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{14}
+      \field{month}{9}
+      \field{title}{The Turing Test}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://plato.stanford.edu/entries/turing-test/
+      \endverb
+      \verb{url}
+      \verb https://plato.stanford.edu/entries/turing-test/
+      \endverb
+    \endentry
+    \entry{nimtz2013chinesische}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=aa36c16d8025bfbf303879b598fef187}{%
+           family={Nimtz},
+           familyi={N\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {mentis}%
+      }
+      \strng{namehash}{aa36c16d8025bfbf303879b598fef187}
+      \strng{fullhash}{aa36c16d8025bfbf303879b598fef187}
+      \strng{bibnamehash}{aa36c16d8025bfbf303879b598fef187}
+      \strng{authorbibnamehash}{aa36c16d8025bfbf303879b598fef187}
+      \strng{authornamehash}{aa36c16d8025bfbf303879b598fef187}
+      \strng{authorfullhash}{aa36c16d8025bfbf303879b598fef187}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Klassische Argumentationen der Philosophie}
+      \field{title}{Das Chinesische Zimmer}
+      \field{year}{2013}
+      \field{pages}{259\bibrangedash 274}
+      \range{pages}{16}
+    \endentry
+    \entry{searle1999chinese}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d6d7a401da9d01dfc8a3b6ebd29270d9}{%
+           family={Searle},
+           familyi={S\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{d6d7a401da9d01dfc8a3b6ebd29270d9}
+      \strng{fullhash}{d6d7a401da9d01dfc8a3b6ebd29270d9}
+      \strng{bibnamehash}{d6d7a401da9d01dfc8a3b6ebd29270d9}
+      \strng{authorbibnamehash}{d6d7a401da9d01dfc8a3b6ebd29270d9}
+      \strng{authornamehash}{d6d7a401da9d01dfc8a3b6ebd29270d9}
+      \strng{authorfullhash}{d6d7a401da9d01dfc8a3b6ebd29270d9}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Chinese Room}
+      \field{year}{1999}
+    \endentry
+    \entry{turing1950computing}{book}{}
+      \name{author}{1}{}{%
+        {{hash=fdc523429c3c89c34880f733033f2099}{%
+           family={Turing},
+           familyi={T\bibinitperiod},
+           given={A.\bibnamedelimi M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{fdc523429c3c89c34880f733033f2099}
+      \strng{fullhash}{fdc523429c3c89c34880f733033f2099}
+      \strng{bibnamehash}{fdc523429c3c89c34880f733033f2099}
+      \strng{authorbibnamehash}{fdc523429c3c89c34880f733033f2099}
+      \strng{authornamehash}{fdc523429c3c89c34880f733033f2099}
+      \strng{authorfullhash}{fdc523429c3c89c34880f733033f2099}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Computing Machinery and Intelligence}
+      \field{year}{1950}
+      \field{pages}{433\bibrangedash 460}
+      \range{pages}{28}
+    \endentry
     \entry{vinge1993technological}{inproceedings}{}
       \name{author}{1}{}{%
         {{hash=544f68dff9b755ad16459a7a6b22949f}{%

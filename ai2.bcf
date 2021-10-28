@@ -2348,6 +2348,14 @@
     <bcf:citekey order="2">buchanan2005very</bcf:citekey>
     <bcf:citekey order="3">chessbase2017kasparovdeepblue</bcf:citekey>
     <bcf:citekey order="4">vinge1993technological</bcf:citekey>
+    <bcf:citekey order="5">dundi2021unileipzig</bcf:citekey>
+    <bcf:citekey order="6">dundi2021unileipzig</bcf:citekey>
+    <bcf:citekey order="7">turing1950computing</bcf:citekey>
+    <bcf:citekey order="8">turing1950computing</bcf:citekey>
+    <bcf:citekey order="9">turing1950computing</bcf:citekey>
+    <bcf:citekey order="10">oppy&amp;dowe2020turingtest</bcf:citekey>
+    <bcf:citekey order="11">nimtz2013chinesische</bcf:citekey>
+    <bcf:citekey order="12">searle1999chinese</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
