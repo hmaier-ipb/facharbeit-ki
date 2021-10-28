@@ -28,20 +28,20 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Supervised Learning}{8}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2}Bottom-Up (Induktiv)}{8}{}%
+\contentsline {subsection}{\numberline {4.1.2}Bottom-Up (Induktiv)}{9}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Unsupervised Learning}{8}{}%
+\contentsline {subsubsection}{Unsupervised Learning}{9}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Gedankenexperimente}{9}{}%
+\contentsline {chapter}{\numberline {5}Gedankenexperimente}{10}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}The Imitation Game - Das Nachahmungs-Spiel}{9}{}%
+\contentsline {section}{\numberline {5.1}The Imitation Game - Das Nachahmungs-Spiel}{10}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Das Chinesische Zimmer}{10}{}%
+\contentsline {section}{\numberline {5.2}Das Chinesische Zimmer}{11}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Schlussfolgerung}{13}{}%
+\contentsline {chapter}{\numberline {6}Schlussfolgerung}{14}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Unterschied Mensch und Maschine}{13}{}%
+\contentsline {section}{\numberline {6.1}Unterschied Mensch und Maschine}{14}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Menschen lernen sich selbst besser kennen wenn sie KI erforschen}{13}{}%
+\contentsline {section}{\numberline {6.2}Menschen lernen sich selbst besser kennen wenn sie KI erforschen}{14}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Was Maschinen vom Menschen unterscheidet}{13}{}%
+\contentsline {section}{\numberline {6.3}Was Maschinen vom Menschen unterscheidet}{14}{}%

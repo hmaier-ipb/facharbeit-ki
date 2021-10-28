@@ -138,7 +138,9 @@ wird ein Entwicklungsprozess sichtbar, dem jeglicher Vergleich fehlt.
      Menschen bewusst oder unbewusst beim Lernen und Verstehen verwendet.}
      Die Mathematik gibt die Möglichkeit diese Methoden in eine allgemeine anwendbare Sprache zu übersetzen.
      Die praktische Anwendung geschieht durch die Informatik in Form von Programmierung.
-     Durch die Zusammenarbeit von diesen verschiedenen Disziplinen ist ML möglich.
+     Durch die Zusammenarbeit von diesen verschiedenen Disziplinen ist es
+     möglich mithifel von ML ein Modell (ML-Modell) zu generieren,
+     sein Ziel zuverlässig erfüllen kann.
         
     \section{Wie betreibt man maschinelles Lernen?}
         Im Vorfeld des Lernes, ist es wichtig den Sinn der KI zu bestimmen.
@@ -158,8 +160,29 @@ wird ein Entwicklungsprozess sichtbar, dem jeglicher Vergleich fehlt.
         Diese Regeln müssen vom Menschen definiert werden. Daher spricht man bei dieser Methode
         auf vom beaufsichtigten Lernen bzw. Supervised Learning.
         \subsubsection{Supervised Learning}
-            Beim Supervised Learning 
+            Mit dieser Art des Lernens kann man zwei verschiedene Problemkategorien lösen:
+            \begin{itemize}
+                \item{Klassifikationsprobleme}
+                \item{Regressionsprobleme}
+            \end{itemize}
+            Diese können durch jeweils eigene Algorithmen bearbeitet werden.
+            Als Klassifikationsprobleme bezeichnet man Situationen in den ein bestimmter Wert zu einer
+            bestimmten Auswahl von Gruppen zugeordnet werden soll. Das bedeutet das die Zielvariable
+            nur eine vordefinierte Anzahl von Werten annehmen kann.\cite{kibuisness2021supervised}
+            Möchte man eine bestimmte Prognose aufgrund von vorherigen Werten erhalten,
+            handelt es sich um Regressionsproblem.\cite{kibuisness2021supervised}
+            Das Lösen beider Problemarten erfordert das Kennzeichnen bzw. Labeln der Datenpunkte.
+            Diese werden in Features und jeweils ein Target eingeteilt. Ein bestimmtes Target
+            besitzt dann also eine bestimmte Anzahl an Features, durch welches es charakterisiert wird.
+            Bei der Analyse der Zusammengehörigkeit von Features eines Targets, wird nun ein Modell
+            generiert, mit dem eine Prognose gemacht oder die Zugehörigkeit zu einer Gruppe bestimmmt, werden kann.
+            Vorteil dieser Art des Lernens ist ein hoher Einfluss auf das Ergebnis des Lernens,
+            da man die Möglichkeit hat eigene Features und Targets zu spezifisch zu definieren.
+            
            
+            
+
+
 %        \subsection{Pre-Labeled (Test-und Training-) Data}
 %        \subsection{Specific Application Area}
 %        \subsection{Pro \& Contra}

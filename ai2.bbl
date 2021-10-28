@@ -178,6 +178,22 @@
       \field{pages}{433\bibrangedash 460}
       \range{pages}{28}
     \endentry
+    \entry{kibuisness2021supervised}{online}{}
+      \field{sortinit}{Ü}
+      \field{sortinithash}{77a6935510e008adcf5b555e7b4f0711}
+      \field{labeltitlesource}{title}
+      \field{day}{18}
+      \field{month}{10}
+      \field{title}{Überwachtes Lernen (Supervised Learning)}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ki-business.de/blog/supervised-learning
+      \endverb
+      \verb{url}
+      \verb https://www.ki-business.de/blog/supervised-learning
+      \endverb
+    \endentry
     \entry{vinge1993technological}{inproceedings}{}
       \name{author}{1}{}{%
         {{hash=544f68dff9b755ad16459a7a6b22949f}{%

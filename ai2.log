@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.10.12)  28 OCT 2021 15:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.10.12)  28 OCT 2021 15:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -526,42 +526,47 @@ Overfull \hbox (4.91708pt too wide) in paragraph at lines 122--122
 Kapitel 4.
 [7
 
-] [8]
+]
+Underfull \hbox (badness 10000) in paragraph at lines 168--179
+
+ []
+
+[8] [9]
 Kapitel 5.
-[9
+[10
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 226--230
+Underfull \hbox (badness 10000) in paragraph at lines 247--251
 
  []
 
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 231--235
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 252--256
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--238
+Underfull \hbox (badness 10000) in paragraph at lines 257--259
 
  []
 
-[11] [12]
+[12] [13]
 Kapitel 6.
-[13
+[14
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
-66.
+87.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 ! Misplaced alignment tab character &.
 \namepartgiven ...bnamedelimb Oppy\bibnamedelimb &
                                                   \bibnamedelima David
-l.266 ...tbibliography[title={Quellenverzeichnis}]
+l.287 ...tbibliography[title={Quellenverzeichnis}]
                                                   
 ? 
-[14
+[15
 
 ] (./ai2.aux)
 Package logreq Info: Writing requests to 'ai2.run.xml'.
@@ -569,31 +574,32 @@ Package logreq Info: Writing requests to 'ai2.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 10452 strings out of 481199
- 190710 string characters out of 5913478
- 899990 words of memory out of 5000000
- 27294 multiletter control sequences out of 15000+600000
- 416984 words of font info for 51 fonts, out of 8000000 for 9000
+ 10457 strings out of 481199
+ 190858 string characters out of 5913478
+ 900067 words of memory out of 5000000
+ 27298 multiletter control sequences out of 15000+600000
+ 417321 words of font info for 52 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  72i,8n,78p,736b,1564s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.60
 0pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1200.
 600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti120
-0.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1
-440.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecr
-m1000.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/e
-crm0700.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec
-/ecrm0800.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/
-ec/ecrm1200.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappe
-n/ec/ecbx1200.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknap
-pen/ec/ecbx1728.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jkn
-appen/ec/ecrm1728.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/j
-knappen/ec/ecbx2488.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour
-/jknappen/ec/eccc2074.600pk>
-Output written on ai2.pdf (15 pages, 2446934 bytes).
+0.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1
+200.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecb
+x1440.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/e
+crm1000.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec
+/ecrm0700.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/
+ec/ecrm0800.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappe
+n/ec/ecrm1200.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknap
+pen/ec/ecbx1200.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jkn
+appen/ec/ecbx1728.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/j
+knappen/ec/ecrm1728.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour
+/jknappen/ec/ecbx2488.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfo
+ur/jknappen/ec/eccc2074.600pk>
+Output written on ai2.pdf (16 pages, 2449941 bytes).
 PDF statistics:
- 541 PDF objects out of 1000 (max. 8388607)
- 87 compressed objects within 1 object stream
+ 553 PDF objects out of 1000 (max. 8388607)
+ 93 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
