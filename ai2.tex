@@ -139,8 +139,8 @@ wird ein Entwicklungsprozess sichtbar, dem jeglicher Vergleich fehlt.
      Die Mathematik gibt die Möglichkeit diese Methoden in eine allgemeine anwendbare Sprache zu übersetzen.
      Die praktische Anwendung geschieht durch die Informatik in Form von Programmierung.
      Durch die Zusammenarbeit von diesen verschiedenen Disziplinen ist es
-     möglich mithifel von ML ein Modell (ML-Modell) zu generieren,
-     sein Ziel zuverlässig erfüllen kann.
+     möglich mithilfe von ML ein Modell (ML-Modell) zu generieren,
+     welches zukünftige Problemstellungen mit anhand trainierter Daten lösen kann.
         
     \section{Wie betreibt man maschinelles Lernen?}
         Im Vorfeld des Lernes, ist es wichtig den Sinn der KI zu bestimmen.
@@ -157,10 +157,10 @@ wird ein Entwicklungsprozess sichtbar, dem jeglicher Vergleich fehlt.
         das es draußen warm sein muss.\footnote{Das bedeutet aber nicht das Deduktion der sicherste Weg des 
         Schlussfolgern ist. Draußen kann die Sonne scheinen und es kann kalt sein weil Winter ist.}
         Im Kontext des ML bedeutet das dass immer vorgefertigte Regeln vorhanden sein müssen.
-        Diese Regeln müssen vom Menschen definiert werden. Daher spricht man bei dieser Methode
-        auf vom beaufsichtigten Lernen bzw. Supervised Learning.
+        Diese Regeln werden im Normalfall vom Menschen definiert. Daher spricht man bei dieser Methode
+        auf vom beaufsichtigten Lernen bzw. dem Supervised Learning.
         \subsubsection{Supervised Learning}
-            Mit dieser Art des Lernens kann man zwei verschiedene Problemkategorien lösen:
+            Mit dieser Art des Lernens ist es möglich zwei verschiedene Problemkategorien zu lösen:\cite{supervisedlearning2021ibm}
             \begin{itemize}
                 \item{Klassifikationsprobleme}
                 \item{Regressionsprobleme}
@@ -171,18 +171,17 @@ wird ein Entwicklungsprozess sichtbar, dem jeglicher Vergleich fehlt.
             nur eine vordefinierte Anzahl von Werten annehmen kann.\cite{kibuisness2021supervised}
             Möchte man eine bestimmte Prognose aufgrund von vorherigen Werten erhalten,
             handelt es sich um Regressionsproblem.\cite{kibuisness2021supervised}
-            Das Lösen beider Problemarten erfordert das Kennzeichnen bzw. Labeln der Datenpunkte.
+            Das Lösen beider Problemarten erfordert im Vorhinein das Kennzeichnen bzw. Labeln der Datenpunkte, zum Trainieren des Modells.\footnote{Was in der Regel durch den Menschen geschieht.}
             Diese werden in Features und jeweils ein Target eingeteilt. Ein bestimmtes Target
             besitzt dann also eine bestimmte Anzahl an Features, durch welches es charakterisiert wird.
             Bei der Analyse der Zusammengehörigkeit von Features eines Targets, wird nun ein Modell
             generiert, mit dem eine Prognose gemacht oder die Zugehörigkeit zu einer Gruppe bestimmmt, werden kann.
-            Vorteil dieser Art des Lernens ist ein hoher Einfluss auf das Ergebnis des Lernens,
+            Vorteil dieser Art des Lernens ist, ein hoher Einfluss auf das Ergebnis des Lernprozesses,
             da man die Möglichkeit hat eigene Features und Targets zu spezifisch zu definieren.
+            Nachteil des Supervised Learning ist die im Vergleich lange Trainingszeit eines Modell.
+            Diese erhöht sich je nach Menge der Datenpunkte eines Trainingsets.
             
            
-            
-
-
 %        \subsection{Pre-Labeled (Test-und Training-) Data}
 %        \subsection{Specific Application Area}
 %        \subsection{Pro \& Contra}
@@ -192,9 +191,43 @@ wird ein Entwicklungsprozess sichtbar, dem jeglicher Vergleich fehlt.
         Die Daten werden unvoreingenommen und ohne jede Grundlage betrachtet.
         Aufgrund von logischen Zusammenhängen werden dann Regeln abgeleitet womit sich die Daten erklären lassen können.
         Diese Methoden wird, bildgebend, als Bottom-Up oder auch als induktiv\cite{dundi2021unileipzig} bezeichnet.
+        Beispielweise beobachte ich das jeden morgen die Tram zu gleichen Uhrzeit kommt. Daraus schließe ich 
+        dass sie nach einem Fahrplan verkehrt. Da diese Methode keine Grundlagen benötigt, spricht man
+        im Kontext des ML vom unbeaufsichtigtem Lernen bzw. vom Unsupervised Learning.
         \subsubsection{Unsupervised Learning}
-            Die Anwendung der Bottom-Up-Methode wird im informatischen Kontext als \say{Unsupervised Learning (UL)}, oder auf deutsch als unbeausichtigtes Lernen, bezeichnet.
-             
+            Beim Unsupervised Learning gibt es drei Lösungsansätze:\cite{unsupervisedlearning2021ibm}
+            \begin{itemize}
+                \item{Clustering}
+                \item{Assoziation}
+                \item{Dimensionsreduzierung}
+            \end{itemize}
+            Wie auch beim Supervised Learning gibt es auch zu diesen Ansätzen, verschiedene
+            Algorithmen die jeweils eigene Lösungswege verfolgen.
+            Der hauptsächliche Unterschied der zum Supervised Learning besteht, ist das Eingreifen
+            des Menschens bei der Vorbereitung der Datenpunkte. Unsupervised Learning Algoritmen
+            benötigen keinerlei Anhaltspunkte sondern betrachten unvoreingenommen  nur die rohen Daten.
+            Beim Clustering, was soviel wie \say{Zusammenhäufen} bedeutet, wird dies mit am besten repräsentiert.
+            Dabei werden nur auf Grund von Gemeinsamkeiten und Unterschieden der Datenpunkte, Gruppen gebildet.\cite{clustering2021elementai}
+            Dies ist nützlich wenn man große Mengen von Daten hat, über die man Einsicht gewinnen möchte.
+            Möchte man hingegen die Zusammenhänge von Daten verstehen, 
+            bieten sich Assoziations-Algorithmen an.\cite{apriori2019sciencedata}
+            Ein typisches Anwendungsgebiet von Assoziations-Algorithmen ist die Analyse des Kaufverhaltens eines Kunden.
+            Dabei repräsentiert ein gekaufter Artikel einen Datenpunkt. In vergangenen Einkäufen werden diese nun 
+            in ihrem Bezug zueinander analysiert und eine Wahrscheinlichkeit ausgerechnet, mit der sich
+            das Kaufen oder Nicht-kaufen vorhersagen lassen kann. Die Dimensionsreduzierung kann
+            ähnliche Ergebnisse ausgeben, in dem sie wichtige und unwichtigen Datenpunkten trennen kann.
+            Diese Art des Unsupervised Learning wird hauptsächliche bei der Vorbearbeitung von Datensets eingesetzt,
+            die im späteren Gebrauch beim Supervised Learning benutzt werden.\cite{unsupervisedlearning2021ibm}
+            Unrelevante Features werden von den relevanten getrennt, wodurch die Berechnungszeit und die Übersicht
+            verbessert wird.
+            
+    \subsection{Semi-Supervised Learning}
+        Wie der Einsatz Dimensionsreduzierung zeigt, sind die Grenzen zwischen Supervised und Unsupervised Learning fließend.
+        Ein konkreter Fall wo beide Seiten zusammenarbeiten, ist das Semi-Supervised Learning.
+        Dabei wird ein kleiner Teil von gekennzeichneten Daten und ein größerer Teil von ungekennzeichneten Daten verwendet,
+        um ein ML-Modell zu generieren.\cite{semisupervised2021mlmastery}
+
+
 %        \subsection{Unlabeled Training Data (no Test, no Accuary)}
 %        \subsection{Wide Range of Output}
 %        \subsection{Pro \& Contra}

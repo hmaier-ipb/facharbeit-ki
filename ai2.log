@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.10.12)  28 OCT 2021 15:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.10.12)  29 OCT 2021 11:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -526,58 +526,66 @@ Overfull \hbox (4.91708pt too wide) in paragraph at lines 122--122
 Kapitel 4.
 [7
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 168--179
-
- []
-
-[8] [9]
+] [8] [9] [10]
 Kapitel 5.
-[10
+[11
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 247--251
+Underfull \hbox (badness 10000) in paragraph at lines 282--286
 
  []
 
-[11]
-Underfull \hbox (badness 10000) in paragraph at lines 252--256
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 287--291
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 257--259
+Underfull \hbox (badness 10000) in paragraph at lines 292--294
 
  []
 
-[12] [13]
+[13] [14]
 Kapitel 6.
-[14
+[15
 
 ]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
-87.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
+22.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 ! Misplaced alignment tab character &.
 \namepartgiven ...bnamedelimb Oppy\bibnamedelimb &
                                                   \bibnamedelima David
-l.287 ...tbibliography[title={Quellenverzeichnis}]
+l.322 ...tbibliography[title={Quellenverzeichnis}]
                                                   
 ? 
-[15
 
-] (./ai2.aux)
+Overfull \hbox (11.93271pt too wide) in paragraph at lines 322--322
+\T1/cmtt/m/n/12 https : / / scienceofdata . org / 2019 / 10 / 27 / market -[] b
+asket -[] analysis -[]
+ []
+
+[16
+
+]
+Overfull \hbox (104.29688pt too wide) in paragraph at lines 322--322
+[]\T1/cmr/m/it/12 What Is Semi-Supervised Lear-ning\T1/cmr/m/n/12 . []Apr. []9,
+ 2021. \T1/cmr/m/sc/12 url\T1/cmr/m/n/12 : $\T1/cmtt/m/n/12 https : / / machine
+learningmastery .
+ []
+
+[17] (./ai2.aux)
 Package logreq Info: Writing requests to 'ai2.run.xml'.
 \openout1 = `ai2.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 10457 strings out of 481199
- 190858 string characters out of 5913478
- 900067 words of memory out of 5000000
- 27298 multiletter control sequences out of 15000+600000
+ 10467 strings out of 481199
+ 191431 string characters out of 5913478
+ 901460 words of memory out of 5000000
+ 27308 multiletter control sequences out of 15000+600000
  417321 words of font info for 52 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  72i,8n,78p,736b,1564s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -596,10 +604,10 @@ appen/ec/ecbx1728.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/j
 knappen/ec/ecrm1728.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour
 /jknappen/ec/ecbx2488.600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfo
 ur/jknappen/ec/eccc2074.600pk>
-Output written on ai2.pdf (16 pages, 2449941 bytes).
+Output written on ai2.pdf (18 pages, 2455922 bytes).
 PDF statistics:
- 553 PDF objects out of 1000 (max. 8388607)
- 93 compressed objects within 1 object stream
+ 567 PDF objects out of 1000 (max. 8388607)
+ 97 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

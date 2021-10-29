@@ -2349,15 +2349,21 @@
     <bcf:citekey order="3">chessbase2017kasparovdeepblue</bcf:citekey>
     <bcf:citekey order="4">vinge1993technological</bcf:citekey>
     <bcf:citekey order="5">dundi2021unileipzig</bcf:citekey>
-    <bcf:citekey order="6">kibuisness2021supervised</bcf:citekey>
+    <bcf:citekey order="6">supervisedlearning2021ibm</bcf:citekey>
     <bcf:citekey order="7">kibuisness2021supervised</bcf:citekey>
-    <bcf:citekey order="8">dundi2021unileipzig</bcf:citekey>
-    <bcf:citekey order="9">turing1950computing</bcf:citekey>
-    <bcf:citekey order="10">turing1950computing</bcf:citekey>
-    <bcf:citekey order="11">turing1950computing</bcf:citekey>
-    <bcf:citekey order="12">oppy&amp;dowe2020turingtest</bcf:citekey>
-    <bcf:citekey order="13">nimtz2013chinesische</bcf:citekey>
-    <bcf:citekey order="14">searle1999chinese</bcf:citekey>
+    <bcf:citekey order="8">kibuisness2021supervised</bcf:citekey>
+    <bcf:citekey order="9">dundi2021unileipzig</bcf:citekey>
+    <bcf:citekey order="10">unsupervisedlearning2021ibm</bcf:citekey>
+    <bcf:citekey order="11">clustering2021elementai</bcf:citekey>
+    <bcf:citekey order="12">apriori2019sciencedata</bcf:citekey>
+    <bcf:citekey order="13">unsupervisedlearning2021ibm</bcf:citekey>
+    <bcf:citekey order="14">semisupervised2021mlmastery</bcf:citekey>
+    <bcf:citekey order="15">turing1950computing</bcf:citekey>
+    <bcf:citekey order="16">turing1950computing</bcf:citekey>
+    <bcf:citekey order="17">turing1950computing</bcf:citekey>
+    <bcf:citekey order="18">oppy&amp;dowe2020turingtest</bcf:citekey>
+    <bcf:citekey order="19">nimtz2013chinesische</bcf:citekey>
+    <bcf:citekey order="20">searle1999chinese</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

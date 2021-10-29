@@ -61,6 +61,22 @@
       \field{pages}{53\bibrangedash 60}
       \range{pages}{8}
     \endentry
+    \entry{clustering2021elementai}{online}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labeltitlesource}{title}
+      \field{day}{25}
+      \field{month}{2}
+      \field{title}{Clustering in machine learning}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.elementai.com/news/2020/clustering-in-machine-learning
+      \endverb
+      \verb{url}
+      \verb https://www.elementai.com/news/2020/clustering-in-machine-learning
+      \endverb
+    \endentry
     \entry{dundi2021unileipzig}{online}{}
       \field{sortinit}{D}
       \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
@@ -105,6 +121,22 @@
       \endverb
       \verb{url}
       \verb https://plato.stanford.edu/entries/turing-test/
+      \endverb
+    \endentry
+    \entry{apriori2019sciencedata}{online}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labeltitlesource}{title}
+      \field{day}{27}
+      \field{month}{10}
+      \field{title}{Market Basket Analysis – The Apriori Algorithm}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://scienceofdata.org/2019/10/27/market-basket-analysis-the-apriori-algorithm/
+      \endverb
+      \verb{url}
+      \verb https://scienceofdata.org/2019/10/27/market-basket-analysis-the-apriori-algorithm/
       \endverb
     \endentry
     \entry{nimtz2013chinesische}{incollection}{}
@@ -155,6 +187,22 @@
       \field{title}{The Chinese Room}
       \field{year}{1999}
     \endentry
+    \entry{supervisedlearning2021ibm}{online}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labeltitlesource}{title}
+      \field{day}{18}
+      \field{month}{10}
+      \field{title}{Supervised Learning}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ibm.com/cloud/learn/supervised-learning
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/cloud/learn/supervised-learning
+      \endverb
+    \endentry
     \entry{turing1950computing}{book}{}
       \name{author}{1}{}{%
         {{hash=fdc523429c3c89c34880f733033f2099}{%
@@ -194,6 +242,22 @@
       \verb https://www.ki-business.de/blog/supervised-learning
       \endverb
     \endentry
+    \entry{unsupervisedlearning2021ibm}{online}{}
+      \field{sortinit}{U}
+      \field{sortinithash}{77a6935510e008adcf5b555e7b4f0711}
+      \field{labeltitlesource}{title}
+      \field{day}{18}
+      \field{month}{10}
+      \field{title}{Unsupervised Learning}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ibm.com/cloud/learn/unsupervised-learning
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/cloud/learn/unsupervised-learning
+      \endverb
+    \endentry
     \entry{vinge1993technological}{inproceedings}{}
       \name{author}{1}{}{%
         {{hash=544f68dff9b755ad16459a7a6b22949f}{%
@@ -215,6 +279,22 @@
       \field{booktitle}{VISION-21 Symposium sponsored by NASA Lewis Research Center and the Ohio Aerospace Institute}
       \field{title}{Technological singularity}
       \field{year}{1993}
+    \endentry
+    \entry{semisupervised2021mlmastery}{online}{}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labeltitlesource}{title}
+      \field{day}{9}
+      \field{month}{4}
+      \field{title}{What Is Semi-Supervised Learning}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://machinelearningmastery.com/what-is-semi-supervised-learning/
+      \endverb
+      \verb{url}
+      \verb https://machinelearningmastery.com/what-is-semi-supervised-learning/
+      \endverb
     \endentry
   \enddatalist
 \endrefsection
