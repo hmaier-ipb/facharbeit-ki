@@ -35,6 +35,34 @@
       \verb https://de.chessbase.com/post/20-jahre-kasparov-gegen-deep-blue
       \endverb
     \endentry
+    \entry{asimov2000der}{book}{}
+      \name{author}{1}{}{%
+        {{hash=60cc0a9f62283d12da66fee328636cc8}{%
+           family={Asimov},
+           familyi={A\bibinitperiod},
+           given={Isaac},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {München}%
+      }
+      \list{publisher}{1}{%
+        {Heyne}%
+      }
+      \strng{namehash}{60cc0a9f62283d12da66fee328636cc8}
+      \strng{fullhash}{60cc0a9f62283d12da66fee328636cc8}
+      \strng{bibnamehash}{60cc0a9f62283d12da66fee328636cc8}
+      \strng{authorbibnamehash}{60cc0a9f62283d12da66fee328636cc8}
+      \strng{authornamehash}{60cc0a9f62283d12da66fee328636cc8}
+      \strng{authorfullhash}{60cc0a9f62283d12da66fee328636cc8}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{3453170032}
+      \field{title}{Der 200-Jahre-Mann}
+      \field{year}{2000}
+    \endentry
     \entry{buchanan2005very}{article}{}
       \name{author}{1}{}{%
         {{hash=9c8f929dd0a8b95eaa41769ea38e6516}{%
@@ -123,6 +151,22 @@
       \verb https://plato.stanford.edu/entries/turing-test/
       \endverb
     \endentry
+    \entry{duden2021erkenntnis}{online}{}
+      \field{sortinit}{E}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{labeltitlesource}{title}
+      \field{day}{6}
+      \field{month}{10}
+      \field{title}{Erkenntnis, die}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.duden.de/rechtschreibung/Erkenntnis_Einsicht_Vernunft
+      \endverb
+      \verb{url}
+      \verb https://www.duden.de/rechtschreibung/Erkenntnis_Einsicht_Vernunft
+      \endverb
+    \endentry
     \entry{apriori2019sciencedata}{online}{}
       \field{sortinit}{M}
       \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
@@ -165,6 +209,30 @@
       \field{year}{2013}
       \field{pages}{259\bibrangedash 274}
       \range{pages}{16}
+    \endentry
+    \entry{piaget2000psychologie}{book}{}
+      \name{author}{1}{}{%
+        {{hash=76cd658e2f3ecbeedfaceb2d2a1de596}{%
+           family={Piaget},
+           familyi={P\bibinitperiod},
+           given={Jean},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Klett-Cotta}%
+      }
+      \strng{namehash}{76cd658e2f3ecbeedfaceb2d2a1de596}
+      \strng{fullhash}{76cd658e2f3ecbeedfaceb2d2a1de596}
+      \strng{bibnamehash}{76cd658e2f3ecbeedfaceb2d2a1de596}
+      \strng{authorbibnamehash}{76cd658e2f3ecbeedfaceb2d2a1de596}
+      \strng{authornamehash}{76cd658e2f3ecbeedfaceb2d2a1de596}
+      \strng{authorfullhash}{76cd658e2f3ecbeedfaceb2d2a1de596}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Psychologie der Intelligenz}
+      \field{year}{2000}
     \endentry
     \entry{searle1999chinese}{article}{}
       \name{author}{1}{}{%

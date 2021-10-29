@@ -2,48 +2,34 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Was ist eigentlich künstliche Intelligenz - Definition und Einleitung}{2}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Der Traum vom mechanischen Helferlein - Geschichte}{3}{}%
+\contentsline {chapter}{\numberline {2}Der Traum vom mechanischen Helferlein - Geschichte}{4}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Denkfähige Maschinen}{4}{}%
+\contentsline {section}{\numberline {2.1}Denkfähige Maschinen}{5}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Zukunftsprognosen}{5}{}%
+\contentsline {section}{\numberline {2.2}Zukunftsprognosen}{6}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Schwache versus Starke - Arten von KI}{6}{}%
+\contentsline {chapter}{\numberline {3}Schwache versus Starke - Arten von KI}{7}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Schwache KI}{6}{}%
+\contentsline {section}{\numberline {3.1}Schwache KI}{7}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.1}}{6}{}%
+\contentsline {section}{\numberline {3.2}Starke KI}{7}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Starke KI}{6}{}%
+\contentsline {chapter}{\numberline {4}Technische Grundlagen}{8}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Technolgische Singularität}{6}{}%
+\contentsline {section}{\numberline {4.1}Wie betreibt man maschinelles Lernen?}{8}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}künstliche Ethik}{6}{}%
+\contentsline {subsection}{\numberline {4.1.1}Top-Down Methode (Deduktiv)}{9}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Technische Grundlagen}{7}{}%
+\contentsline {subsubsection}{Supervised Learning}{9}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Wie betreibt man maschinelles Lernen?}{7}{}%
+\contentsline {subsection}{\numberline {4.1.2}Bottom-Up (Induktiv)}{10}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}Top-Down Methode (Deduktiv)}{8}{}%
+\contentsline {subsubsection}{Unsupervised Learning}{10}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Supervised Learning}{8}{}%
+\contentsline {subsection}{\numberline {4.1.3}Semi-Supervised Learning}{11}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2}Bottom-Up (Induktiv)}{9}{}%
+\contentsline {chapter}{\numberline {5}Gedankenexperimente}{12}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Unsupervised Learning}{9}{}%
+\contentsline {section}{\numberline {5.1}The Imitation Game - Das Nachahmungs-Spiel}{12}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.3}Semi-Supervised Learning}{10}{}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Gedankenexperimente}{11}{}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}The Imitation Game - Das Nachahmungs-Spiel}{11}{}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Das Chinesische Zimmer}{12}{}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Schlussfolgerung}{15}{}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Unterschied Mensch und Maschine}{15}{}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Menschen lernen sich selbst besser kennen wenn sie KI erforschen}{15}{}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Was Maschinen vom Menschen unterscheidet}{15}{}%
+\contentsline {section}{\numberline {5.2}Das Chinesische Zimmer}{13}{}%

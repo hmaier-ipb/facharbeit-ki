@@ -1,15 +1,15 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'ai2.blg'
-[60] biber:340> INFO - === Fr Okt 29, 2021, 11:03:40
-[71] Biber.pm:415> INFO - Reading 'ai2.bcf'
-[128] Biber.pm:952> INFO - Found 14 citekeys in bib section 0
-[139] Biber.pm:4340> INFO - Processing section 0
-[147] Biber.pm:4531> INFO - Looking for bibtex format file 'ai-references.bib' for section 0
-[148] bibtex.pm:1689> INFO - LaTeX decoding ...
-[165] bibtex.pm:1494> INFO - Found BibTeX data source 'ai-references.bib'
-[222] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[222] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[222] Biber.pm:4168> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[222] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[234] bbl.pm:654> INFO - Writing 'ai2.bbl' with encoding 'UTF-8'
-[237] bbl.pm:757> INFO - Output to ai2.bbl
+[61] biber:340> INFO - === Fr Okt 29, 2021, 11:52:52
+[72] Biber.pm:415> INFO - Reading 'ai2.bcf'
+[129] Biber.pm:952> INFO - Found 17 citekeys in bib section 0
+[140] Biber.pm:4340> INFO - Processing section 0
+[148] Biber.pm:4531> INFO - Looking for bibtex format file 'ai-references.bib' for section 0
+[149] bibtex.pm:1689> INFO - LaTeX decoding ...
+[166] bibtex.pm:1494> INFO - Found BibTeX data source 'ai-references.bib'
+[244] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[245] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[245] Biber.pm:4168> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[245] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[257] bbl.pm:654> INFO - Writing 'ai2.bbl' with encoding 'UTF-8'
+[261] bbl.pm:757> INFO - Output to ai2.bbl

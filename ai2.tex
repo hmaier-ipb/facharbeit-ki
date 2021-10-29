@@ -73,59 +73,121 @@
 
 % Begin of the Text
 \chapter{Was ist eigentlich künstliche Intelligenz - Definition und Einleitung}
+
+    %------------------------------------------------------------------------------------------------------------
+    %MUSS NOCH NACHBEARBEITET WERDEN! WURDE NUR AUS DER ERSTEN VERSION KOPIERT
+    %------------------------------------------------------------------------------------------------------------
+
+    In den letzten Jahren hat der Begriff der \say{Künstlichen Intelligenz} (KI) als Schlagwort ein erhebliches Gewicht
+    erlangt. Verschiedene Medien berichten immer wieder von der KI als einer Art magischen Technologie, die unsere
+    Art wie wir Leben komplett revolutionieren wird. KI soll schon in vielen Technologien intergriert sein, die wir heute
+    benutzen und soll es in wenigen Jahren noch mehr sein. Da stellen sich dem alltäglichen Menschen schon
+    verschiedene Fragen wie: was ist KI, wie funktioniert sie und warum ist sie so faszinierend?\\
+
+    Bevor ich auf diese wichtigen Fragen eingehe, möchte ich vorerst den Begriff der \say{Künstlichen Intelligenz}
+    erläutern, um Klarheit um diesen oft genutzten und doch unklaren Begriff zu schaffen. 
+    \say{Künstliche Intelligenz} ist ein Kunstbegriff der erstmals
+    1956 auf der \emph{Darthmouth Conference}\cite[57]{buchanan2005very} benutzt wurde.
+    Der Begriff \emph{Intelligenz} kommt vom lateinischen \say{intelligere} was soviel wie
+    Einsehen, Begreifen und Erkennen bedeutet.\cite{piaget2000psychologie}
+    \say{Künstlich} verweist in diesem Zusammenhang auf die unnatürliche Herkunft dieser Intelligenz.
+    Da Erkenntnis\cite{duden2021erkenntnis} und somit Intelligenz, immer etwas Geistiges ist, könnnte
+    man KI wie folgt definieren:
+    \begin{displayquote}
+        \say{Künstliche Intelligenz} beschreibt einen nicht-menschlichen/unnatürlichen Geist,
+        der die Fähigkeit besitzt, durchs eigenständige Denken Erkenntnis zu erlangen.
+    \end{displayquote}
+    Dies ist, wenn man sich an der Bedeutung der Wortes orientiert, eine Idealbeschreibung künstlicher Intelligenz.
+    Da dies noch lange nicht erreicht ist, könnte man eine realere Definition schaffen mit der der aktuelle
+    Stand der Technologie besser abgebildet wird:
+    \begin{displayquote}
+        Eine \say{Künstliche Intelligenz} ist Computerprogramm das mit der Analyse von Statistiken Vorraussagen treffen kann.
+    \end{displayquote}
+    Obwohl bei Definitionen sich augenscheinlich starkt unterscheiden, kann man die zweite Definition als Fundament für
+    die erste Definition sehen. Um einen denkfähigen Geist zu erschaffen bedarf es Erfahrungen, die das menschliche Gehirn lehren
+    Situationen vorrauszusehen.\footnote{Evolutionär gesehen ist der menschliche Geist und die 
+    damit verbundenen Vorhersagen über die Realität
+    das mächtigste Werkzeug im Kampf ums Überleben.}
+    Computer haben keine Sinne die sie mit der äußeren Welt verbinden und 
+    müssen daher erst mit Statistiken gefüttert werden um Vorraussagen zu geben.
+    Einem Computer die gleiche Fähigkeit wie man selbst zu geben, macht wahrscheinlich ein Großteil der Faszination
+    beim Entwickeln einer KI aus. Um dies zu bewerkstelligen ist Forschung in den unterschiedlichsten Feldern nötig.
+    Das Produkt dieser Forschung, welches in der ersten Definition beschrieben wird, wird wahrscheinlich Folgen auf
+    die menschliche Zivilisation haben, wie die Erfindung des Feuers.\\
+
+    Mit diesem Fachbericht werde ich versuchen einen kleinen Überblick zu diesem scheinbar riesigen Thema zu geben.
+    Ziel ist es die Idee und die Technologie von künstlicher Intelligenz so zu vermitteln, 
+    dass es für einen Laien greifbarer wird.
+
     
 
 \chapter{Der Traum vom mechanischen Helferlein - Geschichte}
 
-Wie auch bei vielen anderen neuzeitlichen Erfindungen, spielte Kultur in Form von Literatur eine entscheidende Rollen
-in der KI-Forschung. Erst durch die Vorstellungskraft von Autoren wie Isaac Asimov\footnote{bekannt durch: Die Foundation-Trilogie, derZweihunderjährige Mann}
-oder Jule Verne\footnote{bekannt durch: Zwanzig Tausend Meilen unter dem Meer, Die Reise zum Mittelpunkt der Erde}, wurde Generationen
-von Forschenden inspiriert die Grenzen des Möglichen auszutesten. Die Idee der KI ist dabei schon so alt wie unsere
-Zivilisation. Schon der griechische Dichter Homer schrieb von mechanischen Dienern die den Göttern bei ihrem Mahl
-Wein nachschenkten.\cite[53]{buchanan2005very} Auch wenn diese Verwendung eines Robotors aus unserer heutigen
-industriellen Sicht eher banal erscheint, war ein solcher Apparat zu damaligen Zeiten visionär.
-Nicht weniger visionär, war die Vorstellung des Philosophen und Naturforschers Gottfried Wilhelm Leibniz der mechanische
-Richter imaginierte, die aufgrund von logischen Regeln Rechtsfälle zwischen Parteien aushandeln.\cite[53]{buchanan2005very}
-Vergleicht man diese Vorstellungen mit der heutigen Zeit, sieht man das sich die Wünsche der Menschen durch die Zeit hindurch
-nicht groß verändert haben. Leibniz und Homer beschreiben beide dienende und logisch operiende Maschinen.
-Doch gestehen beide ihren erdachten Apparaten ein wesentliches Attribut nicht ein: die Denkfähigkeit. 
-\section{Denkfähige Maschinen}
-Um dies zu wagen braucht es Mitte des 20. Jahrhunderts erst den britischen Mathematiker Alan Turing, 
-der mit seinem Gedankenexperiement, dem \say{Nachnahmungs-Spiel}, die Frage nach intelligenten und denkenden Maschinen stellte.
-Dieses auch als \say{Turing-Test} bekannte, Gedankenexperiement stellt seit dem einen Richtwert für den Forschritt der KI-Forschung.\footnote{Mehr dazu im Kapitel 5, Gedankenexperimente}
-Diese entstand zur gleichen Zeit als Ergebnis der Verbesserung der Halbleiter-Technologie, die als Basis für 
-moderne binäre Computersysteme gilt. Die dadurch vergrößerte Rechenkapazität und -leistung eröffnete bisher nicht realisierbare Forschungsmöglichkeiten. 
-Seit dem finden KI-Forschende immer mehr Anwendungsmöglichkeiten um die Grenzen der KI immer weiter auszuweiten.\\
-
-1997 erzeugt das Schreiben und Test von KI-Programmen, erstmals einen großes Medienecho, als der von IBM programmierte Schachcomputer
-\say{Deep Blue} den damals amtierenden Schach-Weltmeister Gary Kasparov, schlug.\cite{chessbase2017kasparovdeepblue} Die Komplexität von Schach war mit purer brutaler
-Rechnenleistung bisher noch nicht geknackt wurden. Dazu bedarf es erst einem \say{Verständnis} von Schach dass bis zu diesem
-Zeitpunkt nur Menschen zugänglich war. Das Programm probierte also nicht mehr nur alle Züge aus, sondern prognostizierte die 
-Sinnvollsten. Damit wurde eine Zeitenwende eingeleitet und der breiten Öffentlichkeit die Macht von KI demonstriert.
-Das dadurch erschaffene Interesse beflügelte die KI-Forschung und weitete diese in mehr Anwendungsbereiche aus.
-In 2021 hatten ein Großteil der Menschen in ihrem Alltag schonmal Kontakt zu KI-Technologie. 
-Ob bei der Suche im Internet oder bei Nutzung einer Sprachsteuerung, steht im Hintergrund immer diese Technologie.
-Die Vorstellung von einem mechanischen Helferlein weicht allmälich dem Bild der allwissenden künstlichen Intelligenz.
-\section{Zukunftsprognosen}
-Eine der bekanntesten Hypothesen wurde 1993 vom US-Amerikanischen Mathematiker und Informatiker Vernor Vinge aufgestellt und 2003
-erneut bestätigt. Vinge bespreibt ein spätestens 2030 auftretendes Ereignis, 
-welches er die \say{technologische Singularität}\cite[1]{vinge1993technological} nennt. 
-Er nennt mehrere Szenarien welche direkt oder indirekt, ein Entstehen einer denkfähigen superintelligente Entität beschreiben, 
-die auf Computertechnologie basiert.\\
-
-Betrachtet man Vinges Prognose für die nahe Zukunft\footnote{oder allein schon den heutigen Stand der Technologie mit Siri, Google und Co.} und 
-Homers Beschreibung von Wein ausschenkenden Dienern,
-wird ein Entwicklungsprozess sichtbar, dem jeglicher Vergleich fehlt. 
+    Wie auch bei vielen anderen neuzeitlichen Erfindungen, spielte Kultur in Form von Literatur eine entscheidende Rollen
+    in der KI-Forschung. Erst durch die Vorstellungskraft von Autoren wie Isaac Asimov
+    \footnote{bekannt durch: Die Foundation-Trilogie, derZweihunderjährige Mann}
+    oder Jule Verne\footnote{bekannt durch: Zwanzig Tausend Meilen unter dem Meer, Die Reise zum Mittelpunkt der Erde}, 
+    wurde Generationen von Forschenden inspiriert die Grenzen des Möglichen auszutesten. 
+    Die Idee der KI ist dabei schon so alt wie unsere Zivilisation. 
+    Schon der griechische Dichter Homer schrieb von mechanischen Dienern die den Göttern bei ihrem Mahl
+    Wein nachschenkten.\cite[53]{buchanan2005very} Auch wenn diese Verwendung eines Robotors aus unserer heutigen
+    industriellen Sicht eher banal erscheint, war ein solcher Apparat zu damaligen Zeiten visionär.
+    Nicht weniger visionär, war die Vorstellung des Philosophen und Naturforschers Gottfried Wilhelm Leibniz der mechanische
+    Richter imaginierte, die aufgrund von logischen Regeln Rechtsfälle zwischen Parteien aushandeln.\cite[53]{buchanan2005very}
+    Vergleicht man diese Vorstellungen mit der heutigen Zeit, sieht man das sich die Wünsche der Menschen durch die Zeit hindurch
+    nicht groß verändert haben. Leibniz und Homer beschreiben beide dienende und logisch operiende Maschinen.
+    Doch gestehen beide ihren erdachten Apparaten ein wesentliches Attribut nicht ein: die Denkfähigkeit. 
+    \section{Denkfähige Maschinen}
+    Um dies zu wagen braucht es Mitte des 20. Jahrhunderts erst den britischen Mathematiker Alan Turing, 
+    der mit seinem Gedankenexperiement, dem \say{Nachnahmungs-Spiel}, 
+    die Frage nach intelligenten und denkenden Maschinen stellte.
+    Dieses auch als \say{Turing-Test} bekannte, Gedankenexperiement stellt seit dem einen 
+    Richtwert für den Forschritt der KI-Forschung.\footnote{Mehr dazu im Kapitel 5, Gedankenexperimente}
+    Diese entstand zur gleichen Zeit als Ergebnis der Verbesserung der Halbleiter-Technologie, die als Basis für 
+    moderne binäre Computersysteme gilt. Die dadurch vergrößerte Rechenkapazität und -leistung 
+    eröffnete bisher nicht realisierbare Forschungsmöglichkeiten. 
+    Seit dem finden KI-Forschende immer mehr Anwendungsmöglichkeiten um die Grenzen der KI immer weiter auszuweiten.\\
+    
+    1997 erzeugt das Schreiben und Test von KI-Programmen, erstmals einen großes Medienecho, 
+    als der von IBM programmierte Schachcomputer
+    \say{Deep Blue} den damals amtierenden Schach-Weltmeister Gary Kasparov, schlug.\cite{chessbase2017kasparovdeepblue} 
+    Die Komplexität von Schach war mit purer brutaler
+    Rechnenleistung bisher noch nicht geknackt wurden. Dazu bedarf es erst einem \say{Verständnis} von Schach dass bis zu diesem
+    Zeitpunkt nur Menschen zugänglich war. Das Programm probierte also nicht mehr nur alle Züge aus, sondern prognostizierte die 
+    Sinnvollsten. Damit wurde eine Zeitenwende eingeleitet und der breiten Öffentlichkeit die Macht von KI demonstriert.
+    Das dadurch erschaffene Interesse beflügelte die KI-Forschung und weitete diese in mehr Anwendungsbereiche aus.
+    In 2021 hatten ein Großteil der Menschen in ihrem Alltag schonmal Kontakt zu KI-Technologie. 
+    Ob bei der Suche im Internet oder bei Nutzung einer Sprachsteuerung, steht im Hintergrund immer diese Technologie.
+    Die Vorstellung von einem mechanischen Helferlein weicht allmälich dem Bild der allwissenden künstlichen Intelligenz.
+    \section{Zukunftsprognosen}
+    Eine der bekanntesten Hypothesen wurde 1993 vom US-Amerikanischen Mathematiker und 
+    Informatiker Vernor Vinge aufgestellt und 2003
+    erneut bestätigt. Vinge bespreibt ein spätestens 2030 auftretendes Ereignis, 
+    welches er die \say{technologische Singularität}\cite[1]{vinge1993technological} nennt. 
+    Er nennt mehrere Szenarien welche direkt oder indirekt, 
+    ein Entstehen einer denkfähigen superintelligente Entität beschreiben, 
+    die auf Computertechnologie basiert.\\
+    
+    Betrachtet man Vinges Prognose für die nahe Zukunft
+    und Homers Beschreibung von Wein ausschenkenden Dienern,
+    wird ein Entwicklungsprozess sichtbar, dem jeglicher Vergleich fehlt. 
 
 
 
 \chapter{Schwache versus Starke - Arten von KI}
-     
+    Vinges Zukunftsprognose\cite[1]{vinge1993technological} beschreibt eine Art KI von die,
+    im Vergleich zu Leibniz und Homers Überlegungen, unterschiedlicher nicht sein könnte.
+    Um zu konkretisieren was genau diese beiden Arten von KI unterscheidet, nehme ich
+    mir Isaac Asimovs Roman \say{Der Zweihundertjährige Mann} zur Hilfe.
+    Darin beschreibt Asimov einen Roboter der sowohl als mechanischer Diener, als
+    auch als selbstdenkender kreativer Künstler agiert.\cite{asimov2000der}
+    Unwissend macht Asimov somit eine Einteilung in zwei Arten von KI,
+    die hilft den Entwicklungsfortschritt zu projizieren.
+    Die Rede ist von der schwachen KI, dem logisch agierenden Diener, und
+    starker KI, dem kreativen Künstler.
     \section{Schwache KI}
-        \subsection{}
+    
     \section{Starke KI}
-        \subsection{Technolgische Singularität}
-        \subsection{künstliche Ethik}
 
 \chapter{Technische Grundlagen}
      Wie schon zuvor beschrieben ist eine KI nichts anderes als ein Computerprogramm,
@@ -160,7 +222,8 @@ wird ein Entwicklungsprozess sichtbar, dem jeglicher Vergleich fehlt.
         Diese Regeln werden im Normalfall vom Menschen definiert. Daher spricht man bei dieser Methode
         auf vom beaufsichtigten Lernen bzw. dem Supervised Learning.
         \subsubsection{Supervised Learning}
-            Mit dieser Art des Lernens ist es möglich zwei verschiedene Problemkategorien zu lösen:\cite{supervisedlearning2021ibm}
+            Mit dieser Art des Lernens ist es möglich zwei verschiedene 
+            Problemkategorien zu lösen:\cite{supervisedlearning2021ibm}
             \begin{itemize}
                 \item{Klassifikationsprobleme}
                 \item{Regressionsprobleme}
@@ -289,7 +352,8 @@ wird ein Entwicklungsprozess sichtbar, dem jeglicher Vergleich fehlt.
         Diese formalen Regeln geben mir die Möglichkeit die chinesischen Schriftzeichen
         anhand ihrer Form zu identifizieren.\\
 
-        Nun kriege ich einen dritten Stapel mit weiteren chinesischen Schriftzeichen und englisch Anweisungen die mir sagen wie ich
+        Nun kriege ich einen dritten Stapel mit weiteren chinesischen Schriftzeichen und englisch 
+        Anweisungen die mir sagen wie ich
         diese neuen chinesischen Zeichen mit den Vorherigen vergleiche um bestimmte chinesische Zeichen zurückzugeben.\\
 
         Mit der Zeit werden die Leute außerhalb des Raumes immer besser mir Englische Anweisungen zu schreiben und
@@ -307,17 +371,17 @@ wird ein Entwicklungsprozess sichtbar, dem jeglicher Vergleich fehlt.
     machen wird oder besser gesagt, nicht machen wird.
 
 
-\chapter{Schlussfolgerung}
-    \section{Unterschied Mensch und Maschine}
-        Im vorherigen wurde der Begriff, die Arten sowie die Technologie an sich beschrieben und erläutert.
-        Doch um wahrhaftiges Verständnis von künstlicher Intelligenz zu gewinnen, braucht es einen
-        Vergleich der viel näher an dem eigenen Verständnis von Intelligenz liegt.
-        Die Rede ist vom direkten Vergleich mit dem Menschen.
-
-    \section{Menschen lernen sich selbst besser kennen wenn sie KI erforschen}
-            
-    \section{Was Maschinen vom Menschen unterscheidet}
-
+%\chapter{Schlussfolgerung}
+%    \section{Unterschied Mensch und Maschine}
+%        Im vorherigen wurde der Begriff, die Arten sowie die Technologie an sich beschrieben und erläutert.
+%        Doch um wahrhaftiges Verständnis von künstlicher Intelligenz zu gewinnen, braucht es einen
+%        Vergleich der viel näher an dem eigenen Verständnis von Intelligenz liegt.
+%        Die Rede ist vom direkten Vergleich mit dem Menschen.
+%
+%    \section{Menschen lernen sich selbst besser kennen wenn sie KI erforschen}
+%            
+%    \section{Was Maschinen vom Menschen unterscheidet}
 
     \printbibliography[title={Quellenverzeichnis}]
+
 \end{document}
