@@ -17,6 +17,9 @@
 \graphicspath{ {./pictures/} }
 % zeilenabstand
 \usepackage[onehalfspacing]{setspace}
+%seitenabstand
+\usepackage[a4paper, left=3cm, right=5cm, top=2cm]{geometry}
+%schriftart
 
 % unnötige spielerei
 \usepackage{tgcursor}
@@ -81,31 +84,35 @@
     %------------------------------------------------------------------------------------------------------------
 
     In den letzten Jahren hat der Begriff der \say{Künstlichen Intelligenz} (KI) als Schlagwort ein erhebliches Gewicht
-    erlangt. Verschiedene Medien berichten immer wieder von der KI als einer Art magischen Technologie, die unsere
-    Art wie wir Leben komplett revolutionieren wird. KI soll schon in vielen Technologien intergriert sein, die wir heute
-    benutzen und soll es in wenigen Jahren noch mehr sein. Da stellen sich dem alltäglichen Menschen schon
-    verschiedene Fragen wie: was ist KI, wie funktioniert sie und warum ist sie so faszinierend?\\
+    erlangt. Unterschiedlichste Quellen berichten von KI, als einer revolutionären Technologie, die die
+    Art wie wir Leben von Grund auf verändern wird. 
+    Dabei beschränkt sich KI nicht auf die Informatik, sondern findet seinen Weg auch in
+    Einsatzgebiete wie die Medizin und die Wirtschaft. Dort wird KI nicht nur zur Früherkennung
+    von Krebs sondern auch zur Prognose von Aktienkursen genutzt.\\
 
-    Bevor ich auf diese wichtigen Fragen eingehe, möchte ich vorerst den Begriff der \say{Künstlichen Intelligenz}
-    erläutern, um Klarheit um diesen oft genutzten und doch unklaren Begriff zu schaffen. 
-    \say{Künstliche Intelligenz} ist ein Kunstbegriff der erstmals
-    1956 auf der \emph{Darthmouth Conference}\cite[57]{buchanan2005very} benutzt wurde.
+    Um eine Grundlage zu schaffen, möchte ich vorerst den Begriff der \say{Künstlichen Intelligenz}
+    erläutern, um Klarheit um diesen oft genutzten und doch unklaren Begriff zu schaffen.
+    Namensschöpfend war die 1956 abgehaltene \emph{Darthmouth Conference}\cite[57]{buchanan2005very}, 
+    einer Versammlung auf der 
+    Forschende erstmals zusammentrafen um die Möglichkeit von KI zu diskutieren.
     Der Begriff \emph{Intelligenz} kommt vom lateinischen \say{intelligere} was soviel wie
-    Einsehen, Begreifen und Erkennen bedeutet.\cite{piaget2000psychologie}
+    einsehen, begreifen und erkennen bedeutet.\cite{piaget2000psychologie}
     \say{Künstlich} verweist in diesem Zusammenhang auf die unnatürliche Herkunft dieser Intelligenz.
     Da Erkenntnis\cite{duden2021erkenntnis} und somit Intelligenz, immer etwas Geistiges ist, könnnte
     man KI wie folgt definieren:
     \begin{displayquote}
-        \say{Künstliche Intelligenz} beschreibt einen nicht-menschlichen/unnatürlichen Geist,
-        der die Fähigkeit besitzt, durchs eigenständige Denken Erkenntnis zu erlangen.
+        \say{Künstliche Intelligenz} beschreibt einen nicht-menschlichen
+        unnatürlichen Geist, der die Fähigkeit besitzt, 
+        durch das eigenständige Denken Erkenntnis zu erlangen.
     \end{displayquote}
-    Dies ist, wenn man sich an der Bedeutung der Wortes orientiert, eine Idealbeschreibung künstlicher Intelligenz.
-    Da dies noch lange nicht erreicht ist, könnte man eine realere Definition schaffen mit der der aktuelle
-    Stand der Technologie besser abgebildet wird:
+    Dies, wenn man sich an der Bedeutung der Wort orientiert, ist eine Idealbeschreibung künstlicher Intelligenz.
+    Da dies nicht dem aktuellen Forschungsstand entspricht, könnte man eine realere Definition schaffen mit der der unmittelbare
+    Stand der Technologie passender abgebildet wird:
     \begin{displayquote}
-        Eine \say{Künstliche Intelligenz} ist Computerprogramm das mit der Analyse von Statistiken Vorraussagen treffen kann.
+        Eine \say{Künstliche Intelligenz} ist ein Computerprogramm, das 
+        mit der Analyse von Statistiken Vorraussagen treffen oder Muster erkennen kann.
     \end{displayquote}
-    Obwohl bei Definitionen sich augenscheinlich starkt unterscheiden, kann man die zweite Definition als Fundament für
+    Obwohl beide Definitionen sich augenscheinlich starkt unterscheiden, kann man die zweite Definition als Fundament für
     die erste Definition sehen. Um einen denkfähigen Geist zu erschaffen bedarf es Erfahrungen, die das menschliche Gehirn lehren
     Situationen vorrauszusehen.\footnote{Evolutionär gesehen ist der menschliche Geist und die 
     damit verbundenen Vorhersagen über die Realität
@@ -117,10 +124,10 @@
     Das Produkt dieser Forschung, welches in der ersten Definition beschrieben wird, wird wahrscheinlich Folgen auf
     die menschliche Zivilisation haben, wie die Erfindung des Feuers.\\
 
-    Mit diesem Fachbericht werde ich versuchen einen kleinen Überblick zu diesem scheinbar riesigen Thema zu geben.
-    Ziel ist es die Idee und die Technologie von künstlicher Intelligenz so zu vermitteln, 
-    dass es für einen Laien greifbarer wird.
-
+    Mit diesem Fachbericht werden Einblick in das Themengebiet der \say{Künstlichen Intelligenz} gegeben.
+    Durch die scheinbar universellen Anwendungsmöglichkeiten von KI, tut sich ein schier riesiges Themengebiet auf.
+    Um die Zugänglichkeit zu gewährleisten, ist das Ziel dieses Fachberichts nicht die komplette Durchleutung
+    des Themas. Eher wird ein einführender Charakter angestrebt, um Anhaltspunkt zum Verstehen von KI zu geben.
     
 
 \chapter{Der Traum vom mechanischen Helferlein - Geschichte}
@@ -176,7 +183,7 @@
 
 
 
-\chapter{Schwache versus Starke - Arten von KI}
+\chapter{Schwache versus starke Arten von KI}
     Vinges Zukunftsprognose\cite[1]{vinge1993technological} beschreibt eine Art KI von die,
     im Vergleich zu Leibniz und Homers Überlegungen, unterschiedlicher nicht sein könnte.
     Um zu konkretisieren was genau diese beiden Arten von KI unterscheidet, nehme ich

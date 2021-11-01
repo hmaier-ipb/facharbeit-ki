@@ -4,32 +4,32 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Der Traum vom mechanischen Helferlein - Geschichte}{4}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Denkfähige Maschinen}{5}{}%
+\contentsline {section}{\numberline {2.1}Denkfähige Maschinen}{4}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Zukunftsprognosen}{6}{}%
+\contentsline {section}{\numberline {2.2}Zukunftsprognosen}{5}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Schwache versus Starke - Arten von KI}{7}{}%
+\contentsline {chapter}{\numberline {3}Schwache versus starke Arten von KI}{6}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Schwache KI}{7}{}%
+\contentsline {section}{\numberline {3.1}Schwache KI}{6}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Starke KI}{7}{}%
+\contentsline {section}{\numberline {3.2}Starke KI}{6}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Technische Grundlagen}{8}{}%
+\contentsline {chapter}{\numberline {4}Technische Grundlagen}{7}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Wie betreibt man maschinelles Lernen?}{8}{}%
+\contentsline {section}{\numberline {4.1}Wie betreibt man maschinelles Lernen?}{7}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}Top-Down Methode (Deduktiv)}{9}{}%
+\contentsline {subsection}{\numberline {4.1.1}Top-Down Methode (Deduktiv)}{7}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Supervised Learning}{9}{}%
+\contentsline {subsubsection}{Supervised Learning}{8}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2}Bottom-Up (Induktiv)}{10}{}%
+\contentsline {subsection}{\numberline {4.1.2}Bottom-Up (Induktiv)}{8}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Unsupervised Learning}{10}{}%
+\contentsline {subsubsection}{Unsupervised Learning}{9}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.3}Semi-Supervised Learning}{11}{}%
+\contentsline {subsection}{\numberline {4.1.3}Semi-Supervised Learning}{10}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Gedankenexperimente}{12}{}%
+\contentsline {chapter}{\numberline {5}Gedankenexperimente}{11}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}The Imitation Game - Das Nachahmungs-Spiel}{12}{}%
+\contentsline {section}{\numberline {5.1}The Imitation Game - Das Nachahmungs-Spiel}{11}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Das Chinesische Zimmer}{13}{}%
+\contentsline {section}{\numberline {5.2}Das Chinesische Zimmer}{12}{}%

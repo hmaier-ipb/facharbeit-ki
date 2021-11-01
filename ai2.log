@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.10.12)  29 OCT 2021 12:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.10.12)  1 NOV 2021 15:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -78,6 +78,28 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count186
+\Gm@cntv=\count187
+\c@Gm@tempcnt=\count188
+\Gm@bindingoffset=\dimen147
+\Gm@wd@mp=\dimen148
+\Gm@odd@mp=\dimen149
+\Gm@even@mp=\dimen150
+\Gm@layoutwidth=\dimen151
+\Gm@layoutheight=\dimen152
+\Gm@layouthoffset=\dimen153
+\Gm@layoutvoffset=\dimen154
+\Gm@dimlist=\toks17
+)
 (/usr/share/texmf/tex/latex/tex-gyre/tgcursor.sty
 Package: tgcursor 2009/09/10 v1.2 TeX Gyre Cursor as default typewriter family
 
@@ -98,22 +120,22 @@ g\active@dq \dq@prtct{e}asier
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@dirtytalk@qdepth=\count186
+\c@dirtytalk@qdepth=\count189
 )
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2021-01-04 v5.2k context-sensitive quotations (JAW)
 
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count187
+\etb@tempcnta=\count190
 )
-\csq@reset=\count188
-\csq@gtype=\count189
-\csq@glevel=\count190
-\csq@qlevel=\count191
-\csq@maxlvl=\count192
-\csq@tshold=\count193
-\csq@ltx@everypar=\toks17
+\csq@reset=\count191
+\csq@gtype=\count192
+\csq@glevel=\count193
+\csq@qlevel=\count194
+\csq@maxlvl=\count195
+\csq@tshold=\count196
+\csq@ltx@everypar=\toks18
 
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2021-01-04 v5.2k csquotes generic definitions (JAW)
@@ -134,16 +156,13 @@ Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 (/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2020/03/06 v1.0d TeX engine tests
-)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count194
+\lrq@indent=\count197
 
 (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -152,48 +171,48 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count195
-\c@listtotal=\count196
-\c@listcount=\count197
-\c@liststart=\count198
-\c@liststop=\count199
-\c@citecount=\count266
-\c@citetotal=\count267
-\c@multicitecount=\count268
-\c@multicitetotal=\count269
-\c@instcount=\count270
-\c@maxnames=\count271
-\c@minnames=\count272
-\c@maxitems=\count273
-\c@minitems=\count274
-\c@citecounter=\count275
-\c@maxcitecounter=\count276
-\c@savedcitecounter=\count277
-\c@uniquelist=\count278
-\c@uniquename=\count279
-\c@refsection=\count280
-\c@refsegment=\count281
-\c@maxextratitle=\count282
-\c@maxextratitleyear=\count283
-\c@maxextraname=\count284
-\c@maxextradate=\count285
-\c@maxextraalpha=\count286
-\c@abbrvpenalty=\count287
-\c@highnamepenalty=\count288
-\c@lownamepenalty=\count289
-\c@maxparens=\count290
-\c@parenlevel=\count291
-\blx@tempcnta=\count292
-\blx@tempcntb=\count293
-\blx@tempcntc=\count294
-\blx@maxsection=\count295
-\blx@maxsegment@0=\count296
-\blx@notetype=\count297
-\blx@parenlevel@text=\count298
-\blx@parenlevel@foot=\count299
-\blx@sectionciteorder@0=\count300
-\blx@entrysetcounter=\count301
-\blx@biblioinstance=\count302
+\c@tabx@nest=\count198
+\c@listtotal=\count199
+\c@listcount=\count266
+\c@liststart=\count267
+\c@liststop=\count268
+\c@citecount=\count269
+\c@citetotal=\count270
+\c@multicitecount=\count271
+\c@multicitetotal=\count272
+\c@instcount=\count273
+\c@maxnames=\count274
+\c@minnames=\count275
+\c@maxitems=\count276
+\c@minitems=\count277
+\c@citecounter=\count278
+\c@maxcitecounter=\count279
+\c@savedcitecounter=\count280
+\c@uniquelist=\count281
+\c@uniquename=\count282
+\c@refsection=\count283
+\c@refsegment=\count284
+\c@maxextratitle=\count285
+\c@maxextratitleyear=\count286
+\c@maxextraname=\count287
+\c@maxextradate=\count288
+\c@maxextraalpha=\count289
+\c@abbrvpenalty=\count290
+\c@highnamepenalty=\count291
+\c@lownamepenalty=\count292
+\c@maxparens=\count293
+\c@parenlevel=\count294
+\blx@tempcnta=\count295
+\blx@tempcntb=\count296
+\blx@tempcntc=\count297
+\blx@maxsection=\count298
+\blx@maxsegment@0=\count299
+\blx@notetype=\count300
+\blx@parenlevel@text=\count301
+\blx@parenlevel@foot=\count302
+\blx@sectionciteorder@0=\count303
+\blx@entrysetcounter=\count304
+\blx@biblioinstance=\count305
 \labelnumberwidth=\skip54
 \labelalphawidth=\skip55
 \biblabelsep=\skip56
@@ -205,9 +224,9 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \blx@bcfin=\read2
 \blx@bcfout=\write3
 \blx@langwohyphens=\language8
-\c@mincomprange=\count303
-\c@maxcomprange=\count304
-\c@mincompwidth=\count305
+\c@mincomprange=\count306
+\c@maxcomprange=\count307
+\c@mincompwidth=\count308
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -218,74 +237,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count306
-\c@savedafterword=\count307
-\c@annotator=\count308
-\c@savedannotator=\count309
-\c@author=\count310
-\c@savedauthor=\count311
-\c@bookauthor=\count312
-\c@savedbookauthor=\count313
-\c@commentator=\count314
-\c@savedcommentator=\count315
-\c@editor=\count316
-\c@savededitor=\count317
-\c@editora=\count318
-\c@savededitora=\count319
-\c@editorb=\count320
-\c@savededitorb=\count321
-\c@editorc=\count322
-\c@savededitorc=\count323
-\c@foreword=\count324
-\c@savedforeword=\count325
-\c@holder=\count326
-\c@savedholder=\count327
-\c@introduction=\count328
-\c@savedintroduction=\count329
-\c@namea=\count330
-\c@savednamea=\count331
-\c@nameb=\count332
-\c@savednameb=\count333
-\c@namec=\count334
-\c@savednamec=\count335
-\c@translator=\count336
-\c@savedtranslator=\count337
-\c@shortauthor=\count338
-\c@savedshortauthor=\count339
-\c@shorteditor=\count340
-\c@savedshorteditor=\count341
-\c@labelname=\count342
-\c@savedlabelname=\count343
-\c@institution=\count344
-\c@savedinstitution=\count345
-\c@lista=\count346
-\c@savedlista=\count347
-\c@listb=\count348
-\c@savedlistb=\count349
-\c@listc=\count350
-\c@savedlistc=\count351
-\c@listd=\count352
-\c@savedlistd=\count353
-\c@liste=\count354
-\c@savedliste=\count355
-\c@listf=\count356
-\c@savedlistf=\count357
-\c@location=\count358
-\c@savedlocation=\count359
-\c@organization=\count360
-\c@savedorganization=\count361
-\c@origlocation=\count362
-\c@savedoriglocation=\count363
-\c@origpublisher=\count364
-\c@savedorigpublisher=\count365
-\c@publisher=\count366
-\c@savedpublisher=\count367
-\c@language=\count368
-\c@savedlanguage=\count369
-\c@origlanguage=\count370
-\c@savedoriglanguage=\count371
-\c@pageref=\count372
-\c@savedpageref=\count373
+\c@afterword=\count309
+\c@savedafterword=\count310
+\c@annotator=\count311
+\c@savedannotator=\count312
+\c@author=\count313
+\c@savedauthor=\count314
+\c@bookauthor=\count315
+\c@savedbookauthor=\count316
+\c@commentator=\count317
+\c@savedcommentator=\count318
+\c@editor=\count319
+\c@savededitor=\count320
+\c@editora=\count321
+\c@savededitora=\count322
+\c@editorb=\count323
+\c@savededitorb=\count324
+\c@editorc=\count325
+\c@savededitorc=\count326
+\c@foreword=\count327
+\c@savedforeword=\count328
+\c@holder=\count329
+\c@savedholder=\count330
+\c@introduction=\count331
+\c@savedintroduction=\count332
+\c@namea=\count333
+\c@savednamea=\count334
+\c@nameb=\count335
+\c@savednameb=\count336
+\c@namec=\count337
+\c@savednamec=\count338
+\c@translator=\count339
+\c@savedtranslator=\count340
+\c@shortauthor=\count341
+\c@savedshortauthor=\count342
+\c@shorteditor=\count343
+\c@savedshorteditor=\count344
+\c@labelname=\count345
+\c@savedlabelname=\count346
+\c@institution=\count347
+\c@savedinstitution=\count348
+\c@lista=\count349
+\c@savedlista=\count350
+\c@listb=\count351
+\c@savedlistb=\count352
+\c@listc=\count353
+\c@savedlistc=\count354
+\c@listd=\count355
+\c@savedlistd=\count356
+\c@liste=\count357
+\c@savedliste=\count358
+\c@listf=\count359
+\c@savedlistf=\count360
+\c@location=\count361
+\c@savedlocation=\count362
+\c@organization=\count363
+\c@savedorganization=\count364
+\c@origlocation=\count365
+\c@savedoriglocation=\count366
+\c@origpublisher=\count367
+\c@savedorigpublisher=\count368
+\c@publisher=\count369
+\c@savedpublisher=\count370
+\c@language=\count371
+\c@savedlanguage=\count372
+\c@origlanguage=\count373
+\c@savedoriglanguage=\count374
+\c@pageref=\count375
+\c@savedpageref=\count376
 \shorthandwidth=\skip62
 \shortjournalwidth=\skip63
 \shortserieswidth=\skip64
@@ -311,19 +330,19 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
-\c@textcitecount=\count374
-\c@textcitetotal=\count375
-\c@textcitemaxnames=\count376
-\c@biburlbigbreakpenalty=\count377
-\c@biburlbreakpenalty=\count378
-\c@biburlnumpenalty=\count379
-\c@biburlucpenalty=\count380
-\c@biburllcpenalty=\count381
+\c@textcitecount=\count377
+\c@textcitetotal=\count378
+\c@textcitemaxnames=\count379
+\c@biburlbigbreakpenalty=\count380
+\c@biburlbreakpenalty=\count381
+\c@biburlnumpenalty=\count382
+\c@biburlucpenalty=\count383
+\c@biburllcpenalty=\count384
 \biburlbigskip=\muskip17
 \biburlnumskip=\muskip18
 \biburlucskip=\muskip19
 \biburllcskip=\muskip20
-\c@smartand=\count382
+\c@smartand=\count385
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -335,8 +354,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count383
-\c@bbx:relatedtotal=\count384
+\c@bbx:relatedcount=\count386
+\c@bbx:relatedtotal=\count387
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -366,7 +385,7 @@ Package csquotes Info: ... none found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2020-01-29 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count385
+\l__color_backend_stack_int=\count388
 \l__pdf_internal_box=\box48
 )
 
@@ -376,33 +395,33 @@ LaTeX Warning: Unused global option(s):
 (./ai2.aux)
 \openout1 = `ai2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count386
-\scratchdimen=\dimen147
+\scratchcounter=\count389
+\scratchdimen=\dimen155
 \scratchbox=\box49
-\nofMPsegments=\count387
-\nofMParguments=\count388
-\everyMPshowfont=\toks18
-\MPscratchCnt=\count389
-\MPscratchDim=\dimen148
-\MPnumerator=\count390
-\makeMPintoPDFobject=\count391
-\everyMPtoPDFconversion=\toks19
+\nofMPsegments=\count390
+\nofMParguments=\count391
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count392
+\MPscratchDim=\dimen156
+\MPnumerator=\count393
+\makeMPintoPDFobject=\count394
+\everyMPtoPDFconversion=\toks20
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 
@@ -423,9 +442,42 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 369.88583pt, 142.26378pt)
+* v-part:(T,H,B)=(56.9055pt, 686.7347pt, 101.40665pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=369.88583pt
+* \textheight=686.7347pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
-
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
 )
@@ -454,17 +506,17 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'ai2.bbl' found.
  (./ai2.bbl)
-Package biblatex Info: Reference section=0 on input line 49.
-Package biblatex Info: Reference segment=0 on input line 49.
+Package biblatex Info: Reference section=0 on input line 52.
+Package biblatex Info: Reference segment=0 on input line 52.
 <./pictures//ipb_logo.png, id=1, 1154.06157pt x 1473.25406pt>
 File: ./pictures//ipb_logo.png Graphic file (type png)
 <use ./pictures//ipb_logo.png>
-Package pdftex.def Info: ./pictures//ipb_logo.png  used on input line 56.
+Package pdftex.def Info: ./pictures//ipb_logo.png  used on input line 59.
 (pdftex.def)             Requested size: 42.67912pt x 54.46907pt.
 <./pictures//michelangelo_ki.jpg, id=2, 4932.4275pt x 3288.285pt>
 File: ./pictures//michelangelo_ki.jpg Graphic file (type jpg)
 <use ./pictures//michelangelo_ki.jpg>
-Package pdftex.def Info: ./pictures//michelangelo_ki.jpg  used on input line 62
+Package pdftex.def Info: ./pictures//michelangelo_ki.jpg  used on input line 65
 .
 (pdftex.def)             Requested size: 284.52756pt x 189.66197pt.
  [1
@@ -486,122 +538,138 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ]
 Kapitel 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--88
+Underfull \hbox (badness 10000) in paragraph at lines 86--92
 
  []
 
 
-Overfull \hbox (52.02368pt too wide) in paragraph at lines 99--101
-[]\T1/cmr/m/n/12 ^^SKünstliche In-tel-li-genz^^T be-schreibt einen nicht-mensch
-lichen/unnatürlichen
+Overfull \hbox (0.1886pt too wide) in paragraph at lines 112--114
+[]\T1/cmr/m/n/12 Eine ^^SKünst-li-che In-tel-li-genz^^T ist ein Com-pu-ter-pro-
+gramm, das
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 119.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 119.
+
+Overfull \hbox (3.5076pt too wide) in paragraph at lines 115--126
+\T1/cmr/m/n/12 Obwohl bei-de De-fi-ni-tio-nen sich au-gen-schein-lich starkt un
+-ter-schei-den, kann
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--126
+
  []
 
 [2
 
-]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 112.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 112.
-
-Underfull \hbox (badness 10000) in paragraph at lines 108--119
-
- []
-
-[3]
+] [3]
 Kapitel 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--152
+Underfull \hbox (badness 10000) in paragraph at lines 150--159
 
  []
 
 [4
 
 ]
-Overfull \hbox (0.76004pt too wide) in paragraph at lines 153--164
-\T1/cmr/m/n/12 Blue^^T den da-mals am-tie-ren-den Schach-Weltmeister Ga-ry Kas-
-parov, schlug.[1]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 165--172
+Underfull \hbox (badness 10000) in paragraph at lines 172--179
 
  []
 
-[5] [6]
+[5]
 Kapitel 3.
 LaTeX Font Info:    Trying to load font information for T1+qcr on input line 19
-2.
+9.
 (/usr/share/texmf/tex/latex/tex-gyre/t1qcr.fd
 File: t1qcr.fd 2009/09/25 v1.2 font definition file for T1/qcr
-) [7
+) [6
 
 ]
 Kapitel 4.
-[8
+[7
 
-] [9] [10] [11]
+] [8] [9] [10]
 Kapitel 5.
-[12
+
+Overfull \hbox (14.93811pt too wide) in paragraph at lines 338--344
+[]\T1/cmr/m/n/12 Für das Nachahmungs-Spiel wer-den ins-ge-samt drei Spie-ler*in
+nen
+ []
+
+[11
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 353--357
-
- []
-
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 358--362
+Underfull \hbox (badness 10000) in paragraph at lines 360--364
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 363--366
+Underfull \hbox (badness 10000) in paragraph at lines 365--369
 
  []
 
-[14]
-Overfull \hbox (36.33743pt too wide) in paragraph at lines 393--393
-[]\T1/cmr/m/n/12 Isaac Asi-mov. \T1/cmr/m/it/12 Der 200-Jahre-Mann\T1/cmr/m/n/1
-2 . Mün-chen: Hey-ne, 2000. \T1/cmr/m/sc/12 isbn\T1/cmr/m/n/12 : 3453170032. 
+
+Underfull \hbox (badness 10000) in paragraph at lines 370--373
+
+ []
+
+[12] [13]
+Overfull \hbox (21.63718pt too wide) in paragraph at lines 400--400
+\T1/qcr/m/n/12 www . elementai . com / news / 2020 / clustering -[] in -[] mach
+ine -[]
+ []
+
+
+Overfull \hbox (24.38023pt too wide) in paragraph at lines 400--400
+\T1/qcr/m/n/12 uni -[] leipzig . de / methodenportal / deduktion _ induktion/$\
+T1/cmr/m/n/12 . 
  []
 
 ! Misplaced alignment tab character &.
 \namepartgiven ...bnamedelimb Oppy\bibnamedelimb &
                                                   \bibnamedelima David
-l.393 ...tbibliography[title={Quellenverzeichnis}]
+l.400 ...tbibliography[title={Quellenverzeichnis}]
                                                   
 ? 
 
-Overfull \hbox (8.223pt too wide) in paragraph at lines 393--393
-\T1/qcr/m/n/12 https : / / scienceofdata . org / 2019 / 10 / 27 / market -[] ba
-sket -[]
+Overfull \hbox (2.30026pt too wide) in paragraph at lines 400--400
+\T1/qcr/m/n/12 https : / / plato . stanford . edu / entries / turing -[] test/$
+\T1/cmr/m/n/12 . 
  []
 
-[15
+
+Overfull \hbox (4.28714pt too wide) in paragraph at lines 400--400
+\T1/cmr/m/sc/12 url\T1/cmr/m/n/12 : $\T1/qcr/m/n/12 https : / / scienceofdata .
+ org / 2019 / 10 / 27 / market -[]
+ []
+
+
+Overfull \hbox (5.03142pt too wide) in paragraph at lines 400--400
+[]\T1/cmr/m/n/12 A. M. Tu-ring. \T1/cmr/m/it/12 Com-pu-ting Ma-chi-ne-ry and In
+-tel-li-gence\T1/cmr/m/n/12 . 1950, []pp. []433^^U
+ []
+
+[14
 
 ]
-Overfull \hbox (3.14598pt too wide) in paragraph at lines 393--393
-[]\T1/cmr/m/it/12 Überwachtes Ler-nen (Su-per-vi-sed Lear-ning)\T1/cmr/m/n/12 .
- []Oct. []18, 2021. \T1/cmr/m/sc/12 url\T1/cmr/m/n/12 : $\T1/qcr/m/n/12 https :
-
- []
-
-
-Overfull \hbox (9.223pt too wide) in paragraph at lines 393--393
+Overfull \hbox (29.33717pt too wide) in paragraph at lines 400--400
 \T1/qcr/m/n/12 machinelearningmastery . com / what -[] is -[] semi -[] supervis
 ed -[]
  []
 
-[16] (./ai2.aux)
+[15] (./ai2.aux)
 Package logreq Info: Writing requests to 'ai2.run.xml'.
 \openout1 = `ai2.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 10518 strings out of 481199
- 192232 string characters out of 5913478
- 902077 words of memory out of 5000000
- 27355 multiletter control sequences out of 15000+600000
+ 10985 strings out of 481199
+ 199087 string characters out of 5913478
+ 917777 words of memory out of 5000000
+ 27815 multiletter control sequences out of 15000+600000
  417352 words of font info for 52 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  72i,8n,78p,736b,1564s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -620,10 +688,10 @@ me/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.600pk> </
 home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrb2488.600pk> 
 </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/eccc2074.600pk
 ></usr/share/texmf/fonts/type1/public/tex-gyre/qcrr.pfb>
-Output written on ai2.pdf (17 pages, 2469367 bytes).
+Output written on ai2.pdf (16 pages, 2469583 bytes).
 PDF statistics:
- 527 PDF objects out of 1000 (max. 8388607)
- 95 compressed objects within 1 object stream
+ 525 PDF objects out of 1000 (max. 8388607)
+ 93 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
