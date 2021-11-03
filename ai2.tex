@@ -21,9 +21,8 @@
 %\usepackage[a4paper, left=3cm, right=5cm, top=2cm]{geometry}
 \usepackage[a4paper, margin=0.5cm]{geometry}
 %schriftart
-
-% unnötige spielerei
-\usepackage{tgcursor}
+%\usepackage[scaled]{uarial}
+\usepackage[scaled]{helvet}
 
 % quotation-marks
 \usepackage[
@@ -46,7 +45,7 @@
 {\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{1pt}{\Huge}
 
 % this alters "before" spacing (the second length argument) to 0
-\titlespacing*{\chapter}{0pt}{0pt}{5pt}
+\titlespacing*{\chapter}{0pt}{0pt}{0pt}
 
 
 % Document
@@ -92,20 +91,21 @@
 
     In den letzten Jahren hat der Begriff der \say{Künstlichen Intelligenz} (KI) als Schlagwort ein erhebliches Gewicht
     erlangt. Unterschiedlichste Quellen berichten von KI, als einer revolutionären Technologie, die die
-    Art wie wir Leben von Grund auf verändern wird. 
-    Dabei beschränkt sich KI nicht auf die Informatik, sondern findet seinen Weg auch in
+    Art wie wir Leben von Grund auf verändert.
+    Dabei beschränkt sich KI nicht nur auf ihr Herkunftsgebiete, die Informatik, sondern findet ihren Weg auch in
     Einsatzgebiete wie die Medizin und die Wirtschaft. Dort wird KI nicht nur zur Früherkennung
-    von Krebs sondern auch zur Prognose von Aktienkursen genutzt.\\
+    von Krebs sondern auch zur Prognose von Aktienkursen genutzt. So unterschiedlich
+    beide Anwendungsfälle auch klingen mögen, basieren beide auf der gleichen Technologie.\\
 
     Um eine Grundlage zu schaffen, möchte ich vorerst den Begriff der \say{Künstlichen Intelligenz}
     erläutern, um Klarheit um diesen oft genutzten und doch unklaren Begriff zu schaffen.
     Namensschöpfend war die 1956 abgehaltene \emph{Darthmouth Conference}\cite[57]{buchanan2005very}, 
-    einer Versammlung auf der 
+    eine Versammlung auf der 
     Forschende erstmals zusammentrafen um die Möglichkeit von KI zu diskutieren.
     Der Begriff \emph{Intelligenz} kommt vom lateinischen \say{intelligere} was soviel wie
     einsehen, begreifen und erkennen bedeutet.\cite{piaget2000psychologie}
     \say{Künstlich} verweist in diesem Zusammenhang auf die unnatürliche Herkunft dieser Intelligenz.
-    Da Erkenntnis\cite{duden2021erkenntnis} und somit Intelligenz, immer etwas Geistiges ist, könnnte
+    Da Erkenntnis und somit Intelligenz, immer etwas Geistiges ist\cite{duden2021erkenntnis}, könnnte
     man KI wie folgt definieren:
     \begin{displayquote}
         \say{Künstliche Intelligenz} beschreibt einen nicht-menschlichen
@@ -120,20 +120,25 @@
         mit der Analyse von Statistiken Vorraussagen treffen oder Muster erkennen kann.
     \end{displayquote}
     Obwohl beide Definitionen sich augenscheinlich starkt unterscheiden, kann man die zweite Definition als Fundament für
-    die erste Definition sehen. Um einen denkfähigen Geist zu erschaffen bedarf es Erfahrungen, die das menschliche Gehirn lehren
-    Situationen vorrauszusehen.\footnote{Evolutionär gesehen ist der menschliche Geist und die 
+    die erste Definition sehen. Um einen denkfähigen Geist zu erschaffen bedarf es Erfahrungen, die im Fall des Menschen
+    das Gehirn lehren Situationen vorrauszusehen, bzw. Prognosen zu treffen und Zusammenhänge zu sehen.\footnote{Evolutionär
+    gesehen ist der menschliche Geist und die 
     damit verbundenen Vorhersagen über die Realität
     das mächtigste Werkzeug im Kampf ums Überleben.}
     Computer haben keine Sinne, die sie mit der äußeren Welt verbinden und 
-    müssen daher erst mit Statistiken, Daten oder Erfahrungen zugeführt bekommen.
-    Einem Computer dadruch die eigenen Fähigkeiten zu lehren, macht wahrscheinlich ein Großteil der Faszination
-    beim Entwickeln einer KI aus. Um dies zu bewerkstelligen ist Forschung in den unterschiedlichsten Feldern nötig.
-    Dazu gehören nicht nur Informatik und Mathematik, sondern auch Psychologie, Linguistik und Philosophie\cite{buchanan2005very}.\\
+    müssen daher erst Statistiken, Daten oder Erfahrungen zugeführt kriegen.
+    Dieses Zuführen muss im Moment noch der Mensch übernehmen.
+    Einem Computer dadurch die eigenen Fähigkeiten zu lehren, macht wahrscheinlich ein Großteil der Faszination
+    beim Entwickeln einer KI aus. Um dies zu bewerkstelligen ist Forschung in den unterschiedlichsten Feldern nötig,
+    wozu nicht nur Informatik und Mathematik, sondern auch Psychologie, Linguistik und Philosophie\cite{buchanan2005very} gehören.\\
 
-    Mit diesem Fachbericht werden Einblick in das Themengebiet der \say{Künstlichen Intelligenz} gegeben.
+    Aus dieser Zusammenarbeit erwächst das Fachgebiet der \say{Künstlichen Intelligenz}, in welches
+    im Folgenden Einblick gegeben werden soll.
     Durch die scheinbar universellen Anwendungsmöglichkeiten von KI, tut sich ein schier riesiges Gebiet an Teilthemen auf.
-    Um die Zugänglichkeit zu gewährleisten, ist das Ziel dieses Fachberichts nicht die komplette Durchleutung
-    des Themas. Eher wird ein einführender Charakter angestrebt, um Anhaltspunkt zum Verstehen von KI zu geben.
+    Um die Zugänglichkeit zu gewährleisten, ist Ziel dieses Fachberichts nicht die komplette Durchleutung
+    des Themas. Eher wird ein einführender Charakter angestrebt,
+    der auf Geschichte, Funktionsweise und Philosophie von KI eingeht,
+    um Anhaltspunkt zum ganzheitlichen Verstehen von KI zu geben.
     
 
 \chapter{Der Traum vom mechanischen Helferlein - Geschichte}
@@ -164,7 +169,8 @@
         moderne binäre Computersysteme gilt. Die dadurch vergrößerte Rechenkapazität und -leistung 
         eröffnete damals bisher nicht realisierbare Forschungsmöglichkeiten. 
         Seit dem finden KI-Forschende immer mehr Anwendungsmöglichkeiten um die Grenzen der KI immer weiter auszuweiten.\\
-        
+    
+    \section{Menschen gegen Maschine}
         1997 erzeugt das Schreiben und Test von KI-Programmen, erstmals einen großes Medienecho, 
         als der von IBM programmierte Schachcomputer
         \say{Deep Blue} den damals amtierenden Schach-Weltmeister Gary Kasparov, schlug.\cite{chessbase2017kasparovdeepblue} 
@@ -176,6 +182,7 @@
         In 2021 hatten ein Großteil der Menschen in ihrem Alltag schonmal Kontakt zu KI-Technologie. 
         Ob bei der Suche im Internet oder bei Nutzung einer Sprachsteuerung, steht im Hintergrund immer diese Technologie.
         Die Vorstellung von einem mechanischen Helferlein weicht allmälich dem Bild der allwissenden künstlichen Intelligenz.
+
     \section{Zukunftsprognosen}
         Eine der bekanntesten Hypothesen wurde 1993 vom US-Amerikanischen Mathematiker und 
         Informatiker Vernor Vinge aufgestellt und 2003
@@ -183,11 +190,13 @@
         welches er die \say{technologische Singularität}\cite[1]{vinge1993technological} nennt. 
         Er nennt mehrere Szenarien welche, direkt oder indirekt, 
         ein Entstehen einer denkfähigen superintelligenten Entität\footnote{Enität: Abstrakte Beschreibung eines existierenden/seienden Gegenstand oder Objekts}
-        beschreiben, die auf Computertechnologie basiert.\\
+        beschreiben, die auf Computertechnologie basiert.
+        Diese Enität soll die Intelligenz des Homo sapiens überschreiten und dadurch die Fähigkeit erlangen sich selbst zu verbessern.\\
         
         Betrachtet man Vinges Prognose für die nahe Zukunft
         und Homers Beschreibung von Wein ausschenkenden Dienern,
-        wird ein Entwicklungsprozess sichtbar, dem jeglicher Vergleich fehlt. 
+        wird ein Entwicklungsprozess sichtbar, dem jeglicher Vergleich fehlt.
+
 
 
 
@@ -239,7 +248,6 @@
 
 
 
-
 \chapter{Technische Grundlagen}
      Wie schon zuvor beschrieben ist eine KI nichts anderes als ein Computerprogramm,
      welches durch die Analyse von Statistiken oder Datenpunkten, Prognosen abgeben oder Muster erkennen kann.
@@ -268,10 +276,9 @@
         Die erste Methode die beim ML angewandt wird, bezeichnet man als Top-Down Methode,
         welche deduktiver Natur ist. Dies bedeutet das man mithilfe  allgemein anerkannter Regeln
         auf spezielle Fälle schließt.\cite{dundi2021unileipzig} 
-
         \footnote{Beispielweise weiß ich, dass die Sonne warm ist. Da draußen die Sonne scheint, schließe ich daraus,
         dass es draußen warm sein muss. Das bedeutet aber nicht das Deduktion der sicherste Weg des 
-        Schlussfolgern ist. Draußen kann die Sonne scheinen und es kann kalt sein weil Winter ist.}
+        Schlussfolgern ist. Draußen kann die Sonne scheinen und es kann kalt sein weil Winter ist.}\\
 
         Im Kontext des ML bedeutet das, dass immer vorgefertigte Regeln, Features und Targets, vorhanden sein müssen.
         Diese Regeln werden im Normalfall vom Menschen, in der Form von Traingsdaten, definiert. Daher spricht man bei dieser Methode
@@ -279,7 +286,7 @@
 
         \subsubsection{Supervised Learning}
             Mit dieser Art des Lernens ist es möglich zwei verschiedene 
-            Problemkategorien zu lösen:\cite{supervisedlearning2021ibm}
+            Problemkategorien zu lösen\cite{supervisedlearning2021ibm}:
 
             \begin{itemize}
                 \item{Klassifikationsprobleme}
@@ -325,7 +332,7 @@
         Da diese Methode keine Grundlagen benötigt, spricht man
         im Kontext des ML vom unbeaufsichtigtem Lernen bzw. vom Unsupervised Learning.
         \subsubsection{Unsupervised Learning}
-            Beim Unsupervised Learning gibt es drei Lösungsansätze:\cite{unsupervisedlearning2021ibm}
+            Beim Unsupervised Learning gibt es drei Lösungsansätze\cite{unsupervisedlearning2021ibm}:
             \begin{itemize}
                 \item{Clustering}
                 \item{Assoziation}
@@ -449,6 +456,12 @@
 %    \section{Menschen lernen sich selbst besser kennen wenn sie KI erforschen}
 %            
 %    \section{Was Maschinen vom Menschen unterscheidet}
+
+\chapter{Fazit/Schlussfolgerung}
+    
+     
+
+
 
     \printbibliography[title={Quellenverzeichnis}]
 
