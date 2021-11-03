@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.10.12)  1 NOV 2021 15:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.10.12)  3 NOV 2021 11:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -395,20 +395,20 @@ LaTeX Warning: Unused global option(s):
 (./ai2.aux)
 \openout1 = `ai2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count389
@@ -450,15 +450,15 @@ e
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(85.35826pt, 369.88583pt, 142.26378pt)
-* v-part:(T,H,B)=(56.9055pt, 686.7347pt, 101.40665pt)
+* h-part:(L,W,R)=(14.22636pt, 569.05515pt, 14.22636pt)
+* v-part:(T,H,B)=(14.22636pt, 816.59412pt, 14.22636pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=369.88583pt
-* \textheight=686.7347pt
-* \oddsidemargin=13.08827pt
-* \evensidemargin=13.08827pt
-* \topmargin=-52.36449pt
+* \textwidth=569.05515pt
+* \textheight=816.59412pt
+* \oddsidemargin=-58.04362pt
+* \evensidemargin=-58.04362pt
+* \topmargin=-95.04362pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -506,23 +506,92 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'ai2.bbl' found.
  (./ai2.bbl)
-Package biblatex Info: Reference section=0 on input line 52.
-Package biblatex Info: Reference segment=0 on input line 52.
+Package biblatex Info: Reference section=0 on input line 53.
+Package biblatex Info: Reference segment=0 on input line 53.
 <./pictures//ipb_logo.png, id=1, 1154.06157pt x 1473.25406pt>
 File: ./pictures//ipb_logo.png Graphic file (type png)
 <use ./pictures//ipb_logo.png>
-Package pdftex.def Info: ./pictures//ipb_logo.png  used on input line 59.
+Package pdftex.def Info: ./pictures//ipb_logo.png  used on input line 62.
 (pdftex.def)             Requested size: 42.67912pt x 54.46907pt.
 <./pictures//michelangelo_ki.jpg, id=2, 4932.4275pt x 3288.285pt>
 File: ./pictures//michelangelo_ki.jpg Graphic file (type jpg)
 <use ./pictures//michelangelo_ki.jpg>
-Package pdftex.def Info: ./pictures//michelangelo_ki.jpg  used on input line 65
+Package pdftex.def Info: ./pictures//michelangelo_ki.jpg  used on input line 68
 .
 (pdftex.def)             Requested size: 284.52756pt x 189.66197pt.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./pictures//ipb_logo.png> 
-<./pictures//michelangelo_ki.jpg>] (./ai2.toc
+<./pictures//michelangelo_ki.jpg>]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(108.405pt, 452.96788pt, 36.135pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.96788pt
+* \textheight=700.50687pt
+* \oddsidemargin=36.13501pt
+* \evensidemargin=36.13501pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+
+Package geometry Warning: `a4paper': not available in `\newgeometry'; skipped.
+
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 369.88583pt, 142.26378pt)
+* v-part:(T,H,B)=(56.9055pt, 686.7347pt, 101.40665pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=369.88583pt
+* \textheight=686.7347pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(./ai2.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 7.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -535,31 +604,33 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
  [1
 
+
+
 ]
 Kapitel 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--92
+Underfull \hbox (badness 10000) in paragraph at lines 93--99
 
  []
 
 
-Overfull \hbox (0.1886pt too wide) in paragraph at lines 112--114
+Overfull \hbox (0.1886pt too wide) in paragraph at lines 119--121
 []\T1/cmr/m/n/12 Eine ^^SKünst-li-che In-tel-li-genz^^T ist ein Com-pu-ter-pro-
 gramm, das
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 119.
+(Font)              <7> on input line 126.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 119.
+(Font)              <5> on input line 126.
 
-Overfull \hbox (3.5076pt too wide) in paragraph at lines 115--126
+Overfull \hbox (3.5076pt too wide) in paragraph at lines 122--132
 \T1/cmr/m/n/12 Obwohl bei-de De-fi-ni-tio-nen sich au-gen-schein-lich starkt un
 -ter-schei-den, kann
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--126
+Underfull \hbox (badness 10000) in paragraph at lines 122--132
 
  []
 
@@ -568,62 +639,62 @@ Underfull \hbox (badness 10000) in paragraph at lines 115--126
 ] [3]
 Kapitel 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 150--159
+Underfull \hbox (badness 10000) in paragraph at lines 157--167
 
  []
 
 [4
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 172--179
+Underfull \hbox (badness 10000) in paragraph at lines 180--187
 
  []
 
-[5]
+[5] [6]
 Kapitel 3.
-LaTeX Font Info:    Trying to load font information for T1+qcr on input line 19
-9.
+LaTeX Font Info:    Trying to load font information for T1+qcr on input line 20
+7.
 (/usr/share/texmf/tex/latex/tex-gyre/t1qcr.fd
 File: t1qcr.fd 2009/09/25 v1.2 font definition file for T1/qcr
-) [6
+) [7
 
 ]
 Kapitel 4.
-[7
+[8
 
-] [8] [9] [10]
+] [9] [10] [11]
 Kapitel 5.
 
-Overfull \hbox (14.93811pt too wide) in paragraph at lines 338--344
+Overfull \hbox (14.93811pt too wide) in paragraph at lines 361--367
 []\T1/cmr/m/n/12 Für das Nachahmungs-Spiel wer-den ins-ge-samt drei Spie-ler*in
 nen
  []
 
-[11
+[12
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 360--364
+Underfull \hbox (badness 10000) in paragraph at lines 399--399
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 365--369
+Underfull \hbox (badness 10000) in paragraph at lines 399--399
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 370--373
+Underfull \hbox (badness 10000) in paragraph at lines 399--399
 
  []
 
-[12] [13]
-Overfull \hbox (21.63718pt too wide) in paragraph at lines 400--400
+[13] [14]
+Overfull \hbox (21.63718pt too wide) in paragraph at lines 423--423
 \T1/qcr/m/n/12 www . elementai . com / news / 2020 / clustering -[] in -[] mach
 ine -[]
  []
 
 
-Overfull \hbox (24.38023pt too wide) in paragraph at lines 400--400
+Overfull \hbox (24.38023pt too wide) in paragraph at lines 423--423
 \T1/qcr/m/n/12 uni -[] leipzig . de / methodenportal / deduktion _ induktion/$\
 T1/cmr/m/n/12 . 
  []
@@ -631,36 +702,36 @@ T1/cmr/m/n/12 .
 ! Misplaced alignment tab character &.
 \namepartgiven ...bnamedelimb Oppy\bibnamedelimb &
                                                   \bibnamedelima David
-l.400 ...tbibliography[title={Quellenverzeichnis}]
+l.423 ...tbibliography[title={Quellenverzeichnis}]
                                                   
 ? 
 
-Overfull \hbox (2.30026pt too wide) in paragraph at lines 400--400
+Overfull \hbox (2.30026pt too wide) in paragraph at lines 423--423
 \T1/qcr/m/n/12 https : / / plato . stanford . edu / entries / turing -[] test/$
 \T1/cmr/m/n/12 . 
  []
 
 
-Overfull \hbox (4.28714pt too wide) in paragraph at lines 400--400
+Overfull \hbox (4.28714pt too wide) in paragraph at lines 423--423
 \T1/cmr/m/sc/12 url\T1/cmr/m/n/12 : $\T1/qcr/m/n/12 https : / / scienceofdata .
  org / 2019 / 10 / 27 / market -[]
  []
 
 
-Overfull \hbox (5.03142pt too wide) in paragraph at lines 400--400
+Overfull \hbox (5.03142pt too wide) in paragraph at lines 423--423
 []\T1/cmr/m/n/12 A. M. Tu-ring. \T1/cmr/m/it/12 Com-pu-ting Ma-chi-ne-ry and In
 -tel-li-gence\T1/cmr/m/n/12 . 1950, []pp. []433^^U
  []
 
-[14
+[15
 
 ]
-Overfull \hbox (29.33717pt too wide) in paragraph at lines 400--400
+Overfull \hbox (29.33717pt too wide) in paragraph at lines 423--423
 \T1/qcr/m/n/12 machinelearningmastery . com / what -[] is -[] semi -[] supervis
 ed -[]
  []
 
-[15] (./ai2.aux)
+[16] (./ai2.aux)
 Package logreq Info: Writing requests to 'ai2.run.xml'.
 \openout1 = `ai2.run.xml'.
 
@@ -668,11 +739,11 @@ Package logreq Info: Writing requests to 'ai2.run.xml'.
 Here is how much of TeX's memory you used:
  10985 strings out of 481199
  199087 string characters out of 5913478
- 917777 words of memory out of 5000000
+ 917785 words of memory out of 5000000
  27815 multiletter control sequences out of 15000+600000
  417352 words of font info for 52 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 72i,8n,78p,736b,1564s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 72i,8n,78p,736b,1571s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1200.60
 0pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.
 600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrb144
@@ -688,10 +759,10 @@ me/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.600pk> </
 home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrb2488.600pk> 
 </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/eccc2074.600pk
 ></usr/share/texmf/fonts/type1/public/tex-gyre/qcrr.pfb>
-Output written on ai2.pdf (16 pages, 2469583 bytes).
+Output written on ai2.pdf (17 pages, 2472578 bytes).
 PDF statistics:
- 525 PDF objects out of 1000 (max. 8388607)
- 93 compressed objects within 1 object stream
+ 535 PDF objects out of 1000 (max. 8388607)
+ 95 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
