@@ -18,7 +18,8 @@
 % zeilenabstand
 \usepackage[onehalfspacing]{setspace}
 %seitenabstand
-\usepackage[a4paper, left=3cm, right=5cm, top=2cm]{geometry}
+%\usepackage[a4paper, left=3cm, right=5cm, top=2cm]{geometry}
+\usepackage[a4paper, margin=0.5cm]{geometry}
 %schriftart
 
 % unnötige spielerei
@@ -52,29 +53,35 @@
 \begin{document}
 
     \begin{titlepage}
-        \centering
-        {\scshape\LARGE Leibniz Institut für Pflanzenbiochemie\par}
-        \vspace{1cm}
-        \begin{figure}[h]
-            \includegraphics[width=1.5cm]{ipb_logo.png}
-            \centering
-        \end{figure}
-        {\huge\bfseries Künstliche Intelligenz - Ein Blick in die Zukunft?\par}
-        \vspace{1cm}
-        \begin{figure}[h]
-            \includegraphics[width=10cm]{michelangelo_ki.jpg}
-            \centering
-        \end{figure}
-        \vspace{1cm}
-        {\Large Auszubildender Fachinformatiker Systemintegration \textbf{Hendrik Maier}\par}
-        \vfill
-
-% Bottom of the page
-        % {\large \today\par}
+        \vspace*{\fill}
+            \begin{center}
+                 \centering
+                 {\scshape\LARGE Leibniz Institut für Pflanzenbiochemie\par}
+                 \vspace{1cm}
+                 \begin{figure}[h]
+                     \includegraphics[width=1.5cm]{ipb_logo.png}
+                     \centering
+                 \end{figure}
+                 {\huge\bfseries Künstliche Intelligenz - Ein Blick in die Zukunft?\par}
+                 \vspace{1cm}
+                 \begin{figure}[h]
+                     \includegraphics[width=10cm]{michelangelo_ki.jpg}
+                     \centering
+                 \end{figure}
+                 \vspace{1cm}
+                 {\Large Auszubildender Fachinformatiker Systemintegration \textbf{Hendrik Maier}\par}
+                 \vfill
+            \end{center}    
+        \vspace*{\fill}
     \end{titlepage}
+    
+    %changing the layout after the titlepage
+    \newgeometry{top=1in,bottom=1in,right=0.5in,left=1.5in}
+    \newgeometry{a4paper, left=3cm, right=5cm, top=2cm}
 
     \tableofcontents
     \newpage
+
 
 % Begin of the Text
 \chapter{Was ist eigentlich künstliche Intelligenz - Definition und Einleitung}
@@ -117,78 +124,79 @@
     Situationen vorrauszusehen.\footnote{Evolutionär gesehen ist der menschliche Geist und die 
     damit verbundenen Vorhersagen über die Realität
     das mächtigste Werkzeug im Kampf ums Überleben.}
-    Computer haben keine Sinne die sie mit der äußeren Welt verbinden und 
-    müssen daher erst mit Statistiken gefüttert werden um Vorraussagen zu geben.
-    Einem Computer die gleiche Fähigkeit wie man selbst zu geben, macht wahrscheinlich ein Großteil der Faszination
+    Computer haben keine Sinne, die sie mit der äußeren Welt verbinden und 
+    müssen daher erst mit Statistiken, Daten oder Erfahrungen zugeführt bekommen.
+    Einem Computer dadruch die eigenen Fähigkeiten zu lehren, macht wahrscheinlich ein Großteil der Faszination
     beim Entwickeln einer KI aus. Um dies zu bewerkstelligen ist Forschung in den unterschiedlichsten Feldern nötig.
-    Das Produkt dieser Forschung, welches in der ersten Definition beschrieben wird, wird wahrscheinlich Folgen auf
-    die menschliche Zivilisation haben, wie die Erfindung des Feuers.\\
+    Dazu gehören nicht nur Informatik und Mathematik, sondern auch Psychologie, Linguistik und Philosophie\cite{buchanan2005very}.\\
 
     Mit diesem Fachbericht werden Einblick in das Themengebiet der \say{Künstlichen Intelligenz} gegeben.
-    Durch die scheinbar universellen Anwendungsmöglichkeiten von KI, tut sich ein schier riesiges Themengebiet auf.
+    Durch die scheinbar universellen Anwendungsmöglichkeiten von KI, tut sich ein schier riesiges Gebiet an Teilthemen auf.
     Um die Zugänglichkeit zu gewährleisten, ist das Ziel dieses Fachberichts nicht die komplette Durchleutung
     des Themas. Eher wird ein einführender Charakter angestrebt, um Anhaltspunkt zum Verstehen von KI zu geben.
     
 
 \chapter{Der Traum vom mechanischen Helferlein - Geschichte}
 
-    Wie auch bei vielen anderen neuzeitlichen Erfindungen, spielte Kultur in Form von Literatur eine entscheidende Rollen
+    Wie auch bei vielen anderen neuzeitlichen Erfindungen, spielte Kultur in Form von Literatur eine entscheidende Rolle
     in der KI-Forschung. Erst durch die Vorstellungskraft von Autoren wie Isaac Asimov
     \footnote{bekannt durch: Die Foundation-Trilogie, derZweihunderjährige Mann}
     oder Jule Verne\footnote{bekannt durch: Zwanzig Tausend Meilen unter dem Meer, Die Reise zum Mittelpunkt der Erde}, 
-    wurde Generationen von Forschenden inspiriert die Grenzen des Möglichen auszutesten. 
+    wurden Generationen von Forschenden inspiriert die Grenzen des Möglichen auszutesten. 
     Die Idee der KI ist dabei schon so alt wie unsere Zivilisation. 
     Schon der griechische Dichter Homer schrieb von mechanischen Dienern die den Göttern bei ihrem Mahl
-    Wein nachschenkten.\cite[53]{buchanan2005very} Auch wenn diese Verwendung eines Robotors aus unserer heutigen
+    Wein nachschenkten\cite[53]{buchanan2005very}. Auch wenn diese Verwendung eines Robotors aus unserer heutigen
     industriellen Sicht eher banal erscheint, war ein solcher Apparat zu damaligen Zeiten visionär.
     Nicht weniger visionär, war die Vorstellung des Philosophen und Naturforschers Gottfried Wilhelm Leibniz der mechanische
-    Richter imaginierte, die aufgrund von logischen Regeln Rechtsfälle zwischen Parteien aushandeln.\cite[53]{buchanan2005very}
-    Vergleicht man diese Vorstellungen mit der heutigen Zeit, sieht man das sich die Wünsche der Menschen durch die Zeit hindurch
+    Richter imaginierte, die aufgrund von logischen Regeln Rechtsfälle zwischen Parteien aushandeln\cite[53]{buchanan2005very}.
+    Vergleicht man diese Vorstellungen mit der heutigen Zeit, so sieht man das sich die Wünsche der Menschen durch die Zeit hindurch
     nicht groß verändert haben. Leibniz und Homer beschreiben beide dienende und logisch operiende Maschinen.
-    Doch gestehen beide ihren erdachten Apparaten ein wesentliches Attribut nicht ein: die Denkfähigkeit. 
+    Doch gestehen beide ihren erdachten Apparaten ein wesentliches Attribut nicht ein: Die Denkfähigkeit. 
+
     \section{Denkfähige Maschinen}
-    Um dies zu wagen braucht es Mitte des 20. Jahrhunderts erst den britischen Mathematiker Alan Turing, 
-    der mit seinem Gedankenexperiement, dem \say{Nachnahmungs-Spiel}, 
-    die Frage nach intelligenten und denkenden Maschinen stellte.
-    Dieses auch als \say{Turing-Test} bekannte, Gedankenexperiement stellt seit dem einen 
-    Richtwert für den Forschritt der KI-Forschung.\footnote{Mehr dazu im Kapitel 5, Gedankenexperimente}
-    Diese entstand zur gleichen Zeit als Ergebnis der Verbesserung der Halbleiter-Technologie, die als Basis für 
-    moderne binäre Computersysteme gilt. Die dadurch vergrößerte Rechenkapazität und -leistung 
-    eröffnete bisher nicht realisierbare Forschungsmöglichkeiten. 
-    Seit dem finden KI-Forschende immer mehr Anwendungsmöglichkeiten um die Grenzen der KI immer weiter auszuweiten.\\
-    
-    1997 erzeugt das Schreiben und Test von KI-Programmen, erstmals einen großes Medienecho, 
-    als der von IBM programmierte Schachcomputer
-    \say{Deep Blue} den damals amtierenden Schach-Weltmeister Gary Kasparov, schlug.\cite{chessbase2017kasparovdeepblue} 
-    Die Komplexität von Schach war mit purer brutaler
-    Rechnenleistung bisher noch nicht geknackt wurden. Dazu bedarf es erst einem \say{Verständnis} von Schach dass bis zu diesem
-    Zeitpunkt nur Menschen zugänglich war. Das Programm probierte also nicht mehr nur alle Züge aus, sondern prognostizierte die 
-    Sinnvollsten. Damit wurde eine Zeitenwende eingeleitet und der breiten Öffentlichkeit die Macht von KI demonstriert.
-    Das dadurch erschaffene Interesse beflügelte die KI-Forschung und weitete diese in mehr Anwendungsbereiche aus.
-    In 2021 hatten ein Großteil der Menschen in ihrem Alltag schonmal Kontakt zu KI-Technologie. 
-    Ob bei der Suche im Internet oder bei Nutzung einer Sprachsteuerung, steht im Hintergrund immer diese Technologie.
-    Die Vorstellung von einem mechanischen Helferlein weicht allmälich dem Bild der allwissenden künstlichen Intelligenz.
+        Um dies zu wagen braucht es Mitte des 20. Jahrhunderts erst den britischen Mathematiker Alan Turing, 
+        der mit seinem Gedankenexperiement, dem \say{Nachnahmungs-Spiel}, 
+        die Frage nach intelligenten und denkenden Maschinen stellte.
+        Dieses auch als \say{Turing-Test} bekannte Gedankenexperiement stellt seit dem einen 
+        Richtwert für den Forschritt der KI-Forschung.\footnote{Mehr dazu im Kapitel 5, Gedankenexperimente}
+        Diese neue Forschungsdiszilpin entstand zur gleichen Zeit als Ergebnis 
+        der Verbesserung der Halbleiter-Technologie, die als Basis für 
+        moderne binäre Computersysteme gilt. Die dadurch vergrößerte Rechenkapazität und -leistung 
+        eröffnete damals bisher nicht realisierbare Forschungsmöglichkeiten. 
+        Seit dem finden KI-Forschende immer mehr Anwendungsmöglichkeiten um die Grenzen der KI immer weiter auszuweiten.\\
+        
+        1997 erzeugt das Schreiben und Test von KI-Programmen, erstmals einen großes Medienecho, 
+        als der von IBM programmierte Schachcomputer
+        \say{Deep Blue} den damals amtierenden Schach-Weltmeister Gary Kasparov, schlug.\cite{chessbase2017kasparovdeepblue} 
+        Die Komplexität von Schach war mit purer brutaler
+        Rechnenleistung bisher noch nicht geknackt wurden. Dazu bedarf es erst einem \say{Verständnis} von Schach dass bis zu diesem
+        Zeitpunkt nur Menschen zugänglich war. Das Programm probierte also nicht mehr nur alle Züge aus, sondern prognostizierte die 
+        Sinnvollsten. Damit wurde eine Zeitenwende eingeleitet und der breiten Öffentlichkeit die Macht von KI demonstriert.
+        Das dadurch erschaffene Interesse beflügelte die KI-Forschung und weitete diese in mehr Anwendungsbereiche aus.
+        In 2021 hatten ein Großteil der Menschen in ihrem Alltag schonmal Kontakt zu KI-Technologie. 
+        Ob bei der Suche im Internet oder bei Nutzung einer Sprachsteuerung, steht im Hintergrund immer diese Technologie.
+        Die Vorstellung von einem mechanischen Helferlein weicht allmälich dem Bild der allwissenden künstlichen Intelligenz.
     \section{Zukunftsprognosen}
-    Eine der bekanntesten Hypothesen wurde 1993 vom US-Amerikanischen Mathematiker und 
-    Informatiker Vernor Vinge aufgestellt und 2003
-    erneut bestätigt. Vinge bespreibt ein spätestens 2030 auftretendes Ereignis, 
-    welches er die \say{technologische Singularität}\cite[1]{vinge1993technological} nennt. 
-    Er nennt mehrere Szenarien welche direkt oder indirekt, 
-    ein Entstehen einer denkfähigen superintelligente Entität beschreiben, 
-    die auf Computertechnologie basiert.\\
-    
-    Betrachtet man Vinges Prognose für die nahe Zukunft
-    und Homers Beschreibung von Wein ausschenkenden Dienern,
-    wird ein Entwicklungsprozess sichtbar, dem jeglicher Vergleich fehlt. 
+        Eine der bekanntesten Hypothesen wurde 1993 vom US-Amerikanischen Mathematiker und 
+        Informatiker Vernor Vinge aufgestellt und 2003
+        erneut bestätigt. Vinge beschreibt ein spätestens 2030 auftretendes Ereignis, 
+        welches er die \say{technologische Singularität}\cite[1]{vinge1993technological} nennt. 
+        Er nennt mehrere Szenarien welche, direkt oder indirekt, 
+        ein Entstehen einer denkfähigen superintelligenten Entität\footnote{Enität: Abstrakte Beschreibung eines existierenden/seienden Gegenstand oder Objekts}
+        beschreiben, die auf Computertechnologie basiert.\\
+        
+        Betrachtet man Vinges Prognose für die nahe Zukunft
+        und Homers Beschreibung von Wein ausschenkenden Dienern,
+        wird ein Entwicklungsprozess sichtbar, dem jeglicher Vergleich fehlt. 
 
 
 
 \chapter{Schwache versus starke Arten von KI}
-    Vinges Zukunftsprognose\cite[1]{vinge1993technological} beschreibt eine Art KI von die,
-    im Vergleich zu Leibniz und Homers Überlegungen, unterschiedlicher nicht sein könnte.
+    Vinges Zukunftsprognose\cite[1]{vinge1993technological} beschreibt eine Art KI die,
+    im Vergleich zu Leibniz und Homers Überlegungen unterschiedlicher nicht sein könnte.
     Um zu konkretisieren was genau diese beiden Arten von KI unterscheidet, nehme ich
     mir Isaac Asimovs Roman \say{Der Zweihundertjährige Mann} zur Hilfe.
-    Darin beschreibt Asimov einen Roboter der sowohl als mechanischer Diener, als
+    Darin beschreibt Asimov einen Roboter, der sowohl als mechanischer Diener, als
     auch als selbstdenkender kreativer Künstler agiert.\cite{asimov2000der}
     Unwissend macht Asimov somit eine Einteilung in zwei Arten von KI,
     die hilft den Entwicklungsfortschritt zu projizieren.
@@ -210,54 +218,65 @@
      Diesen Prozess der Analyse nennt man maschinelles Lernen (ML).
      In diesem Prozess spielen das Feld der Erkenntnistheorie, Mathematik und Informatik 
      maßgebende Rollen. Jede Disziplin erfüllt dabei eine eigene Aufgabe.
-     Um eine Analyse durchzuführen benötigt es eine methodischen Ansatz.
+     Um eine Analyse durchzuführen benötigt es einen methodischen Ansatz.
      Die Erkenntnistheorie stellt hierfür die Methoden zur Verfügung.\footnote{Diese werden auch von 
      Menschen bewusst oder unbewusst beim Lernen und Verstehen verwendet.}
      Die Mathematik gibt die Möglichkeit diese Methoden in eine allgemeine anwendbare Sprache zu übersetzen.
      Die praktische Anwendung geschieht durch die Informatik in Form von Programmierung.
      Durch die Zusammenarbeit von diesen verschiedenen Disziplinen ist es
-     möglich mithilfe von ML ein Modell (ML-Modell) zu generieren,
-     welches zukünftige Problemstellungen mit anhand trainierter Daten lösen kann.
+     möglich mithilfe von ML ein Modell (ML-Modell) durch Training zu generieren,
+     welches zukünftige Problemstellungen mit anhand gelernten (trainierter) Daten lösen kann.
         
     \section{Wie betreibt man maschinelles Lernen?}
         Im Vorfeld des Lernes, ist es wichtig den Sinn der KI zu bestimmen.
-        Den je nach Anwendungsfeld oder Ziel der KI, kommt eine andere Methode und somit
-        ein anderer Algorithmus zum Einsatz. Jede Methode biete verschiedene Algorithmen
-        an, die jeweils eigene Vorgehen verlangen. Unter den Algorithmen kann man
+        Denn je nach Anwendungsfeld oder Ziel der KI, kommt eine andere Methode und somit
+        ein anderer Algorithmus zum Einsatz. Jede Methode bietet verschiedene Algorithmen,
+        die jeweils eigene Vorgehen verfolgen. Unter den Algorithmen kann man
         dann den passenden auswählen, der die Zielvorgabe erfüllt.
 
     \subsection{Top-Down Methode (Deduktiv)}
         Die erste Methode die beim ML angewandt wird, bezeichnet man als Top-Down Methode,
-        welche deduktiver Natur ist. Dies bedeutet das man mithilfe von allgemein anerkannten Regeln
+        welche deduktiver Natur ist. Dies bedeutet das man mithilfe  allgemein anerkannter Regeln
         auf spezielle Fälle schließt.\cite{dundi2021unileipzig} 
-        Beispielweise weiß ich dass die Sonne warm ist. Da draußen die Sonne scheint, schließe ich daraus
-        das es draußen warm sein muss.\footnote{Das bedeutet aber nicht das Deduktion der sicherste Weg des 
+
+        \footnote{Beispielweise weiß ich, dass die Sonne warm ist. Da draußen die Sonne scheint, schließe ich daraus,
+        dass es draußen warm sein muss. Das bedeutet aber nicht das Deduktion der sicherste Weg des 
         Schlussfolgern ist. Draußen kann die Sonne scheinen und es kann kalt sein weil Winter ist.}
-        Im Kontext des ML bedeutet das dass immer vorgefertigte Regeln vorhanden sein müssen.
-        Diese Regeln werden im Normalfall vom Menschen definiert. Daher spricht man bei dieser Methode
-        auf vom beaufsichtigten Lernen bzw. dem Supervised Learning.
+
+        Im Kontext des ML bedeutet das, dass immer vorgefertigte Regeln, Features und Targets, vorhanden sein müssen.
+        Diese Regeln werden im Normalfall vom Menschen, in der Form von Traingsdaten, definiert. Daher spricht man bei dieser Methode
+        auch vom beaufsichtigten Lernen bzw. dem Supervised Learning.
+
         \subsubsection{Supervised Learning}
             Mit dieser Art des Lernens ist es möglich zwei verschiedene 
             Problemkategorien zu lösen:\cite{supervisedlearning2021ibm}
+
             \begin{itemize}
                 \item{Klassifikationsprobleme}
                 \item{Regressionsprobleme}
             \end{itemize}
+
             Diese können durch jeweils eigene Algorithmen bearbeitet werden.
             Als Klassifikationsprobleme bezeichnet man Situationen in den ein bestimmter Wert zu einer
-            bestimmten Auswahl von Gruppen zugeordnet werden soll. Das bedeutet das die Zielvariable
+            bestimmten Auswahl von Gruppen zugeordnet werden soll. Das bedeutet, dass es eine Zielvariable gibt, die
             nur eine vordefinierte Anzahl von Werten annehmen kann.\cite{kibuisness2021supervised}
+            Der Algorithmus versucht also die Daten aufzuteilen.
             Möchte man eine bestimmte Prognose aufgrund von vorherigen Werten erhalten,
             handelt es sich um Regressionsproblem.\cite{kibuisness2021supervised}
-            Das Lösen beider Problemarten erfordert im Vorhinein das Kennzeichnen bzw. Labeln der Datenpunkte, zum Trainieren des Modells.\footnote{Was in der Regel durch den Menschen geschieht.}
-            Diese werden in Features und jeweils ein Target eingeteilt. Ein bestimmtes Target
-            besitzt dann also eine bestimmte Anzahl an Features, durch welches es charakterisiert wird.
+            Dabei versucht der Algorithmus einen Trend zu Erkennen um den zukünftigen Zustand der Zielvariable zu ermitteln. 
+            Das Lösen beider Problemarten hängt dabei vom Vorherigen Kennzeichnen bzw. Labeln der Datenpunkte ab.
+            Nur mit einer logisch differenzierbaren Einteilung in Features und jeweilig ein Target, 
+            kann ein Algorithmus das angegebene Problem lösen.
+            Ein Target ist eine Zielvariable die ermittelt wird. 
+            Ein Feature steht als Anhaltspunkt zu Verfügung.
+            Ein bestimmtes Target
+            besitzt also eine bestimmte Anzahl an Features, durch welches es charakterisiert wird.
             Bei der Analyse der Zusammengehörigkeit von Features eines Targets, wird nun ein Modell
-            generiert, mit dem eine Prognose gemacht oder die Zugehörigkeit zu einer Gruppe bestimmmt, werden kann.
+            generiert, mit dem eine Prognose gemacht oder die Zugehörigkeit zu einer Gruppe bestimmmt werden kann.
             Vorteil dieser Art des Lernens ist, ein hoher Einfluss auf das Ergebnis des Lernprozesses,
-            da man die Möglichkeit hat eigene Features und Targets zu spezifisch zu definieren.
-            Nachteil des Supervised Learning ist die im Vergleich lange Trainingszeit eines Modell.
-            Diese erhöht sich je nach Menge der Datenpunkte eines Trainingsets.
+            da man die Möglichkeit hat eigene Features und Targets sehr spezifisch zu definieren.
+            Nachteil des Supervised Learning ist die im Vergleich lange Trainingszeit eines Modell
+            und eine hohe Fehlerquote durch schlechtes Kennzeichnen der Trainigsdaten, durch den Menschen.
             
            
 %        \subsection{Pre-Labeled (Test-und Training-) Data}
@@ -265,12 +284,15 @@
 %        \subsection{Pro \& Contra}
         
     \subsection{Bottom-Up (Induktiv)}
-        Die zweite Methode die beim ML angewandt wird, betrachtet Daten ohne davor irgendeine Form von Regeln zu beachten.  
+        Die zweite Methode die beim ML angewandt wird betrachtet Daten ohne davor irgendeine Form von Regeln zu beachten.  
         Die Daten werden unvoreingenommen und ohne jede Grundlage betrachtet.
         Aufgrund von logischen Zusammenhängen werden dann Regeln abgeleitet womit sich die Daten erklären lassen können.
-        Diese Methoden wird, bildgebend, als Bottom-Up oder auch als induktiv\cite{dundi2021unileipzig} bezeichnet.
-        Beispielweise beobachte ich das jeden morgen die Tram zu gleichen Uhrzeit kommt. Daraus schließe ich 
-        dass sie nach einem Fahrplan verkehrt. Da diese Methode keine Grundlagen benötigt, spricht man
+        Diese Method wird, bildgebend, als Bottom-Up oder auch als induktiv\cite{dundi2021unileipzig} bezeichnet.
+        
+        \footnote{Beispielweise beobachte ich, dass jeden morgen die Tram zu gleichen Uhrzeit kommt. Daraus schließe ich 
+        dass sie nach einem Fahrplan verkehrt.}
+
+        Da diese Methode keine Grundlagen benötigt, spricht man
         im Kontext des ML vom unbeaufsichtigtem Lernen bzw. vom Unsupervised Learning.
         \subsubsection{Unsupervised Learning}
             Beim Unsupervised Learning gibt es drei Lösungsansätze:\cite{unsupervisedlearning2021ibm}
@@ -280,28 +302,29 @@
                 \item{Dimensionsreduzierung}
             \end{itemize}
             Wie auch beim Supervised Learning gibt es auch zu diesen Ansätzen, verschiedene
-            Algorithmen die jeweils eigene Lösungswege verfolgen.
+            Algorithmen, die jeweils eigene Lösungswege verfolgen.
             Der hauptsächliche Unterschied der zum Supervised Learning besteht, ist das Eingreifen
             des Menschens bei der Vorbereitung der Datenpunkte. Unsupervised Learning Algoritmen
-            benötigen keinerlei Anhaltspunkte sondern betrachten unvoreingenommen  nur die rohen Daten.
-            Beim Clustering, was soviel wie \say{Zusammenhäufen} bedeutet, wird dies mit am besten repräsentiert.
+            benötigen keinerlei Anhaltspunkte, sondern betrachten unvoreingenommen  nur die rohen Daten.
+            Beim Clustering, was soviel wie \say{Zusammenhäufen} bedeutet, wird dies am besten repräsentiert.
             Dabei werden nur auf Grund von Gemeinsamkeiten und Unterschieden der Datenpunkte, Gruppen gebildet.\cite{clustering2021elementai}
-            Dies ist nützlich wenn man große Mengen von Daten hat, über die man Einsicht gewinnen möchte.
+            Dies ist nützlich wenn man große Mengen an Daten hat, über die man Einsicht gewinnen möchte.
             Möchte man hingegen die Zusammenhänge von Daten verstehen, 
             bieten sich Assoziations-Algorithmen an.\cite{apriori2019sciencedata}
             Ein typisches Anwendungsgebiet von Assoziations-Algorithmen ist die Analyse des Kaufverhaltens eines Kunden.
-            Dabei repräsentiert ein gekaufter Artikel einen Datenpunkt. In vergangenen Einkäufen werden diese nun 
+            Dabei repräsentiert ein gekaufter Artikel einen Datenpunkt. 
+            In vergangenen Einkäufen erworbene Artikel werden nun 
             in ihrem Bezug zueinander analysiert und eine Wahrscheinlichkeit ausgerechnet, mit der sich
-            das Kaufen oder Nicht-kaufen vorhersagen lassen kann. Die Dimensionsreduzierung kann
-            ähnliche Ergebnisse ausgeben, in dem sie wichtige und unwichtigen Datenpunkten trennen kann.
+            das Kaufen oder Nicht-Kaufen vorhersagen lassen kann. Die Dimensionsreduzierung kann
+            ähnliche Ergebnisse ausgeben, in dem sie wichtige und unwichtige Datenpunkte trennen kann.
             Diese Art des Unsupervised Learning wird hauptsächliche bei der Vorbearbeitung von Datensets eingesetzt,
             die im späteren Gebrauch beim Supervised Learning benutzt werden.\cite{unsupervisedlearning2021ibm}
-            Unrelevante Features werden von den relevanten getrennt, wodurch die Berechnungszeit und die Übersicht
+            Unrelevante Features werden von den Relevanten getrennt, wodurch die Berechnungszeit und die Übersicht
             verbessert wird.
             
     \subsection{Semi-Supervised Learning}
-        Wie der Einsatz Dimensionsreduzierung zeigt, sind die Grenzen zwischen Supervised und Unsupervised Learning fließend.
-        Ein konkreter Fall wo beide Seiten zusammenarbeiten, ist das Semi-Supervised Learning.
+        Wie der Einsatz von Dimensionsreduzierung zeigt, sind die Grenzen zwischen Supervised und Unsupervised Learning fließend.
+        Ein konkreter Fall bei den beide Seiten zusammenarbeiten ist das Semi-Supervised Learning.
         Dabei wird ein kleiner Teil von gekennzeichneten Daten und ein größerer Teil von ungekennzeichneten Daten verwendet,
         um ein ML-Modell zu generieren.\cite{semisupervised2021mlmastery}
 
@@ -316,23 +339,23 @@
 %        \subsection{implementierung eines menschlichen gehirn mithilfe von unsupervised learning}
 
 \chapter{Gedankenexperimente}
-    Um neue Forschungsgebiete zu erschließen, ohne dabei handfest Ansätze zu haben,
+    Um neue Forschungsgebiete zu erschließen, ohne dabei handfeste Ansätze zu haben,
     bieten sich Gedankenexperimente als nützliche Hilfsmittel an.
     Mit deren Hilfe lassen sich unreale Situationen konstruieren, durch welche man logische Schlussfolgerungen ziehen kann.
-    Im folgenden werden zwei Gedankenexperimente beschrieben, die trotz ihres zunehmenden Alters, in der KI-Forschung
+    Im Folgenden werden zwei Gedankenexperimente beschrieben, die trotz ihres betrachlichen Alters, in der KI-Forschung
     immer noch Relevanz besitzen. Beide zeichnen sich dadurch aus, dass sie dem Denkenden die Möglichkeit geben sich in die
     Rolle einer Maschine zu versetzten. Dadurch kann der Denkende die Kernfrage der KI-Forschung aus einer anderen
     bzw. aus einer eigenen Perspektive erleben. 
 
     \section{The Imitation Game - Das Nachahmungs-Spiel}
         Mitte des 20. Jahrhunderts stellte der britische Mathematiker Alan Turing als einer der ersten
-        die Frage ob es möglich sei dass Maschinen denken könnten. Dies gilt seit dem als hauptsächliche
+        die Frage, ob es möglich sei, dass Maschinen denken können. Dies gilt seitdem als hauptsächliche
         Kernfrage der KI-Forschung. Um diese Frage zu beantworten schlägt Turing das \say{Imitation Game} oder
         auch \say{Nachahmungs-Spiel}, als Test für die Denkfähigkeit von Maschinen vor. Als Maschine schlägt er
         explizit einen digitalen oder elektronischen Computer vor und schließt biologische Möglichkeiten,
         wie einen aus einer Zelle gezüchteten Menschen komplett aus.\cite[435]{turing1950computing}
-        Eine vollständige Abkapselung einer digitalen Maschine, als eigenständiges Gerät ist jedoch nicht möglich, das sie auf dem
-        Fundament von menschlichen Prinzipien konstruiert worden ist. Maschinen müssen immer als menschgemacht gedacht werden.
+        Eine vollständige Abkapselung einer digitalen Maschine, als eigenständiges Gerät ist jedoch nicht möglich, da sie auf dem
+        Fundament von menschlichen Prinzipien konstruiert worden ist. Maschinen müssen immer als menschgemacht betrachtet werden.
         Mit diesem Hintergrundwissen schlägt er folgendes Spiel vor:
         \begin{displayquote}
             Für das Nachahmungs-Spiel werden insgesamt drei Spieler*innen benötigt. Ein Mann (A), eine Frau (B) und ein*e
@@ -345,19 +368,19 @@
         In diesem Gedankenexperiement wird der Mann (A) nun durch eine Maschine ersetzt, die seine Aufgabe übernimmt und
         sich als Frau (B) ausgeben soll. Der Austausch von Informationen erfolgt dabei über Maschinenschrift, damit
         der/die Fragesteller*in keine Schlussfolgerungen über Stimme oder Schrift ziehen kann.\cite[433]{turing1950computing}
-        Bei diesem Test geht es nicht darum akutelle Maschinen zu betrachten und ein entgültigen Schluss zu ziehen. Es geht
-        eher darum sich eine Maschine vorzustellen die diesen Test bestehen kann. Damit eine Maschine diesen Test besteht
+        Bei diesem Test geht es nicht darum akutelle Maschinen zu betrachten und einen entgültigen Schluss zu ziehen, es geht
+        eher darum, sich eine Maschine vorzustellen die diesen Test bestehen kann. Damit eine Maschine diesen Test erfolgreich abschließt,
         muss sie das Spiel mit einer 70\%iger Genauigkeit gewinnen.\cite[1]{oppy&dowe2020turingtest}
         
 
     \section{Das Chinesische Zimmer}
-    Das Chinesische Zimmer ist ein Gedankenexperiment vom Philosophen John Searle welches
-    versucht die Frage nach der erfolgreiche Entwicklung einer starken Künstlichen Intelligenz zu verneinen.
+    Das Chinesische Zimmer ist ein Gedankenexperiment vom Philosophen John Searle, welches
+    versucht, die Frage nach der erfolgreiche Entwicklung einer starken Künstlichen Intelligenz zu verneinen.
     Searles These ist, dass kein Computer jemals wie ein Menschen denken kann,
-    obwohl sowohl der Computer als auch das Gehirn beides Systeme sind Symbole verarbeiten.\cite{nimtz2013chinesische}
+    obwohl sowohl der Computer als auch das Gehirn Systeme sind, die Symbole verarbeiten.\cite{nimtz2013chinesische}
     Dies begründet er mit folgendem Gedankenexperiment:
     \begin{displayquote}
-        Stellt euch vor ich wäre in einem geschlossenen Raum mit einem großen Haufen chinesischer Texte.
+        \say{Stellt euch vor ich wäre in einem geschlossenen Raum mit einem großen Haufen chinesischer Texte.
         Ich kann weder Chinesisch sprechen noch lesen oder schreiben.
         Ebenfalls könnte ich chinesische von keiner anderen, wie beispielweise russischer, japanischer Schrift unterscheiden.
         Chinesische Schriftzeichen haben keine erkennbare Bedeutung und sind nur Formen für mich.\\
@@ -371,13 +394,13 @@
         Anweisungen die mir sagen wie ich
         diese neuen chinesischen Zeichen mit den Vorherigen vergleiche um bestimmte chinesische Zeichen zurückzugeben.\\
 
-        Mit der Zeit werden die Leute außerhalb des Raumes immer besser mir Englische Anweisungen zu schreiben und
+        Mit der Zeit werden die Leute außerhalb des Raumes immer besser, mir englische Anweisungen zu schreiben und
         ich werde immer besser diese auch zu verstehen, so dass meine Antworten ununterscheidbar von denen eines
-        gebürtigen Chinesen werden. Doch verstehe ich, was ich an Chinesisch von mir gebe?
+        gebürtigen Chinesen werden. Doch verstehe ich, was ich an Chinesisch von mir gebe?}
         \cite[1]{searle1999chinese}
     \end{displayquote}
     Searle versucht mit diesem Gedankenexperiment den Unterschied zwischen
-    Syntaktik\footnote{Syntaktik (Syntax): Wie stellt man Zeichenketten zusammen, so dass sie Sinn ergeben?}
+    Syntaktik\footnote{Syntaktik (Syntax): Wie stellt man Zeichenketten zusammen, sodass sie Sinn ergeben?}
     und Semantik\footnote{Semantik: Was genau ist die Bedeutung hinter einem Wort?}
     greifbar zu machen.
     Ein Computer der keinerlei Verbindung in die Realität eines Menschen hat, kann zwar Regel lernen, die ihm die
