@@ -12,24 +12,24 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.1}Schwache KI}{7}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Starke KI}{7}{}%
+\contentsline {section}{\numberline {3.2}Starke KI}{8}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Technische Grundlagen}{8}{}%
+\contentsline {chapter}{\numberline {4}Technische Grundlagen}{9}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Wie betreibt man maschinelles Lernen?}{8}{}%
+\contentsline {section}{\numberline {4.1}Wie betreibt man maschinelles Lernen?}{9}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}Top-Down Methode (Deduktiv)}{8}{}%
+\contentsline {subsection}{\numberline {4.1.1}Top-Down Methode (Deduktiv)}{10}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Supervised Learning}{9}{}%
+\contentsline {subsubsection}{Supervised Learning}{10}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2}Bottom-Up (Induktiv)}{10}{}%
+\contentsline {subsection}{\numberline {4.1.2}Bottom-Up (Induktiv)}{11}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Unsupervised Learning}{10}{}%
+\contentsline {subsubsection}{Unsupervised Learning}{11}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.3}Semi-Supervised Learning}{11}{}%
+\contentsline {subsection}{\numberline {4.1.3}Semi-Supervised Learning}{12}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Gedankenexperimente}{12}{}%
+\contentsline {chapter}{\numberline {5}Gedankenexperimente}{13}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}The Imitation Game - Das Nachahmungs-Spiel}{12}{}%
+\contentsline {section}{\numberline {5.1}The Imitation Game - Das Nachahmungs-Spiel}{13}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Das Chinesische Zimmer}{13}{}%
+\contentsline {section}{\numberline {5.2}Das Chinesische Zimmer}{14}{}%

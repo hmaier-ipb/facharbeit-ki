@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.10.12)  3 NOV 2021 11:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.10.12)  3 NOV 2021 12:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -652,49 +652,56 @@ Underfull \hbox (badness 10000) in paragraph at lines 180--187
 
 [5] [6]
 Kapitel 3.
-LaTeX Font Info:    Trying to load font information for T1+qcr on input line 20
-7.
-(/usr/share/texmf/tex/latex/tex-gyre/t1qcr.fd
-File: t1qcr.fd 2009/09/25 v1.2 font definition file for T1/qcr
-) [7
+[7
 
 ]
-Kapitel 4.
-[8
+Overfull \hbox (0.85822pt too wide) in paragraph at lines 223--237
+\T1/cmr/m/n/12 Die näch-ste Ent-wick-lungs-tu-fe künst-li-cher In-tel-li-genz i
+st die ^^Sstar-ke künst-
+ []
 
-] [9] [10] [11]
+[8]
+Kapitel 4.
+[9
+
+] [10] [11] [12]
 Kapitel 5.
 
-Overfull \hbox (14.93811pt too wide) in paragraph at lines 361--367
+Overfull \hbox (14.93811pt too wide) in paragraph at lines 391--397
 []\T1/cmr/m/n/12 Für das Nachahmungs-Spiel wer-den ins-ge-samt drei Spie-ler*in
 nen
  []
 
-[12
+[13
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 399--399
+Underfull \hbox (badness 10000) in paragraph at lines 429--429
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 399--399
+Underfull \hbox (badness 10000) in paragraph at lines 429--429
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 399--399
+Underfull \hbox (badness 10000) in paragraph at lines 429--429
 
  []
 
-[13] [14]
-Overfull \hbox (21.63718pt too wide) in paragraph at lines 423--423
+[14] [15]
+LaTeX Font Info:    Trying to load font information for T1+qcr on input line 45
+3.
+ (/usr/share/texmf/tex/latex/tex-gyre/t1qcr.fd
+File: t1qcr.fd 2009/09/25 v1.2 font definition file for T1/qcr
+)
+Overfull \hbox (21.63718pt too wide) in paragraph at lines 453--453
 \T1/qcr/m/n/12 www . elementai . com / news / 2020 / clustering -[] in -[] mach
 ine -[]
  []
 
 
-Overfull \hbox (24.38023pt too wide) in paragraph at lines 423--423
+Overfull \hbox (24.38023pt too wide) in paragraph at lines 453--453
 \T1/qcr/m/n/12 uni -[] leipzig . de / methodenportal / deduktion _ induktion/$\
 T1/cmr/m/n/12 . 
  []
@@ -702,36 +709,36 @@ T1/cmr/m/n/12 .
 ! Misplaced alignment tab character &.
 \namepartgiven ...bnamedelimb Oppy\bibnamedelimb &
                                                   \bibnamedelima David
-l.423 ...tbibliography[title={Quellenverzeichnis}]
+l.453 ...tbibliography[title={Quellenverzeichnis}]
                                                   
 ? 
 
-Overfull \hbox (2.30026pt too wide) in paragraph at lines 423--423
+Overfull \hbox (2.30026pt too wide) in paragraph at lines 453--453
 \T1/qcr/m/n/12 https : / / plato . stanford . edu / entries / turing -[] test/$
 \T1/cmr/m/n/12 . 
  []
 
 
-Overfull \hbox (4.28714pt too wide) in paragraph at lines 423--423
+Overfull \hbox (4.28714pt too wide) in paragraph at lines 453--453
 \T1/cmr/m/sc/12 url\T1/cmr/m/n/12 : $\T1/qcr/m/n/12 https : / / scienceofdata .
  org / 2019 / 10 / 27 / market -[]
  []
 
 
-Overfull \hbox (5.03142pt too wide) in paragraph at lines 423--423
+Overfull \hbox (5.03142pt too wide) in paragraph at lines 453--453
 []\T1/cmr/m/n/12 A. M. Tu-ring. \T1/cmr/m/it/12 Com-pu-ting Ma-chi-ne-ry and In
 -tel-li-gence\T1/cmr/m/n/12 . 1950, []pp. []433^^U
  []
 
-[15
+[16
 
 ]
-Overfull \hbox (29.33717pt too wide) in paragraph at lines 423--423
+Overfull \hbox (29.33717pt too wide) in paragraph at lines 453--453
 \T1/qcr/m/n/12 machinelearningmastery . com / what -[] is -[] semi -[] supervis
 ed -[]
  []
 
-[16] (./ai2.aux)
+[17] (./ai2.aux)
 Package logreq Info: Writing requests to 'ai2.run.xml'.
 \openout1 = `ai2.run.xml'.
 
@@ -744,10 +751,10 @@ Here is how much of TeX's memory you used:
  417352 words of font info for 52 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  72i,8n,78p,736b,1571s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1200.60
-0pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.
-600pk> </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrb144
-0.600pk>{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc} </home/hmaier/.tex
+{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc} </home/hmaier/.texlive20
+20/texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1200.600pk> </home/hmaier/.texlive
+2020/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk> </home/hmaier/.texli
+ve2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrb1440.600pk> </home/hmaier/.tex
 live2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/hmaier/.t
 exlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0700.600pk> </home/hmaier/
 .texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk> </home/hmaie
@@ -759,10 +766,10 @@ me/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.600pk> </
 home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrb2488.600pk> 
 </home/hmaier/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/eccc2074.600pk
 ></usr/share/texmf/fonts/type1/public/tex-gyre/qcrr.pfb>
-Output written on ai2.pdf (17 pages, 2472578 bytes).
+Output written on ai2.pdf (18 pages, 2474144 bytes).
 PDF statistics:
- 535 PDF objects out of 1000 (max. 8388607)
- 95 compressed objects within 1 object stream
+ 542 PDF objects out of 1000 (max. 8388607)
+ 97 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
